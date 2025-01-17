@@ -1,0 +1,281 @@
+{
+  "main": {
+    "id": "e5796bdafebfea90",
+    "type": "split",
+    "children": [
+      {
+        "id": "3474f5e111da463c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b024bd61e4112f08",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Univ/NLP/Chatbot.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Chatbot"
+            }
+          },
+          {
+            "id": "3fe547e98818a154",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Univ/Operating System/UAS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "UAS"
+            }
+          }
+        ],
+        "stacked": true
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "128d8cf57b0125fa",
+    "type": "split",
+    "children": [
+      {
+        "id": "11f4d549d2aa2781",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e7158235fc0bf261",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "To Do List.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "To Do List"
+            }
+          },
+          {
+            "id": "8830eb9a85c57a67",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "0258efcdebe85622",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "18a174694e014cb0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "8d0daf974551ffe3",
+    "type": "split",
+    "children": [
+      {
+        "id": "7b16b4ebc472ed22",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "60d4da7c5b2f6fdd",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Univ/Computer Vision/Session 6.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Session 6"
+            }
+          },
+          {
+            "id": "b5a4629dfb427938",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Univ/Computer Vision/Session 6.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Session 6"
+            }
+          },
+          {
+            "id": "c48e3e8a69dd7ade",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "ef5c60669e8d86de",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Univ/NLP/Chatbot.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Chatbot"
+            }
+          },
+          {
+            "id": "fea12f1466b50eb3",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "fd28681fecc19a4d",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
+          },
+          {
+            "id": "41ac0c3072a3e071",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 6
+      }
+    ],
+    "direction": "horizontal",
+    "width": 291.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "media-extended:Open media": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "8830eb9a85c57a67",
+  "lastOpenFiles": [
+    "Univ/NLP/Dependency Tree.md",
+    "Univ/NLP/Chatbot.md",
+    "Univ/Operating System/UAS.md",
+    "Univ/NLP/Transitive Based Dependency Parsingi ate.md",
+    "Univ/NLP/Session 6.md",
+    "Univ/NLP/Session 7.md",
+    "Univ/NLP/Session 8.md",
+    "Univ/NLP/TF-IDF.md",
+    "Univ/NLP/Tokenization.md",
+    "Univ/NLP/IDK what session this is.md",
+    "Univ/NLP/GSLC 9.md",
+    "Univ/NLP/Joint probability modeling.md",
+    "Univ/NLP/UAS Notes.md",
+    "Univ/NLP/UTS Notes.md",
+    "Univ/Operating System/Assignment 2.md",
+    "Pasted image 20250114005414.png",
+    "Univ/Operating System/Assignment.md",
+    "To Do List.md",
+    "Pasted image 20250113234746.png",
+    "Pasted image 20250113234739.png",
+    "Pasted image 20250113203555.png",
+    "Pasted image 20250113203548.png",
+    "Pasted image 20250113203536.png",
+    "Pasted image 20250113203530.png",
+    "Pasted image 20250113195953.png",
+    "Pasted image 20250113195644.png",
+    "Pasted image 20250113195037.png",
+    "Welcome.md",
+    "Meet.md",
+    "SIT Accommodation.md",
+    "Untitled.md",
+    "Univ/Data Mining/Quiz 2.md",
+    "Univ/Operating System/AOL.md",
+    "Univ/Operating System/Virtual Memory.md",
+    "Univ/Compilation Techinque/Exercise.md",
+    "Univ/Compilation Techinque/Session 1.md",
+    "BNCC/Raker36",
+    "Untitled",
+    "LLM",
+    "Untitled.canvas",
+    "9b841903-a7b4-4548-8820-a05c807cd211-1.pdf",
+    "DnD",
+    "Univ/Data Mining/Lab",
+    "Univ/Operating System/AOL",
+    "Godot",
+    "Univ/Entre",
+    "Univ/Web Programming"
+  ]
+}

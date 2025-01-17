@@ -1,0 +1,37 @@
+#ToDo
+
+- [x] Setup Old Laptop to be Restarted
+- [x] Setup Modular Components
+	- [x] Kenangan Ucapan
+	- [x] Amplop Digital
+	- [x] NewRSVP
+- [x] Implement new Design
+- [x] Break up Components
+	- [x] Opening amplop (Rafael)?
+	- [x] Intro Card (Rafael)
+	- [x] Bride & Groom name (Rafael)
+	- [x] Countdown (Rafael)
+	- [x] Holy Matrimony
+	- [x] Love Story
+	- [x] Gallery
+- [x] Navigation Bar
+- [x] Mute Button
+- [ ] envelope animation
+- [x] Wishlist order
+- [x] Checklist on wishlist
+- [x] Update product list card
+- [x] Patungan Nominal
+- [ ] Learn Godot
+	- [x] Learn GDScript
+	- [ ] Make prototype
+- [ ] Establish storyboard
+- [ ] TikTokSDK
+	- [x] Initialize TikTOkSDK
+	- [ ] Track events
+- [x] Create Event Page
+- [x] Data Mining GSLC
+- [x] Fill registration for SIT
+- [ ] Finish up compvis
+- [ ] Present Data mining (Today lol gl future me)
+- [ ] Start OS
+- [ ] Continue my habitat

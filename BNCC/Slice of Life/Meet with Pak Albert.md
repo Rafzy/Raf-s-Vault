@@ -1,0 +1,1 @@
+Kerjaan beliau itu lebih ke network engineer, 
