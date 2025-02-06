@@ -1,12 +1,13 @@
 [
   "table-editor-obsidian",
   "calendar",
-  "cmenu-plugin",
-  "dataview",
   "obsidian-excalidraw-plugin",
-  "obsidian-relative-line-numbers",
   "obsidian-latex-suite",
   "quick-latex",
   "media-extended",
-  "obsidian-git"
+  "obsidian-git",
+  "obsidian-style-settings",
+  "cmenu-plugin",
+  "dataview",
+  "obsidian-relative-line-numbers"
 ]

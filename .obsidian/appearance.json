@@ -1,6 +1,7 @@
 {
-  "cssTheme": "Atom",
+  "cssTheme": "Encore",
   "theme": "obsidian",
-  "textFontFamily": "Trebuchet MS",
-  "monospaceFontFamily": "Cascadia Code"
+  "textFontFamily": "Rubik",
+  "monospaceFontFamily": "Cascadia Code",
+  "interfaceFontFamily": "Rubik"
 }

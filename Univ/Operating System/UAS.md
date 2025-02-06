@@ -1287,7 +1287,4 @@ Dictates what types of access are permitted, under what circumstances
   Controls access based on the roles that users have within the system, and on rules stating what accesses are allowed to users in given roles
 - **Attribute-based Access Control (ABAC)**:
   Controls access based on attributes of the user, the resource to be accessed, and the current environmental conditions
-
-
-
 #### Discretionary Access Control

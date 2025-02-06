@@ -16,3 +16,4 @@ For example, if the framerate is 60fps, then delta time is 1s/60 = 0.0167, or ab
 We can use this information to keep the same constant speed regardless of framerate, we essentially multiply any movement with the delta time
 
 ![[{7D213EB3-3EE3-4EC0-9656-167C680720C2}.png]]
+

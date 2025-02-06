@@ -1,6 +1,7 @@
 
 # Nodes
 
+
 > Nodes are basic elements in godot, it can be an image, sound, timer, etc
 
 Nodes are building blocks in godot, it can represent anything in the game, and we combine nodes to make various parts of our game. For example, there is one node for an enemy, and several children nodes inside of the scout to create a full fledged enemy for the game
@@ -20,8 +21,6 @@ we should also give nodes unique names so it's easier to identify the different 
 
 A major aspect of Godot is to make nodes communicate with each other. Especially later on when we will be working on multiple scenes together
 
-
-
 # Scenes
 
 A scene:
@@ -31,7 +30,6 @@ A scene:
 The scene is located in the middle of the screen, and it displays whatever nodes we have selected.
 We can also place scenes inside of scenes. There can be more than one instance of a scene.
 
-## Custom scenes
 
 So far, we created scenes in the editor, but doing that isn't always possible in the game. For example, when we want to create a laser that shoots from a gun, but the lasers are dynamically generated. So for this, we can use a code to instantiate a scene.
 
