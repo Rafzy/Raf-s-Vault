@@ -13,44 +13,114 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Univ/Operating System/UAS.md",
+                "file": "Word2Vec.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "UAS"
+              "title": "Word2Vec"
             }
           },
           {
-            "id": "cabcca9a4c53a6da",
+            "id": "20eeae7931388885",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Writing an Interpreter in Go.md",
+                "file": "Seq2Seq.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Writing an Interpreter in Go"
+              "title": "Seq2Seq"
             }
           },
           {
-            "id": "510cff8799b9d9a4",
+            "id": "34b67112d51601ef",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Writing an Interpreter in Go.md",
+                "file": "RNN.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Writing an Interpreter in Go"
+              "title": "RNN"
+            }
+          },
+          {
+            "id": "b0d845eee07147d9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Encoder-Decoder.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Encoder-Decoder"
+            }
+          },
+          {
+            "id": "920d3392326009bb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Min-max afk journey.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Min-max afk journey"
+            }
+          },
+          {
+            "id": "96dde065a9b8b258",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Accommodations.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Accommodations"
+            }
+          },
+          {
+            "id": "d01da849574a99ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Neural Network.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Neural Network"
+            }
+          },
+          {
+            "id": "99ee0ed7c821d7ee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linear algebra.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Linear algebra"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -159,12 +229,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Univ/Computer Vision/Session 6.md",
+                "file": "Neural Network.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Session 6"
+              "title": "Outgoing links from Neural Network"
             }
           },
           {
@@ -186,10 +256,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Images/Pasted image 20250117190954.png"
+                "file": "Neural Network.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Pasted image 20250117190954"
+              "title": "Outline of Neural Network"
             }
           },
           {
@@ -243,13 +316,26 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "510cff8799b9d9a4",
+  "active": "41ac0c3072a3e071",
   "lastOpenFiles": [
+    "Images/Pasted image 20250219132622.png",
+    "Images/Pasted image 20250219132547.png",
+    "Linear algebra.md",
+    "Neural Network.md",
+    "Encoder-Decoder.md",
+    "Min-max afk journey.md",
+    "RNN.md",
+    "Images/Pasted image 20250219130600.png",
+    "Images/ChenRudin.jpg",
+    "Accommodations.md",
+    "Meg's aussie log.md",
+    "Untitled 2.md",
+    "Seq2Seq.md",
     "Word2Vec.md",
+    "Univ/Operating System/UAS.md",
     "Writing an Interpreter in Go.md",
     "Images/Pasted image 20250128123253.png",
     "Welcome.md",
-    "Univ/Operating System/UAS.md",
     "Images/20240930_141932.png",
     "Excalidraw/Drawing 2025-01-21 11.01.24.excalidraw.md",
     "Images/image.webp",
@@ -259,9 +345,6 @@
     "Godot/Deltas.md",
     "Godot/Basics.md",
     "Images/Pasted image 20250117190954.png",
-    "Images/Pasted image 20250117190952.png",
-    "Images/absolute-cinema-cinema.png",
-    "Images/Pasted image 20250110172921.png",
     "Univ/NLP/Chatbot.md",
     "Univ/NLP/Dependency Tree.md",
     "Univ/NLP/Transitive Based Dependency Parsingi ate.md",
@@ -271,16 +354,6 @@
     "Univ/NLP/TF-IDF.md",
     "Univ/NLP/Tokenization.md",
     "Univ/NLP/IDK what session this is.md",
-    "Univ/NLP/GSLC 9.md",
-    "Univ/NLP/Joint probability modeling.md",
-    "Univ/NLP/UAS Notes.md",
-    "Univ/NLP/UTS Notes.md",
-    "Univ/Operating System/Assignment 2.md",
-    "Univ/Operating System/Assignment.md",
-    "To Do List.md",
-    "Meet.md",
-    "SIT Accommodation.md",
-    "Untitled.md",
     "BNCC/Raker36",
     "Untitled",
     "LLM",
