@@ -16,22 +16,26 @@
 	- [x] Gallery
 - [x] Navigation Bar
 - [x] Mute Button
-- [ ] envelope animation
+- [x] envelope animation
 - [x] Wishlist order
 - [x] Checklist on wishlist
 - [x] Update product list card
 - [x] Patungan Nominal
-- [ ] Learn Godot
+- [x] Learn Godot
 	- [x] Learn GDScript
-	- [ ] Make prototype
-- [ ] Establish storyboard
-- [ ] TikTokSDK
+	- [x] Make prototype
+- [x] Establish storyboard
+- [x] TikTokSDK
 	- [x] Initialize TikTOkSDK
-	- [ ] Track events
+	- [x] Track events
 - [x] Create Event Page
 - [x] Data Mining GSLC
 - [x] Fill registration for SIT
-- [ ] Finish up compvis
-- [ ] Present Data mining (Today lol gl future me)
-- [ ] Start OS
-- [ ] Continue my habitat
+- [x] Finish up compvis
+- [x] Present Data mining (Today lol gl future me) (Fuck you past me)
+- [x] Start OS
+- [x] Continue my habitat
+- [ ] Meet with minamigyotoku
+- [ ] Finish 3b1b's deep learning series
+	- [ ] Finish 3b1b's calculus series
+	- [ ] Finish 3b1b's data series

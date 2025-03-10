@@ -8,119 +8,77 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e0804246c6dc4b91",
+            "id": "270023873a9161c0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Word2Vec.md",
+                "file": "Meet w MinamiGyotoku.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Word2Vec"
+              "title": "Meet w MinamiGyotoku"
             }
           },
           {
-            "id": "20eeae7931388885",
+            "id": "a622350a30502ce0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Seq2Seq.md",
+                "file": "Deep Learning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Seq2Seq"
+              "title": "Deep Learning"
             }
           },
           {
-            "id": "34b67112d51601ef",
+            "id": "9a3e34a5c96e3319",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "RNN.md",
+                "file": "LLMs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "RNN"
+              "title": "LLMs"
             }
           },
           {
-            "id": "b0d845eee07147d9",
+            "id": "dca1e8dc3d51c4d7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Encoder-Decoder.md",
+                "file": "React.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Encoder-Decoder"
+              "title": "React"
             }
           },
           {
-            "id": "920d3392326009bb",
+            "id": "95f4ac004be7de64",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Min-max afk journey.md",
+                "file": "Things to pack.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Min-max afk journey"
-            }
-          },
-          {
-            "id": "96dde065a9b8b258",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Accommodations.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Accommodations"
-            }
-          },
-          {
-            "id": "d01da849574a99ff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Neural Network.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Neural Network"
-            }
-          },
-          {
-            "id": "99ee0ed7c821d7ee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linear algebra.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Linear algebra"
+              "title": "Things to pack"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -229,12 +187,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Neural Network.md",
+                "file": "Transformers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Neural Network"
+              "title": "Outgoing links from Transformers"
             }
           },
           {
@@ -256,13 +214,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Neural Network.md",
+                "file": "Transformers.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Neural Network"
+              "title": "Outline of Transformers"
             }
           },
           {
@@ -316,44 +274,44 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "41ac0c3072a3e071",
+  "active": "9a3e34a5c96e3319",
   "lastOpenFiles": [
-    "Images/Pasted image 20250219132622.png",
-    "Images/Pasted image 20250219132547.png",
+    "React.md",
+    "Things to pack.md",
+    "LLMs.md",
+    "Deep Learning.md",
+    "Meet w MinamiGyotoku.md",
+    "Essence of Calculus by Grant Sanderson.md",
+    "Web Server From Scratch.md",
+    "Transformers.md",
     "Linear algebra.md",
-    "Neural Network.md",
-    "Encoder-Decoder.md",
     "Min-max afk journey.md",
+    "Encoder-Decoder.md",
     "RNN.md",
-    "Images/Pasted image 20250219130600.png",
-    "Images/ChenRudin.jpg",
     "Accommodations.md",
+    "Seq2Seq.md",
+    "To Do List.md",
+    "Images/Pasted image 20250228130226.png",
+    "Images/Pasted image 20250225155227.png",
+    "Images/Pasted image 20250223214724.png",
+    "Images/Pasted image 20250223214527.png",
+    "Images/Pasted image 20250223214516.png",
+    "Images/Pasted image 20250223214310.png",
+    "Images/Pasted image 20250223213347.png",
+    "Images/Pasted image 20250223213146.png",
+    "Images/Pasted image 20250223213011.png",
+    "Images/Pasted image 20250223212556.png",
     "Meg's aussie log.md",
     "Untitled 2.md",
-    "Seq2Seq.md",
     "Word2Vec.md",
     "Univ/Operating System/UAS.md",
     "Writing an Interpreter in Go.md",
-    "Images/Pasted image 20250128123253.png",
     "Welcome.md",
-    "Images/20240930_141932.png",
     "Excalidraw/Drawing 2025-01-21 11.01.24.excalidraw.md",
-    "Images/image.webp",
-    "Images/image 1.webp",
-    "Images/Pasted image 20240911134828.png",
-    "Images/Pasted image 20240911134409.png",
     "Godot/Deltas.md",
     "Godot/Basics.md",
-    "Images/Pasted image 20250117190954.png",
     "Univ/NLP/Chatbot.md",
     "Univ/NLP/Dependency Tree.md",
-    "Univ/NLP/Transitive Based Dependency Parsingi ate.md",
-    "Univ/NLP/Session 6.md",
-    "Univ/NLP/Session 7.md",
-    "Univ/NLP/Session 8.md",
-    "Univ/NLP/TF-IDF.md",
-    "Univ/NLP/Tokenization.md",
-    "Univ/NLP/IDK what session this is.md",
     "BNCC/Raker36",
     "Untitled",
     "LLM",
