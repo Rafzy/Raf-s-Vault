@@ -168,7 +168,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Univ/Computer Vision/Session 6.md",
+                "file": "LLMs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,7 +178,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Session 6"
+              "title": "Backlinks for LLMs"
             }
           },
           {
@@ -187,12 +187,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Transformers.md",
+                "file": "LLMs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Transformers"
+              "title": "Outgoing links from LLMs"
             }
           },
           {
@@ -202,7 +202,9 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -214,51 +216,21 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Transformers.md",
+                "file": "LLMs.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Transformers"
-            }
-          },
-          {
-            "id": "fea12f1466b50eb3",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "fd28681fecc19a4d",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "41ac0c3072a3e071",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "title": "Outline of LLMs"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 201
+    "width": 329
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -268,20 +240,17 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "media-extended:Open media": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9a3e34a5c96e3319",
+  "active": "ef5c60669e8d86de",
   "lastOpenFiles": [
+    "LLMs.md",
     "Images/Pasted image 20250310171600.png",
     "Images/Pasted image 20250310171533.png",
     "Images/Pasted image 20250310170757.png",
     "React.md",
     "Things to pack.md",
-    "LLMs.md",
     "Deep Learning.md",
     "Meet w MinamiGyotoku.md",
     "Essence of Calculus by Grant Sanderson.md",
@@ -301,7 +270,6 @@
     "Images/Pasted image 20250223214516.png",
     "Images/Pasted image 20250223214310.png",
     "Images/Pasted image 20250223213347.png",
-    "Images/Pasted image 20250223213146.png",
     "Meg's aussie log.md",
     "Untitled 2.md",
     "Word2Vec.md",
