@@ -258,7 +258,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 291.5
+    "width": 201
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -276,6 +276,9 @@
   },
   "active": "9a3e34a5c96e3319",
   "lastOpenFiles": [
+    "Images/Pasted image 20250310171600.png",
+    "Images/Pasted image 20250310171533.png",
+    "Images/Pasted image 20250310170757.png",
     "React.md",
     "Things to pack.md",
     "LLMs.md",
@@ -299,8 +302,6 @@
     "Images/Pasted image 20250223214310.png",
     "Images/Pasted image 20250223213347.png",
     "Images/Pasted image 20250223213146.png",
-    "Images/Pasted image 20250223213011.png",
-    "Images/Pasted image 20250223212556.png",
     "Meg's aussie log.md",
     "Untitled 2.md",
     "Word2Vec.md",
@@ -311,7 +312,6 @@
     "Godot/Deltas.md",
     "Godot/Basics.md",
     "Univ/NLP/Chatbot.md",
-    "Univ/NLP/Dependency Tree.md",
     "BNCC/Raker36",
     "Untitled",
     "LLM",
