@@ -11,14 +11,14 @@
             "id": "3a9c8a26efb8922c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "Shibaura/Autonomous mobile robot system/Session 1.md",
-                "mode": "source",
-                "source": false
+                "aFile": "Shibaura/Advanced OS and virtualization/Session 1.md",
+                "bFile": "Shibaura/Advanced OS and virtualization/Session 1.md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "Session 1"
+              "icon": "diff",
+              "title": "Diff: Session 1"
             }
           }
         ]
@@ -219,8 +219,13 @@
   },
   "active": "3a9c8a26efb8922c",
   "lastOpenFiles": [
-    "Shibaura/Data science for human behavior/Session 1.md",
+    "Shibaura/Advanced OS and virtualization/Session 1.md",
+    "Images/Pasted image 20250415093423.png",
+    "Images/Pasted image 20250415092436.png",
+    "Images/Pasted image 20250415092220.png",
     "Shibaura/Autonomous mobile robot system/Session 1.md",
+    "Shibaura/Advanced OS and virtualization",
+    "Shibaura/Data science for human behavior/Session 1.md",
     "Shibaura/Autonomous mobile robot system",
     "Shibaura/Mechatronics/Session 1.md",
     "Shibaura/Data science for human behavior",
@@ -251,20 +256,14 @@
     "Images/Pasted image 20250228130226.png",
     "Images/Pasted image 20250225155227.png",
     "Images/Pasted image 20250223214724.png",
-    "Images/Pasted image 20250223214527.png",
-    "Images/Pasted image 20250223214516.png",
-    "Images/Pasted image 20250223214310.png",
     "Meg's aussie log.md",
     "Untitled 2.md",
     "Word2Vec.md",
-    "Univ/Operating System/UAS.md",
-    "Writing an Interpreter in Go.md",
     "BNCC/Raker36",
     "LLM",
     "Untitled.canvas",
     "9b841903-a7b4-4548-8820-a05c807cd211-1.pdf",
     "DnD",
-    "Univ/Data Mining/Lab",
-    "Univ/Operating System/AOL"
+    "Univ/Data Mining/Lab"
   ]
 }
