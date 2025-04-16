@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "3474f5e111da463c",
+        "id": "bb107fb0de674ffd",
         "type": "tabs",
         "children": [
           {
-            "id": "3a9c8a26efb8922c",
+            "id": "a9f71909d7f87a28",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "Shibaura/Advanced OS and virtualization/Session 1.md",
-                "bFile": "Shibaura/Advanced OS and virtualization/Session 1.md",
-                "aRef": ""
+                "file": "Shibaura/Computational Chemistry/Session 1.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: Session 1"
+              "icon": "lucide-file",
+              "title": "Session 1"
             }
           }
         ]
@@ -217,8 +217,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3a9c8a26efb8922c",
+  "active": "a9f71909d7f87a28",
   "lastOpenFiles": [
+    "Meet.md",
+    "Shibaura/Computational Chemistry/Session 1.md",
+    "Shibaura/Computational Chemistry",
     "Shibaura/Advanced OS and virtualization/Session 1.md",
     "Images/Pasted image 20250415093423.png",
     "Images/Pasted image 20250415092436.png",
@@ -258,12 +261,10 @@
     "Images/Pasted image 20250223214724.png",
     "Meg's aussie log.md",
     "Untitled 2.md",
-    "Word2Vec.md",
     "BNCC/Raker36",
     "LLM",
     "Untitled.canvas",
     "9b841903-a7b4-4548-8820-a05c807cd211-1.pdf",
-    "DnD",
-    "Univ/Data Mining/Lab"
+    "DnD"
   ]
 }
