@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "bb107fb0de674ffd",
+        "id": "32d73d100b49adb1",
         "type": "tabs",
         "children": [
           {
-            "id": "a9f71909d7f87a28",
+            "id": "f9f16016fc0571ff",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -211,16 +211,13 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "media-extended:Open media": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a9f71909d7f87a28",
+  "active": "f9f16016fc0571ff",
   "lastOpenFiles": [
-    "Meet.md",
     "Shibaura/Computational Chemistry/Session 1.md",
+    "Meet.md",
     "Shibaura/Computational Chemistry",
     "Shibaura/Advanced OS and virtualization/Session 1.md",
     "Images/Pasted image 20250415093423.png",
