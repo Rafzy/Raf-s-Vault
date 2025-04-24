@@ -8,13 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ef4768d953c9b115",
+            "id": "4fed94939e470c0b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Shibaura/Mechatronics/Session 1.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Session 1"
             }
           }
         ]
@@ -210,8 +214,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ef4768d953c9b115",
+  "active": "4fed94939e470c0b",
   "lastOpenFiles": [
+    "Shibaura/Mechatronics/Session 2.md",
+    "Shibaura/Computer Architecture/Session 2.md",
+    "To Do List.md",
+    "Images/Pasted image 20250421121204.png",
+    "Images/Pasted image 20250421121155.png",
+    "Shibaura/Computer Architecture",
+    "Shibaura/Autonomous mobile robot system/Session 2.md",
+    "Shibaura/Autonomous mobile robot system/Session 1.md",
+    "Shibaura/Data science for human behavior/Session 2.md",
+    "Shibaura/Mechatronics/Session 1.md",
     "Shibaura/Computational Chemistry/Session 1.md",
     "Meet.md",
     "Shibaura/Computational Chemistry",
@@ -219,14 +233,11 @@
     "Images/Pasted image 20250415093423.png",
     "Images/Pasted image 20250415092436.png",
     "Images/Pasted image 20250415092220.png",
-    "Shibaura/Autonomous mobile robot system/Session 1.md",
     "Shibaura/Advanced OS and virtualization",
     "Shibaura/Data science for human behavior/Session 1.md",
     "Shibaura/Autonomous mobile robot system",
-    "Shibaura/Mechatronics/Session 1.md",
     "Shibaura/Data science for human behavior",
     "Images/resistor-color-code-bands-3-4-1024.avif",
-    "Shibaura/Untitled.md",
     "Shibaura/Mechatronics",
     "Shibaura",
     "conflict-files-obsidian-git.md",
@@ -247,17 +258,10 @@
     "Encoder-Decoder.md",
     "RNN.md",
     "Accommodations.md",
-    "Seq2Seq.md",
-    "To Do List.md",
     "Images/Pasted image 20250228130226.png",
-    "Images/Pasted image 20250225155227.png",
-    "Images/Pasted image 20250223214724.png",
-    "Meg's aussie log.md",
-    "Untitled 2.md",
     "BNCC/Raker36",
     "LLM",
     "Untitled.canvas",
-    "9b841903-a7b4-4548-8820-a05c807cd211-1.pdf",
-    "DnD"
+    "9b841903-a7b4-4548-8820-a05c807cd211-1.pdf"
   ]
 }
