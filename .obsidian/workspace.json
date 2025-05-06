@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Shibaura/Advanced OS and virtualization/Session 2.md",
+                "file": "Shibaura/Advanced OS and virtualization/Session 3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Session 2"
+              "title": "Session 3"
             }
           }
         ]
@@ -221,8 +221,9 @@
   },
   "active": "f9f16016fc0571ff",
   "lastOpenFiles": [
-    "Shibaura/Advanced OS and virtualization/Session 1.md",
     "Shibaura/Advanced OS and virtualization/Session 2.md",
+    "Shibaura/Advanced OS and virtualization/Session 3.md",
+    "Shibaura/Advanced OS and virtualization/Session 1.md",
     "Shibaura/Computational Chemistry/Session 1.md",
     "Meet.md",
     "Shibaura/Computational Chemistry",
@@ -262,7 +263,6 @@
     "Images/Pasted image 20250228130226.png",
     "Images/Pasted image 20250225155227.png",
     "Images/Pasted image 20250223214724.png",
-    "Meg's aussie log.md",
     "BNCC/Raker36",
     "LLM",
     "Untitled.canvas",

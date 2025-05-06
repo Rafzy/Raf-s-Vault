@@ -22,5 +22,3 @@ Instructions in BF machine:
 - \] -> End of a loop
 - . -> Shows a number pointed by the head as an ascii character
 - . -> Read from stdin and store it as a number to the memory pointer by the head
-
-
