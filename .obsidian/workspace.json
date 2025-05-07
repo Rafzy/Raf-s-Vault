@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Session 3"
             }
+          },
+          {
+            "id": "489758d9b58680ee",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.10"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.10"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -219,7 +232,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f9f16016fc0571ff",
+  "active": "489758d9b58680ee",
   "lastOpenFiles": [
     "Shibaura/Advanced OS and virtualization/Session 2.md",
     "Shibaura/Advanced OS and virtualization/Session 3.md",
