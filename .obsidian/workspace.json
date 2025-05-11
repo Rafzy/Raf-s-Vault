@@ -25,12 +25,14 @@
             "id": "489758d9b58680ee",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.8.10"
+                "file": "Shibaura/Advanced OS and virtualization/Session 3.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.10"
+              "icon": "lucide-file",
+              "title": "Session 3"
             }
           }
         ],
@@ -233,9 +235,9 @@
   },
   "active": "489758d9b58680ee",
   "lastOpenFiles": [
+    "Shibaura/Advanced OS and virtualization/Session 1.md",
     "Shibaura/Advanced OS and virtualization/Session 2.md",
     "Shibaura/Advanced OS and virtualization/Session 3.md",
-    "Shibaura/Advanced OS and virtualization/Session 1.md",
     "Shibaura/Computational Chemistry/Session 1.md",
     "Meet.md",
     "Shibaura/Computational Chemistry",
