@@ -1,0 +1,6 @@
+> The affect of music on the human emotion
+
+# Introduction
+
+Music has been a big factor in the development of humanity's culture, it seems to transcend cultural and linguistic barriers. We can still enjoy music even if it came from a different culture than us, or even if the music is from a language we don't understand, how does music in which the lyrics we don't understand still invoke emotions in people. It's also a common occurrence that music impact's a person's mood like if someone listens to sad music, they're also easily influenced to feel sad, same case goes for happy music.
+A strong proof of this is a video showing "horror movie clips" but with happy music, and a good number of people said that the horror clip "isn't scary anymore" due to the happy music playing in the background. Music also plays a huge part in visual media llike movies, films, even games, and it makes you wonder whether the music itself has a bigger impact to the audience's response towards the media compared to the visual aspect itself.

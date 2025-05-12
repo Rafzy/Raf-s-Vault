@@ -1,4 +1,4 @@
-# Computer Internals
+	# Computer Internals
 
 Computer's main components are divided into five parts:
 - Input (From the outside world, eg: Mouse, Keyboard, sensors, etc)

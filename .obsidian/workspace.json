@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Shibaura/Autonomous mobile robot system/Session 3.md",
+                "file": "Shibaura/Computer Architecture/Session 2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Session 3"
+              "title": "Session 2"
+            }
+          },
+          {
+            "id": "e7a02efd91d4f1db",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Shibaura/Autonomous mobile robot system/Session 4.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Session 4"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -214,24 +229,33 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fce72c8af017c8e3",
+  "active": "e7a02efd91d4f1db",
   "lastOpenFiles": [
+    "Images/Pasted image 20250508171559.png",
+    "Shibaura/Autonomous mobile robot system/Session 2.md",
+    "Shibaura/Autonomous mobile robot system/Session 1.md",
     "Shibaura/Autonomous mobile robot system/Session 3.md",
+    "Shibaura/Autonomous mobile robot system/Session 4.md",
+    "Shibaura/Computer Architecture/Session 2.md",
+    "Shibaura/Computer Architecture/Session 3.md",
+    "Shibaura/Data science for human behavior/Presentation.md",
+    "BNCC/TnD Ai Prompting.md",
+    "Shibaura/Advanced OS and virtualization/Session 1.md",
+    "Images/Pasted image 20250428122508.png",
+    "Images/Pasted image 20250428113255.png",
+    "Images/Pasted image 20250428112000.png",
+    "Images/Pasted image 20250424171420.png",
     "Shibaura/Data science for human behavior/Session 3.md",
     "Shibaura/Mechatronics/Session 1.md",
     "Shibaura/Mechatronics/Session 2.md",
-    "Shibaura/Computer Architecture/Session 2.md",
     "To Do List.md",
     "Images/Pasted image 20250421121204.png",
     "Images/Pasted image 20250421121155.png",
     "Shibaura/Computer Architecture",
-    "Shibaura/Autonomous mobile robot system/Session 2.md",
-    "Shibaura/Autonomous mobile robot system/Session 1.md",
     "Shibaura/Data science for human behavior/Session 2.md",
     "Shibaura/Computational Chemistry/Session 1.md",
     "Meet.md",
     "Shibaura/Computational Chemistry",
-    "Shibaura/Advanced OS and virtualization/Session 1.md",
     "Images/Pasted image 20250415093423.png",
     "Images/Pasted image 20250415092436.png",
     "Images/Pasted image 20250415092220.png",
@@ -246,19 +270,10 @@
     "New note from linux.md",
     "Deep Learning.md",
     "LLMs.md",
-    "Images/Pasted image 20250310171600.png",
-    "Images/Pasted image 20250310171533.png",
-    "Images/Pasted image 20250310170757.png",
     "React.md",
     "Things to pack.md",
     "Meet w MinamiGyotoku.md",
     "Essence of Calculus by Grant Sanderson.md",
-    "Web Server From Scratch.md",
-    "Transformers.md",
-    "Linear algebra.md",
-    "Min-max afk journey.md",
-    "Encoder-Decoder.md",
-    "Images/Pasted image 20250228130226.png",
     "BNCC/Raker36",
     "LLM",
     "Untitled.canvas",
