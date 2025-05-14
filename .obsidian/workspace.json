@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Shibaura/Advanced OS and virtualization/Session 3.md",
+                "file": "Shibaura/Computational Chemistry/Session 3.md",
                 "mode": "source",
                 "source": false
               },
@@ -235,9 +235,10 @@
   },
   "active": "489758d9b58680ee",
   "lastOpenFiles": [
+    "Shibaura/Advanced OS and virtualization/Session 3.md",
+    "Shibaura/Computational Chemistry/Session 3.md",
     "Shibaura/Advanced OS and virtualization/Session 1.md",
     "Shibaura/Advanced OS and virtualization/Session 2.md",
-    "Shibaura/Advanced OS and virtualization/Session 3.md",
     "Shibaura/Computational Chemistry/Session 1.md",
     "Meet.md",
     "Shibaura/Computational Chemistry",
@@ -273,7 +274,6 @@
     "RNN.md",
     "Accommodations.md",
     "Seq2Seq.md",
-    "To Do List.md",
     "Images/Pasted image 20250228130226.png",
     "Images/Pasted image 20250225155227.png",
     "Images/Pasted image 20250223214724.png",
