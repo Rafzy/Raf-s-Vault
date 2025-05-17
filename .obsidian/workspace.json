@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Shibaura/Autonomous mobile robot system/Short report 4.md",
+                "file": "BNCC/TnD Class Prompting AI.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Short report 4"
+              "title": "TnD Class Prompting AI"
             }
           }
         ]
@@ -221,8 +221,12 @@
   },
   "active": "f9f16016fc0571ff",
   "lastOpenFiles": [
-    "Godot/Signals.md",
+    "BNCC/Trial class briefing.md",
+    "BNCC/TnD Class Prompting AI.md",
+    "BNCC/Untitled",
+    "BNCC/Backend Trial class.md",
     "Shibaura/Autonomous mobile robot system/Short report 4.md",
+    "Godot/Signals.md",
     "Shibaura/Computational Chemistry/Session 3.md",
     "Images/Pasted image 20250514152802.png",
     "Shibaura/Advanced OS and virtualization/Session 3.md",
@@ -258,15 +262,11 @@
     "Web Server From Scratch.md",
     "Transformers.md",
     "Linear algebra.md",
-    "Min-max afk journey.md",
-    "Encoder-Decoder.md",
-    "RNN.md",
     "Images/Pasted image 20250228130226.png",
     "Images/Pasted image 20250225155227.png",
     "BNCC/Raker36",
     "LLM",
     "Untitled.canvas",
-    "9b841903-a7b4-4548-8820-a05c807cd211-1.pdf",
-    "DnD"
+    "9b841903-a7b4-4548-8820-a05c807cd211-1.pdf"
   ]
 }
