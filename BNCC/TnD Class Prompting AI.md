@@ -30,4 +30,38 @@ Sistem2 AI seperti Chatgpt, Claude, Deepseek, dll, adalah gabungan dari NLP dan 
 
 NLP -> Salah satu bidang dalam AI, studi yang fokus memberikan komputer kemampuan untuk mengerti, menginterpretasi dan generasi bahasa manusia.
 
-Machine Learning 
+Machine Learning -> Bidang dalam AI juga, fokus dalam melatih komputer untuk menyelesaikan sebuah tugas, tanpa di program secara eksplisit
+
+Garis bawah <u>NLP</u>, chatbot bisa memahami prompt kita seandainya kita berbicara dengan manusia lain, dan Machine Learning membuat model bisa terus belajar dari input kita dan user2 lain.
+
+----
+
+Membuat prompt efektif
+
+Cara kita struktur prompt kita akan pengaruh output AI. ada term untuk mengstruktur prompt sebaik mungkin -> Prompt Engineering
+
+Tiga strategi untuk prompt engineering yang baik (Give context, Be specific, Build on the conversation)
+
+1. Give context 
+	Beri konteks yang lebih spesifik untuk sebuah pertanyaan
+2. Be specific
+	Ketika memberi sebuah pertanyaan, haruslah spesifik
+3. Build On the Conversation
+	Model AI bisa mengingat konteks2 dari prompt sebelumnya, kembangkanlah prompt untuk output yang lebih baik
+
+
+Teknik2 Prompting:
+1. Zero-shot
+	Memberikan instruksi/pertanyaan kepada LLM tanpa memberikan contoh.
+	Karena LLM dilatih menggunakan data yang sangat besar, model2 ini bisa melakukan task/menjawab pertanyaan tanpa harus kita berikan contoh.
+	Input:
+	```
+	Classify the text into neutral, negative, or positive
+	Text: I think the vacation is okay
+	Sentiment:
+	```
+	Output:
+	`Neutral`
+	
+
+2. 
