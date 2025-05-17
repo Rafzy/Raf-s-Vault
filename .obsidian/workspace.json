@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Godot/Signals.md",
+                "file": "Shibaura/Autonomous mobile robot system/Short report 4.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Signals"
+              "title": "Short report 4"
             }
           }
         ]
@@ -95,7 +95,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 301
+    "width": 301,
+    "collapsed": true
   },
   "right": {
     "id": "8d0daf974551ffe3",
@@ -220,6 +221,8 @@
   },
   "active": "f9f16016fc0571ff",
   "lastOpenFiles": [
+    "Godot/Signals.md",
+    "Shibaura/Autonomous mobile robot system/Short report 4.md",
     "Shibaura/Computational Chemistry/Session 3.md",
     "Images/Pasted image 20250514152802.png",
     "Shibaura/Advanced OS and virtualization/Session 3.md",
@@ -258,7 +261,6 @@
     "Min-max afk journey.md",
     "Encoder-Decoder.md",
     "RNN.md",
-    "Accommodations.md",
     "Images/Pasted image 20250228130226.png",
     "Images/Pasted image 20250225155227.png",
     "BNCC/Raker36",
