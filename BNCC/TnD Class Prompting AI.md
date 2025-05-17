@@ -129,5 +129,12 @@ Teknik2 Prompting:
 	Sesimpel menambahkan "Let's think step by step".
 	Bagus kalau kita gak ada banyak contoh yang bisa kita kasih ke AI modelnya
 	
-	**Automatic Chain-of-Thought**
-	
+
+4. Iterative prompting
+	Building on the prompts from before
+5. Negative prompting
+	Instructing the AI on what not to do.
+6. Role prompting
+	Giving AI a role
+
+
