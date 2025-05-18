@@ -266,4 +266,30 @@ Tiga strategi untuk prompt engineering yang baik (Give context, Be specific, Bui
 	"Use AI wisely"
 
 3. Privasi dan Perlindungan data
-	Model AI LLM proses big data,, termasuk data2 yang sensitif, 
+	Model AI LLM proses big data,, termasuk data2 yang sensitif, selain itu, AI juga mengambil prompt kita sebagai training data juga.
+	Karena itu, kita harus berhati2 sahat handling data private dalam menggunakan tools AI.
+	
+	Steps yang bisa diambil:
+	- Research "privacy policies" AI tool yang akan digunakan
+	- Hindari Personally Identifiable Information dalam prompt kalian
+	- Ingat prompt/data yang kita berikan bisa dipakai untuk training data model tersebut
+	- Gunakan "Private mode" atau "incognito"
+	- Gunakan akun temporer jika perlu menggunakan data yang sensitif
+	- Minta izin jika ingin menggunakan data sensitif orang lain
+	- Hindari generated deepfakes orang lain tanpa izin
+	- Be transparent
+
+
+# Practice
+
+Buat rencana pemasaran (Aplikasi edukasi online untuk anak2)
+
+Prompting:
+- Zero shot:
+	"Buatlah kampanye iklan di media sosial untuk meningkatkan kesadaran merek aplikasi edukasi online anak-anak"
+- Few shot:
+	"Buatlah kampanye iklan di media sosial untuk meningkatkan kesadaran merek aplikasi edukasi online anak-anak, ambil contoh seperti duolingo, dimana mereka membuat konten tiktok, instagram, dan facebook"
+- Chain of thought:
+	"Buatlah kampanye iklan di media sosial untuk meningkatkan kesadaran merek aplikasi edukasi online anak-anak, jelaskan langkah per langkah mengapa anda memberikan kampanye tersebut"
+- Role prompting:
+	"Kamu adalah social media marketing manager, Buatlah kampanye iklan di media sosial untuk meningkatkan kesadaran merek aplikasi edukasi online anak-anak"
