@@ -134,14 +134,76 @@ Teknik2 Prompting:
 	- Kalau hasilnya salah, bisa liat step mana yang error
 	- Dengan mengajak AI untuk berpikir step by step, lebih likely jawabannya benar
 
-4. Iterative prompting
+4. Iterative/Sequential prompting
 	Kadang, untuk approach sebuah masalah/ pertanyaan yang kompleks, AI tidak bisa langsung menyelesaikan dengan satu prompt saja.
 	Melainkan, kita harus secara iteratif memberi instruksi kepada AI secara iteratif.
 	
+	"Membangun perlahan2 prompt demi prompt untuk menyelesaikan sebuah masalah"
 	
-5. Negative prompting
-	Instructing the AI on what not to do.
-6. Role prompting
+	Why we do iterative prompting:
+	- Improve quality (Correct factual errors)
+	- Adaptasi terhadap informasi2 baru
+	- Bagi masalah kompleks jadi beberapa segmen prompt
+	- Baik untuk belajar topik kompleks
+	
+	Cons:
+	- Token usage
+	- Diminishing returns
+	- Time investment
+	  
+	Contoh:
+	1. Funnel Approach (General to specific)
+		Initial: "Explain the key factors affecting global supply chains." 
+		↓ 
+		Iteration 1: "Based on these factors, what specific challenges face the semiconductor industry?" 
+		↓ 
+		Iteration 2: "How are leading companies addressing the semiconductor manufacturing bottlenecks you identified?" 
+		↓ 
+		Iteration 3: "Create a comparative analysis of TSMC vs. Intel's approaches to these challenges."
+	   
+	2. Layering Approach (Adding Dimensions)
+		Initial: "Write an introduction for an article about urban farming."
+		↓
+		Iteration 1: "Revise the introduction to include environmental impact statistics."
+		↓
+		Iteration 2: "Enhance the introduction with a compelling personal story element."
+		↓
+		Iteration 3: "Refine the tone to be more accessible to a general audience while maintaining the technical accuracy."
+
+	3. Critique and Revise Method
+		Initial: "Create a marketing email for our new fitness app."
+		↓
+		Iteration 1: "The email is too lengthy. Create a more concise version that highlights only the three key features."
+		↓
+		Iteration 2: "The call-to-action isn't compelling enough. Revise it to create more urgency."
+		↓
+		Iteration 3: "The tone feels too corporate. Make it more conversational while maintaining professionalism."
+	
+	Best Practice:
+	- Keep a clear goal
+	- Maintain context
+	- Dokumentasi proses
+
+6. Negative prompting
+	Kita secara eksplisit memberi batasan kepada AI
+	"Don't do ....."
+	
+	- Avoid Common Mistakes
+	- Set Boundaries
+	- Avoid Bias
+	
+	Examples:
+	Write a marketing email for our new productivity software. 
+	Don't use corporate jargon, avoid making unrealistic promises, and don't include generic statements that could apply to any software.
+	
+	Write a short story about an unexpected friendship.
+	Avoid:
+	- Clichéd character introductions
+	- Predictable plot developments
+	- Ending with "it was all a dream"
+	- Relying on coincidences to drive the plot
+	
+7. Role prompting
 	Giving AI a role
 
 
