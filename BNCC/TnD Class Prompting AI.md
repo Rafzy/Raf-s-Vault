@@ -232,3 +232,40 @@ Tiga strategi untuk prompt engineering yang baik (Give context, Be specific, Bui
 
 # Ethics in using AI
 
+1. Bias and fairness
+	Bias dalam AI dapat diakibatkan karena traning data yang berisi bias, ataupun kesalahan dalam algoritma AI tersebut.
+	Hal tersebut dapat mengakibatkan output AI yang berprasangka buruk terhadap group, individu, atau fakta tertentu.
+	Beberapa jenis bias yang dapat muncul dalam training data:
+	- Selection bias -> Training data yang tidak meng-representasikan semua populasi secara adil
+	- Historical bias -> Diskriminasi yang muncul akibat data historikal
+	- Measurement bias -> metode evaluasi yang berbeda untuk group2 berbeda
+	- Label bias -> bias dari seseorang yang memberikan label dalam training data
+	  
+	Kesalahan dalam algoritma/Design model yang dapat mengakibatkan bias:
+	- Feature selection
+	- Proxy variables
+	- Kompleksitas model
+	- Optimization metrics
+	  
+	Contoh2 bias yang dapat muncul:
+	- Text generation yang berisikan deskripsi stereotipikal
+	- Image generation yang tidak realistis atau depiksi2 stereotip
+	- Voice recognition yang tidak dapat mendeteksi aksen2 tertentu
+	- Translator yang kurang akurat untuk bahasa tertentu
+	
+	Bagaimana kita secara individu menggunakan tools ai dapat mengatasi masalah tersebut?
+	- Menyadari akan potensial bias dalam output AI
+	- verifikasi output AI, jangan mentah2 mengambil output AI sebagai jawaban absolut
+	- Berikan feedback kepada AI ketika output bias
+
+2. Transparansi & Akuntabilitas dalam menggunakan AI tools
+	Ketika kita menggunakan tool AI, harus transparan dalam alasan dan tujuan mengapa kita menggunakan AI tools
+	
+	Dengan berkembangnya tool AI yang sangat pesat, Text, Voice, Image, ataupun Video generation sudah mencapai tingkat dimana hasilnya sangat mirip dunia nyata.
+	
+	Maka dari itu, salah penggunaan tools AI bisa berdampak sangat buruk seperti blackmailing palsu, atau penyebaran misinformasi, sengaja maupun secara tidak sengaja.
+	
+	"Use AI wisely"
+
+3. Privasi dan Perlindungan data
+	
