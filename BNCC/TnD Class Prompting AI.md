@@ -129,9 +129,16 @@ Teknik2 Prompting:
 	Sesimpel menambahkan "Let's think step by step".
 	Bagus kalau kita gak ada banyak contoh yang bisa kita kasih ke AI modelnya
 	
+	Benefit:
+	- Seakan2 kita belajar step by step (Demonstrasi approach problem solving step by step)
+	- Kalau hasilnya salah, bisa liat step mana yang error
+	- Dengan mengajak AI untuk berpikir step by step, lebih likely jawabannya benar
 
 4. Iterative prompting
-	Building on the prompts from before
+	Kadang, untuk approach sebuah masalah/ pertanyaan yang kompleks, AI tidak bisa langsung menyelesaikan dengan satu prompt saja.
+	Melainkan, kita harus secara iteratif memberi instruksi kepada AI secara iteratif.
+	
+	
 5. Negative prompting
 	Instructing the AI on what not to do.
 6. Role prompting
