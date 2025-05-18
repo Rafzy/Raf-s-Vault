@@ -49,8 +49,8 @@ Tiga strategi untuk prompt engineering yang baik (Give context, Be specific, Bui
 3. Build On the Conversation
 	Model AI bisa mengingat konteks2 dari prompt sebelumnya, kembangkanlah prompt untuk output yang lebih baik
 
+# Prompting Techniques
 
-Teknik2 Prompting:
 1. Zero-shot
 	Memberikan instruksi/pertanyaan kepada LLM tanpa memberikan contoh.
 	Karena LLM dilatih menggunakan data yang sangat besar, model2 ini bisa melakukan task/menjawab pertanyaan tanpa harus kita berikan contoh.
@@ -188,6 +188,7 @@ Teknik2 Prompting:
 	Kita secara eksplisit memberi batasan kepada AI
 	"Don't do ....."
 	
+	Digunakan untuk:
 	- Avoid Common Mistakes
 	- Set Boundaries
 	- Avoid Bias
@@ -207,4 +208,27 @@ Teknik2 Prompting:
 	Memberikan peran/persona untuk AI model
 	"As a Marine Biologist...", "Think like a chess grandmaster...", "As an expert cybersecurity..."
 	
+	Karena pengetahuan LLM Models sangat luas, kita bisa anggap pengetahuan AI dalam beberapa topik di group bersama menjadi beberapa cluster.
+	
+	Ketika kita beri peran, AI bisa langsung pinpoint ke topik tertentu (Basically mirip seperti memberi context tapi lebih straightforward).
+	Dengan memberikan peran, cara AI memberikan informasi juga bisa berubah, tergantung peran yang diberikan
+	Memberi role juga membantu AI memberikan jawaban yang konsisten untuk prompt2 berikutnya. (Mental models yang konsisten)
+	
+	Ini sangat berguna, apalagi ketika instruksi atau pertanyaan yang kita berikan itu topik yang sangat spesifik.
+	
+	Contoh:
+	// Basic role prompt:
+	"As a marketing professional, suggest ways to improve our social media presence."
+	
+	// Enhanced specific role prompt:
+	"As a digital marketing specialist with 10 years of experience in B2B SaaS companies, suggest data-driven strategies to improve our LinkedIn presence for lead generation."
+	
+	Let's try comparing outputs:
+	// Without role prompting:
+	"What factors should be considered when managing diabetes?"
+	
+	// With role prompting:
+	"As an endocrinologist with 20 years of clinical experience treating diverse patient populations, what factors should be considered when developing a comprehensive diabetes management plan?"
+
+# Ethics in using AI
 
