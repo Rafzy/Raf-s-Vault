@@ -56,13 +56,12 @@ Tiga strategi untuk prompt engineering yang baik (Give context, Be specific, Bui
 	Karena LLM dilatih menggunakan data yang sangat besar, model2 ini bisa melakukan task/menjawab pertanyaan tanpa harus kita berikan contoh.
 	
 	Contoh:
-	Input:
-	
+	// Input:
 	Classify the text into neutral, negative, or positive
 	Text: I think the vacation is okay
 	Sentiment:
 	
-	Output:
+	// Output:
 	Neutral
 	
 	Ketika menggunakan zero-shot prompting, kita harus fine-tune <u>instruction</u> kita
@@ -85,13 +84,12 @@ Tiga strategi untuk prompt engineering yang baik (Give context, Be specific, Bui
 	Model bisa "belajar" dalam konteks yang kita berikan.
 	
 	**Contoh:**
-	Input:
+	// Input:
 	A "whatpu" is a small, furry animal native to Tanzania. An example of a sentence that uses the word whatpu is:
 	We were traveling in Africa and we saw these very cute whatpus.
-	 
 	To do a "farduddle" means to jump up and down really fast. An example of a sentence that uses the word farduddle is:
 	
-	Output:
+	// Output:
 	When we won the game, we all started to farduddle in celebration.
 	
 	Modelnya bisa menjawab pertanyaan kita dengan hanya satu contoh untuk kata "whatpu" dan juga "farduddle"
@@ -268,4 +266,4 @@ Tiga strategi untuk prompt engineering yang baik (Give context, Be specific, Bui
 	"Use AI wisely"
 
 3. Privasi dan Perlindungan data
-	
+	Model AI LLM proses big data,, termasuk data2 yang sensitif, 
