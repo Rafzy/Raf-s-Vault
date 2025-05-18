@@ -204,6 +204,7 @@ Teknik2 Prompting:
 	- Relying on coincidences to drive the plot
 	
 7. Role prompting
-	Giving AI a role
-
+	Memberikan peran/persona untuk AI model
+	"As a Marine Biologist...", "Think like a chess grandmaster...", "As an expert cybersecurity..."
+	
 
