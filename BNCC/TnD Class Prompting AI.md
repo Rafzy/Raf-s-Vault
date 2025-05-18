@@ -68,8 +68,8 @@ Tiga strategi untuk prompt engineering yang baik (Give context, Be specific, Bui
 	Kalau zero-shot tidak berhasil/output kurang baik, kita bisa mulai kasih contoh -> Few-shot prompting
 	
 	Cons:
-	- Less effective for specialized task
-	- May produce inconsistent formatings
+	- Kurang efektif untuk tugas specialized
+	- Hasil bisa inkonsisten karena kita tidak berikan contoh format
 	- Bisa misinterpret request
 	
 	Good for:
