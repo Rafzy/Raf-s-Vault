@@ -293,3 +293,8 @@ Prompting:
 	"Buatlah kampanye iklan di media sosial untuk meningkatkan kesadaran merek aplikasi edukasi online anak-anak, jelaskan langkah per langkah mengapa anda memberikan kampanye tersebut"
 - Role prompting:
 	"Kamu adalah social media marketing manager, Buatlah kampanye iklan di media sosial untuk meningkatkan kesadaran merek aplikasi edukasi online anak-anak"
+- Iterative prompting:
+	Iterative 1:
+	"Jelaskan teknik2 kampanye iklan untuk sosial media, dan best practices"
+	Iterative 2:
+	"Berdasarkan teknik2 yang sudah disampaikan, berikan kampanye iklan untuk sosial media, untuk merek aplikasi edukasi online anak-anak"
