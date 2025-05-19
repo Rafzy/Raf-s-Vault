@@ -25,14 +25,28 @@
             "id": "e7a02efd91d4f1db",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "Shibaura/Data science for human behavior/Session 5.md",
-                "mode": "source",
-                "source": false
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "Session 5"
+              "icon": "diff",
+              "title": "Diff: workspace.json"
+            }
+          },
+          {
+            "id": "ed7ae29d6459c48d",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "conflict-files-obsidian-git.md",
+                "bFile": "conflict-files-obsidian-git.md",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: conflict-files-obsidian-git"
             }
           }
         ],
@@ -231,8 +245,15 @@
   },
   "active": "e7a02efd91d4f1db",
   "lastOpenFiles": [
-    "Shibaura/Data science for human behavior/Session 3.md",
+    "conflict-files-obsidian-git.md",
     "Shibaura/Data science for human behavior/Session 5.md",
+    "Shibaura/Computational Chemistry/Session 3.md",
+    "Shibaura/Autonomous mobile robot system/Short report 4.md",
+    "Shibaura/Advanced OS and virtualization/Session 3.md",
+    "Shibaura/Advanced OS and virtualization/Session 2.md",
+    "Images/Pasted image 20250514152802.png",
+    "BNCC/TnD Class Prompting AI.md",
+    "Shibaura/Data science for human behavior/Session 3.md",
     "Shibaura/Computer Architecture/Session 5.md",
     "Images/Pasted image 20250512121136.png",
     "Images/Pasted image 20250512120658.png",
@@ -252,7 +273,6 @@
     "Images/Pasted image 20250428122508.png",
     "Images/Pasted image 20250428113255.png",
     "Images/Pasted image 20250428112000.png",
-    "Images/Pasted image 20250424171420.png",
     "Shibaura/Mechatronics/Session 1.md",
     "Shibaura/Mechatronics/Session 2.md",
     "To Do List.md",
@@ -267,13 +287,7 @@
     "Shibaura/Data science for human behavior",
     "Shibaura/Mechatronics",
     "Shibaura",
-    "conflict-files-obsidian-git.md",
     "New note from linux.md",
-    "Deep Learning.md",
-    "LLMs.md",
-    "React.md",
-    "Things to pack.md",
-    "Meet w MinamiGyotoku.md",
     "BNCC/Raker36",
     "LLM",
     "Untitled.canvas",
