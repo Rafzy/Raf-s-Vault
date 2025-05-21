@@ -16,4 +16,15 @@
 	**MO #3**
 	![[Pasted image 20250521204545.png]]
 	
-	For MO #3, we can see what appears to be an antibond orbital, since we a node is visible. But it's interesting that the node splits right in the middle of the O atom, dividing the two H atoms. This may be explained when we analyze the MO coefficients from the 
+	For MO #3, we can see what appears to be an antibond orbital, since we a node is visible. But it's interesting that the node splits right in the middle of the O atom, dividing the two H atoms. This may be explained when we analyze the MO coefficients from the result.
+	![[Pasted image 20250521213848.png]]
+	
+	(The final four rows are for H orbitals)
+	We can see that for the H orbital, there are two negative, and two positive coefficients. These two would together form antibonding orbital, which would explain why the node separates between the two Hydrogen. Other than that, if we also look at the Oxygen atom's coefficient, we can see that there are two major positive coefficients (0.50196 and 0.31249), as well as two somewhat major negative coefficients (-0.22739 and -0.11940), and the two AO with positive coefficients may have formed a bonding orbital with one Hydrogen atom, and the two AO with negative coefficients forms a bonding orbital with the other.
+	This may explain why it looks like a bonding orbital for each H with half of the O atom.
+	
+	**MO #4**
+	![[Pasted image 20250521214351.png]]
+	
+	For the fourth orbital, we can see that it is an antibonding orbital between the two Hydrogen atoms, and the Oxygen atom. So the node, splits between the Oxygen and the two hydrogens. Let's analyze the output again :D
+	
