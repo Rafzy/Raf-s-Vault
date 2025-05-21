@@ -95,7 +95,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 301
+    "width": 301,
+    "collapsed": true
   },
   "right": {
     "id": "8d0daf974551ffe3",
@@ -220,10 +221,14 @@
   },
   "active": "f9f16016fc0571ff",
   "lastOpenFiles": [
+    "Images/Pasted image 20250521204545.png",
+    "Images/Pasted image 20250521204351.png",
+    "Images/Pasted image 20250521203636.png",
+    "Shibaura/Autonomous mobile robot system/Short report 5.md",
+    "Shibaura/Computational Chemistry/Report 2.md",
     "Images/Pasted image 20250521200111.png",
     "Images/Pasted image 20250521195800.png",
     "Shibaura/Advanced OS and virtualization/Session 5.md",
-    "Shibaura/Computational Chemistry/Report 2.md",
     "BNCC/TnD Class Prompting AI.md",
     "Shibaura/Mechatronics/Session 2.md",
     "Shibaura/Data science for human behavior/Session 5.md",
@@ -243,9 +248,6 @@
     "Images/Pasted image 20250512120301.png",
     "Images/Pasted image 20250512112145.png",
     "Images/Pasted image 20250508171559.png",
-    "Images/Pasted image 20250428122508.png",
-    "Images/Pasted image 20250428113255.png",
-    "Images/Pasted image 20250428112000.png",
     "BNCC/TnD Ai Prompting.md",
     "BNCC/Trial class briefing.md",
     "BNCC/Untitled",
@@ -257,7 +259,6 @@
     "Shibaura/Advanced OS and virtualization/Session 1.md",
     "Shibaura/Advanced OS and virtualization/Session 2.md",
     "Shibaura/Computational Chemistry/Session 1.md",
-    "Meet.md",
     "Shibaura/Computational Chemistry",
     "Shibaura/Advanced OS and virtualization",
     "Shibaura/Autonomous mobile robot system",
