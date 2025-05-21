@@ -134,7 +134,7 @@ Tiga strategi untuk prompt engineering yang baik (Give context, Be specific, Bui
 
 4. Iterative/Sequential prompting
 	Kadang, untuk approach sebuah masalah/ pertanyaan yang kompleks, AI tidak bisa langsung menyelesaikan dengan satu prompt saja.
-	Melainkan, kita harus secara iteratif memberi instruksi kepada AI secara iteratif.
+	Melainkan, kita harus secara iteratif memberi instruksi kepada AI.
 	
 	"Membangun perlahan2 prompt demi prompt untuk menyelesaikan sebuah masalah"
 	
