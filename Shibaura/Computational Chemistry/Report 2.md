@@ -1,5 +1,5 @@
 
-1. H2O
+1. $H_{2}O$
 	**MO #1**
 	![[Pasted image 20250521195800.png]]
 	
@@ -16,7 +16,7 @@
 	**MO #3**
 	![[Pasted image 20250521204545.png]]
 	
-	For MO #3, we can see what appears to be an antibond orbital, since we a node is visible. But it's interesting that the node splits right in the middle of the O atom, dividing the two H atoms. This may be explained when we analyze the MO coefficients from the result.
+	For MO #3, we can see what appears to be an antibond orbital, since a node is visible. But it's interesting that the node splits right in the middle of the O atom, dividing the two H atoms. This may be explained when we analyze the MO coefficients from the result.
 	![[Pasted image 20250521213848.png]]
 	
 	(The final four rows are for H orbitals)
@@ -27,4 +27,127 @@
 	![[Pasted image 20250521214351.png]]
 	
 	For the fourth orbital, we can see that it is an antibonding orbital between the two Hydrogen atoms, and the Oxygen atom. So the node, splits between the Oxygen and the two hydrogens. Let's analyze the output again :D
+	![[Pasted image 20250522140659.png]]
+	If we pay attention, all the MO coefficient for both Hydrogen atoms are negative, which may explain why between the two H atoms, it looks like a bonding orbital, but if we look at the Oxygen MO coefficients, the three major coefficients (0.55143, 0.31825, and 0.40365) are all positives, which may explain why it forms an antibonding orbital between the Oxygen atom and the two Hydrogen atoms.
 	
+	**MO #5**
+	![[Pasted image 20250522141029.png]]
+	
+	For the 5th molecular orbital, it's also the HOMO (Highest occupied molecular orbital), which we can see from the IQmol's canonical orbital, and we can also infer from the Eigenvalues, the 5th orbital is the last orbital with negative eigenvalue which denotes the energy, and negative eigenvalues usually tell us that the orbital is occupied.
+	
+	For the orbital itself, we can see that it forms an antibonding orbital, but interestingly, the node splits all three atoms right in the middle (Laterally), which i think is interesting because usually nodes exist in the middle of two atoms, but this kindof exists right in the middle of the three atoms.
+	
+	Maybe this would be explained in the output file.
+	![[Pasted image 20250522141839.png]]
+	
+	If we see, the MO coefficient for the two Hydrogen atoms are zero, so their AO doesn't contribute for this MO, but we can see the MO coefficient for the Oxygen AO has positive and negative values (0.03221, -0.64052, etc). And so maybe this is an antibonding effect from the Oxygen atom itself (I'm not sure if antibonding is possible with only one atom's AO), which may explain why the node "*passes through*" the two hydrogen atoms.
+	
+	**MO#6**
+	![[Pasted image 20250522142251.png]]
+	
+	For the 6th orbital, it is LUMO (Lowest Unoccupied Molecular Orbital), so from this orbital forward, it will be unoccupied. If we see, the orbital is pretty big, covering the whole molecule, but we can see a cavity in the middle, the cavity wraps around the Oxygen atom, and barely touching the two hydrogen atoms.
+	So what's interesting is that, i think that there is a node between the outer orbital and the orbital inside the cavity, so the node kindof wraps around the Oxygen atom. 
+	
+	Because if we zoom in, we can see the orbital inside of the cavity is red, the opposite wave sign of the blue orbital we can see outside.
+	
+	**MO #7**
+	![[Pasted image 20250522144008.png]]
+	
+	For the 7th MO, we can see that it forms several antibonding orbitals, and three nodes are visible. We can analyze the output file to try to explain this behavior.
+	
+	![[Pasted image 20250522144600.png]]
+	
+	We can see that the two Hydrogen atoms, have different signs which explain the antibonding between the two hydrogen atoms. For the Oxygen atom, the MO coefficient has mostly negative signs and one positive sign, the different sign may cause the antibonding orbital we see in the middle, as well as the antibonding orbital formed between the two hydrogen atoms.
+	
+	**MO #8**
+	![[Pasted image 20250522144834.png]]
+	
+	For the 8th molecular orbital, we can see a really interesting visualization, we can see the two big orbitals on the left and right, but for the hydrogen atoms, it creates a smaller orbital that's tucked inside the bigger orbital, and technically forming two nodes (Between the two bigger orbital and between the two smaller orbital inside).
+	
+	![[Pasted image 20250522145417.png]]
+	
+	If we look at the output file, we can see that for the two hyrogen atoms, each atom contains both negative and positive signs, which may explain the antibonding orbital formed between the two hydrogen atoms, as for the Oxygen atom, we can see the MO coefficients are all negative. (Unfortunately i cannot explain the behavior for the antibonding of the two bigger orbitals, since all the MO coefficients of Oxygen atom is all negative, i don't rlly get why it forms a big antibonding orbital like that, but my guess is due to the different MO coefficient sign in each of the hydrogen atoms, it causes the orbitals to be like that.)
+	
+	**MO #9**
+	![[Pasted image 20250522151913.png]]
+	
+	For the 9th MO, we get this really interesting antibonding orbital shape, we can see the big blue orbital that wraps around the Oxygen atom, and we can also see the red orbital, that has these two prong shapes that goes inside the blue orbital, and wraps around the two hydrogen atoms, and it warps out of the blue orbital, forming a circular shape outside of the blue orbital. So there exists two node sthat separate between the Two hydrogen atoms and the Oxygen atom. 
+	
+	![[Pasted image 20250522152235.png]]
+	
+	We can see from the MO coefficients, that again each of the Hydrogen atoms have different signs for the two AOs, and for the oxygen atom has various coefficients with differing signs, these different signs between the oxygen atom and hydrogen atom may cause this unique antibonding orbital to form between them.
+	
+	**MO #10**
+	![[Pasted image 20250522152422.png]]
+	
+	For the 10th and final virtual orbital, we can see an antibonding orbital being formed, between the Hydrogen and Oxygen atom. If we look at it from another angle, 
+	
+	![[Pasted image 20250522153024.png]]
+	
+	We can see that the blue orbital kindof "goes through" the red orbital, and the node exists in between the two orbitals, cutting between the oxygen with the two hydrogens.
+	
+	**H2O Orbital Diagram:**
+	![[Pasted image 20250522154021.png]]
+
+
+2. $N_{2}$
+	**MO #1**
+	![[Pasted image 20250522155853.png]]
+	
+	For the N2's first MO orbital, it looks like the two orbitals have the same phase, yet is separate from one another. 
+	It looks lke this because in IQmol, it takes all molecular orbitals, including the non-valence electrons (Core electrons). Usually, the core electrons are tightly bound to their nucleus, and don't really participate much to the bonding, which is why we see two red orbitals surrounding both N atoms and are separate. Technically, this is a non-bonding orbital, $\sigma$* orbital.
+	If we see the output file, we can see that there is one major contributing MO coefficient for each N atoms (-0.7038), which is basically saying that each 1s orbital from each N contributes to forming the MO, but doesn't contribute much to bonding (Why we don't see them overlap)
+	
+	**MO #2**
+	![[Pasted image 20250522162803.png]]
+	
+	For the second MO, it's a similar case to the first MO, it is the result of the two Nitrogen's core electrons, which also forms the higher energy "antibonding" orbital, but since these are core electrons, they both don't "overlap". This is also supported in the output file, where the MO coefficient of one Nitrogen's 1s orbital is negative (-0.7041), and positive (0.7041), which forms the differing sign color of the orbital.
+	
+	**MO #3** $\sigma$
+	![[Pasted image 20250522163102.png]]
+	
+	For the third MO, it involves valence electrons (2s orbitals from each N atom), which is why we can see actual bond forming, and we see it's a bonding orbital. If we analyze the output file, we can see altering signs of positive and negative coefficients, but the major coefficients are all positive for both Nitrogen atoms (0.34250, 0.25895, etc). These positive coefficients form an in-phase (constructive) wave bonding. And since this is a head-on electron overlap, this is considered to be $\sigma$ bonding.
+	
+	**MO #4** $\sigma$*
+	![[Pasted image 20250522165029.png]]
+	
+	For the fourth MO, we can see that it forms an antibonding orbital. This is the antibonding equivalent from MO #3, formed from the same two AO (2s). If we analyze the output file, the major MO coefficient for is mostly negative
+	![[Pasted image 20250522203301.png]]
+	
+	And the other one is mostly positive
+	![[Pasted image 20250522203334.png]]
+	
+	The difference in majority of MO coefficient sign causes the two atoms to form an antibonding orbital, $\sigma$*
+	
+	**MO #5** $\sigma$
+	![[Pasted image 20250522203643.png]]
+	
+	From the 5th molecular orbital, we can see two nodes forming in between the two N atoms
+	
+	**MO #6** $\pi$
+	![[Pasted image 20250522204356.png]]
+	
+	From this molecular orbital, we can clearly see that this is a pi bonding, due to the parallel bonding formed by the p orbitals. This is supported by the fact that this is formed by p Atomic Orbitals that tend to form pi bonding, and the orbitals look in parallel. 
+	![[Pasted image 20250522205019.png]]
+	This is also supported by the fact that that the MO coefficients are mostly positive, forming a bonding orbital. Making this a $\pi$ bonding.
+	
+	**MO #7** HOMO $\pi$
+	![[Pasted image 20250522211118.png]]
+	
+	For the 7th MO, we can see that it's also a $\pi$ bonding orbital, same with the previous MO, so the reasons are the same, and the result of the MO coefficients for this orbital layer is also similar
+	![[Pasted image 20250522211445.png]]
+	
+	Since MO coefficients are mostly positive, it supports the creation of bonding pi orbitals
+	
+	**MO #8** LUMO $\pi$*
+	![[Pasted image 20250522211541.png]]
+	
+	For the 8th MO, we can see that it forms a $\pi$ antibonding orbital, because it forms two nodes that split the orbital into four. This is also supported by the fact that the MO coefficient between the two N atoms differ in sign
+	![[Pasted image 20250522212430.png]]
+	
+	As we can see, the first half (Orbitals of one N atom) is mostly negative and the majority of the second N atom's MO coefficient is positive, forming an antibonding orbital
+	
+	**MO #9** $\pi$*
+	![[Pasted image 20250522215343.png]]
+	
+	For the 9th molecular, similar to the previous orbital 
