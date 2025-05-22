@@ -202,6 +202,7 @@ $$
 	![[Pasted image 20250522233333.png]] 
 	This is the total energy when SCF convergence is met
 	
+	1. O2's orbitals
 	**MO #1**
 	![[Pasted image 20250522234854.png]]
 	
@@ -232,6 +233,30 @@ $$
 	
 	This seems to be a $\sigma$ bonding orbital, similar to $N_{2}$'s case explained before, it's a bonding orbital that's formed by $p_{z}$ AOs
 	
-	**MO #7** 
+	**MO #7** $\pi$
 	![[Pasted image 20250523001418.png]]
+	
+	The 7th MO shows a $\pi$ bonding orbital
+	
+	**MO #8** $\pi$* HOMO 
+	![[Pasted image 20250523001941.png]]
+	
+	The 8th molecular orbital is an antibonding $\pi$* orbital, and it's also the HOMO. The fact that this is orbital is the HOMO is a side effect of this being a singlet O2. usually, from the diagram i see online, the HOMO of O2 should be after two $\pi$* orbitals. But turns out, because this is the singlet, the electron from the second $\pi$* orbital moves to this one, making this one the HOMO with paired electrons.
+	
+	**MO #9** $\pi$*
+	![[Pasted image 20250523002210.png]]
+	
+	The 9th MO is the second $\pi$* i was talking about before, and because of my previous explanation, it makes this the LUMO
+	
+	**MO #10** $\sigma$*
+	![[Pasted image 20250523002325.png]]
+	
+	For the 10th MO, it's an antibonding $\sigma$* orbital that's formed by $p_{z}$ AOs, similar to N2's case
+	
+	2. ROHF energy:
+	![[Pasted image 20250523002609.png]]
+	
+	UHF energy:
+	![[Pasted image 20250523002853.png]]
+	
 	
