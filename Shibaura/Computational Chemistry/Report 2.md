@@ -259,4 +259,26 @@ $$
 	UHF energy:
 	![[Pasted image 20250523002853.png]]
 	
+	The UHF's energy is lower compared to ROHF's. Maybe, because of the fact that for UHF, it separates the spatial orbital for alpha and beta, but this also suffers spin contamination.
+
+	3. Compare UHF's <S^2>
+	For the UHF's <S^2>, we can use a similar method from $N_{2}$.
+	We calculate with $<S^{2}> = S(S+1)$.
+	Since this is a triplet, we know that $2S + 1 = 3$, so, S must be 1.
+	We plug in the formula, $<S^{2>}= 1(1+1) = 2$. 
+	The result of the UHF is close enough, so it is very reasonable
 	
+	4. Comparing energies
+   If we compare the UHF triplet's energy to the HF singlet's energy, surprisingly we see that the UHF singlet has lower energy compared to the singlet. This is because for O2, the triplet form is actually the ground form. This can be more easily explained with this diagram
+   ![[9-min.png]]
+	If we see, O2 forms two $\pi$* orbitals, and these orbitals are actually degenerates (have same energy). so each being filled with one electron (meaning triplet multiplicity since open shell) is actually the ground state for O2, so it's less energy.
+	
+	5. UHF orbital diagram
+	For UHF orbital diagram, i'll just draw by hand, since the orbital shapes themselves should be the same with the singlet, the difference being the HOMO and LUMO location.
+	
+	
+	In my drawing, i follow the alpha ordering from IQmol, and turns out that IQmol doesn't order based off energy level, so it looks different from the diagram above (But i still line up orbitals that are degenerates so it looks nicer). And also the fact that IQmol includes non-valence electrons, so i added two more orbitals at the bottom when compared to the diagram from online above.
+	
+	For the triplet state, we can calculate the bond based off the number of alpha and beta spins. 
+	
+	6. 
