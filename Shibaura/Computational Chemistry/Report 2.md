@@ -164,4 +164,37 @@
 	If we analyze the MO coefficient output file, we can see that within one N atom, there are different MO coefficient signs, that may cause this antibonding formation
 	
 	
-3. **N2**
+3. $N_{2}^+$
+	![[Pasted image 20250522224558.png]]
+	The \<S^2> shown here is 0.752720080, we can try to solve it theoretically and compare it with IQMol's answer.
+	The formula for S^2 should be $(S(S  +  1))$  and $S = ms = \frac{N_{\alpha}-N_{\beta}}{2}$ , given unrestricted open shell Hartree Fock, since UHF may have spin contamination.
+	Still we can use that formula to see whether the result is reasonable or not.
+	Since we know $N_{2}^+$ definitely has unpaired electron, and it's located at the HOMO, because HOMO is the likely orbital to be a donor electron. So we know either the alpha spin or the beta spin would be one less than the other, so $S = \frac{1}{2}$. Thus,
+	$$
+	<S^{2}> = \frac{1}{2}\left( \frac{1}{2} + 1\right)= \frac{3}{4} = 0.75
+    $$
+	Based on our formula, the <S^2> should be 0.75, and thus, the result of the IQmol is reasonable.
+	
+	**Bond Order**
+	For the bond order, we don't have to calculate $N_{2}^+$, We know that $N_{2}$ has 4 bonding orbitals, and one antibonding orbital, and we can calculate using the following formula
+	$$
+BO = \frac{1}{2}(n_{b} - n_{ab})
+$$
+	For each total bonding and antibonding orbital, we multiply by two cuz one orbital can contain two alpha and beta elctron.
+	$n_{b} = 4 * 2 = 8$ 
+	$n_{ab} = 1 * 2 = 2$ 
+	Thus,
+	
+	$$
+BO = \frac{1}{2}(8 - 2) = 3
+$$
+	For $N_{2}$, Bonding Order is 3, now we can calculate $N^{+}_{2}$
+	We know that the HOMO of N2 is located on a bonding orbital, so $N_{2}^+$, would lose electron in a Bonding orbital.
+	So, we can immediately calculate
+	$$
+BO = \frac{1}{2}(7-2) = 2.5
+$$
+	So we can see that $N_{2}^+$ has 2.5 Bonding order, less than $N_{2}$, so we know that $N_{2}^+$ has a weaker bond due to the missing electron in the HOMO bonding orbital.
+
+4. $O^{2}$
+	
