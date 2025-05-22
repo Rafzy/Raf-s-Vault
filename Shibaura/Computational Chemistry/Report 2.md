@@ -197,4 +197,9 @@ $$
 	So we can see that $N_{2}^+$ has 2.5 Bonding order, less than $N_{2}$, so we know that $N_{2}^+$ has a weaker bond due to the missing electron in the HOMO bonding orbital.
 
 4. $O^{2}$
+	Singlet:
+	Energy
+	![[Pasted image 20250522233333.png]] 
+	This is the total energy when SCF convergence is met
+	
 	
