@@ -122,7 +122,7 @@
 	**MO #5** $\sigma$
 	![[Pasted image 20250522203643.png]]
 	
-	From the 5th molecular orbital, we can see two nodes forming in between the two N atoms
+	From the 5th molecular orbital, we can see it's actually bonding orbital that's formed by $p_{z}$ orbital. Due to the shape of the $p_{z}$ orbital, it causes the orbitals to look like squished together (like a burger). But this is still considered a $\sigma$ bonding orbital.
 	
 	**MO #6** $\pi$
 	![[Pasted image 20250522204356.png]]
@@ -168,7 +168,7 @@
 	![[Pasted image 20250522224558.png]]
 	The \<S^2> shown here is 0.752720080, we can try to solve it theoretically and compare it with IQMol's answer.
 	The formula for S^2 should be $(S(S  +  1))$  and $S = ms = \frac{N_{\alpha}-N_{\beta}}{2}$ , given unrestricted open shell Hartree Fock, since UHF may have spin contamination.
-	Still we can use that formula to see whether the result is reasonable or not.
+	Still we can use that formula to see whether the result is close enough for UHF or not.
 	Since we know $N_{2}^+$ definitely has unpaired electron, and it's located at the HOMO, because HOMO is the likely orbital to be a donor electron. So we know either the alpha spin or the beta spin would be one less than the other, so $S = \frac{1}{2}$. Thus,
 	$$
 	<S^{2}> = \frac{1}{2}\left( \frac{1}{2} + 1\right)= \frac{3}{4} = 0.75
@@ -202,4 +202,36 @@ $$
 	![[Pasted image 20250522233333.png]] 
 	This is the total energy when SCF convergence is met
 	
+	**MO #1**
+	![[Pasted image 20250522234854.png]]
+	
+	For the first molecular orbital, it's quite the same with N2's case where this is actually the non-valence electron or core electron, which is why they don't form any bondings, because they are closely bound to the nucleus.
+	
+	**MO #2**
+	![[Pasted image 20250522235349.png]]
+	
+	Same case with the first Molecular Orbital, this the "antibonding" equivalent of the first MO, and it still involves 1s or the core electron.
+	
+	**MO #3** $\sigma$
+	![[Pasted image 20250522235836.png]]
+	
+	The third MO shows the first bonding orbital, it's formed by the 2s AO from O's atom. similar with N2, it's a $\sigma$ bonding orbital. Since it's similar to N2's result i won't be showing the output file for all of them now, (point is, different sign creates antibonding, same sign creates bonding :D, it's just a matter of whether it's sigma or pi bonding).
+	
+	**MO #4** $\sigma$*
+	![[Pasted image 20250523000650.png]]
+	
+	This seems to be an antibonding $\sigma$* orbital, because it's a product of different signs of MO coefficient between atoms, and it's a head-on overlap between AOs.
+	
+	**MO #5** $\pi$
+	![[Pasted image 20250523000934.png]]
+	
+	For the fifth MO, we can see that it's a bonding pi orbital.
+	
+	**MO #6** $\sigma$
+	![[Pasted image 20250523001142.png]]
+	
+	This seems to be a $\sigma$ bonding orbital, similar to $N_{2}$'s case explained before, it's a bonding orbital that's formed by $p_{z}$ AOs
+	
+	**MO #7** 
+	![[Pasted image 20250523001418.png]]
 	
