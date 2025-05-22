@@ -150,4 +150,18 @@
 	**MO #9** $\pi$*
 	![[Pasted image 20250522215343.png]]
 	
-	For the 9th molecular, similar to the previous orbital 
+	For the 9th molecular, similar to the previous orbital, we can see that it is an antibonding $\pi$* orbital, since it forms two nodes between the two atoms. We can also analyze the output file.
+	![[Pasted image 20250522222037.png]]
+	
+	Similar to the reason above, the two N atoms have different major MO coefficient signs, resulting in an antibonding orbital.
+	 
+	**MO #10** $\sigma$*
+	![[Pasted image 20250522222340.png]]
+	
+	For the 10th orbital, we can see that it forms a sort of antibonding orbital with three nodes, since it is a head-on overlap, not parallel, we can assume that it is a $\sigma$* antibonding orbital.
+	![[Pasted image 20250522222503.png]]
+	
+	If we analyze the MO coefficient output file, we can see that within one N atom, there are different MO coefficient signs, that may cause this antibonding formation
+	
+	
+3. **N2**
