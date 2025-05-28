@@ -56,4 +56,53 @@ It is a complex interplay of three components: **Action, cognition, and emotion*
 
 # Obtain
 
-Human behavior is 
+Human behavior is multimodal, we can gather inputs from:
+- Facial expressions
+- Gestures captured from images
+- Video 
+- Audio
+- Etc
+
+And there are many tools for collecting data like
+- Observation
+- Survey
+- Online data crawling
+- Cameras
+- Microphone
+
+## Human Behavior Recognition
+
+> Aims to understand what people are doing by sensing and recognizing their activities and environments
+
+Several aspects to categorize the human behavior recognition technology:
+### Device Wise
+1. **Vision**
+	Vision based sensing, monitor user behaviors and environmental changes, ex: camera 
+2. **Sensor**
+	Use sensor network technologies that often come in a form of wearable sensors (Etc our phone is actually a sensor as well)
+3. **Device free**
+	Sense human behavior without the need to carry tags or devices (Pressure, infrared, ultrasonic, radio frequency, wifi)
+
+### Human Wise
+1. **Individual**
+	Personal awareness, reaction/response from an individual
+2. **Group & Community**
+	Social interaction, response from a group rather than an individual
+
+### Tech wise
+1. **Pattern based**
+	Uses an algorithm that can detect specific patterns
+2. **Model based**
+	Builds a complete representation of the system, requires a bigger dataset.
+
+
+## Experimental Design Process
+
+Research question (Hypothesis) -> Design experiment -> Collect data -> Analyze data -> Draw conclusion -> Repeat
+
+### Research Question (Hypothesis)
+
+> Use experiments to learn something new, to answer questions or to prove theoretic assumptions.
+
+- Define research question -> Start with a general question, identify a problem, set a hypothesis
+- Define target group -> C
