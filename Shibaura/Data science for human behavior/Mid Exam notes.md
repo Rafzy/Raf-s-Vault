@@ -189,3 +189,71 @@ Involves data preprocessing, cleaning data, and using methods to understand the 
 ### Draw conclusion
 Link back to hypothesis
 
+
+# Exploratory Data Analysis (EDA)
+
+> Approach of analyzing datasets to summarize their main characteristics, often using statistics and other visualization methods
+
+
+## EDA Methods
+
+### Variables
+Categorized into two:
+- Numerical (Quantitative)
+	- Discrete (Countable)
+	- Continuous (Measurable)
+- Categorical Qualitative
+	- Nominal (Unordered)
+	- Ordinal (Ordered)
+
+### Distributions
+Count how often all possible values occur
+
+![[Pasted image 20250528214743.png]]
+
+Types of distributions:
+- Variable
+- Gaussian distribution
+- Skewed distribution
+- Bimodal distribution
+
+### Descriptive vs Inferential Statistics
+
+Descriptive statistics -> Uncover general patterns or trends of data, it's the first step to check data for outliers, errors, etc.
+
+Inferential statistics -> Draw conclusion and make predictions, it's the second step to test hypothesis
+
+### Data Analysis Tool
+- Excel
+- SPSS
+- R studio
+
+### Hypothesis testing
+
+A form of inferential statistics that allow us to draw conclusions about an entire population based on a representative sample
+
+**Set 1 (One-sided, directional)**
+	Null hypothesis ($H_{0}$) -> $\mu_{1} = \mu_{2}$
+	Alternative hypothesis ($H_{A}$) -> $\mu_{1} \neq \mu_{2}$
+
+**Set 2 (Two-sided, non-directional)**
+	Null hypothesis ($H_{0}$) -> $\mu_{1} = \mu_{2}$
+	Alternative hypothesis ($H_{A}$) -> $\mu_{1} < \mu_{2}$ or $\mu_{1} > \mu_{2}$
+
+Common statistics for hypothesis test:
+- Independent sample t-test
+	Compare between **two groups of participants** on **one (continuous) variable**
+- Paired sample t-test
+	Analyze **one group of participants**, measuring the **same variable** on **two different occasions**
+- One-way analysis of Variance (ANOVA)
+	An extension of t-test, determines differences amongst **more than two groups** on one variable
+- Repeated measures ANOVA
+	**Multiple measurements** of the variable collected from the participants
+
+
+### Significance Level Testing
+
+1. Fixed significance level testing
+	When performing Hypothesis test, there are two types of error:
+	- False positive
+	- False negative
