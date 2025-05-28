@@ -163,6 +163,7 @@
 	
 	If we analyze the MO coefficient output file, we can see that within one N atom, there are different MO coefficient signs, that may cause this antibonding formation
 	
+	**Bond order**
 	
 3. $N_{2}^+$
 	![[Pasted image 20250522224558.png]]
@@ -177,21 +178,20 @@
 	
 	**Bond Order**
 	For the bond order, we don't have to calculate $N_{2}^+$, We know that $N_{2}$ has 4 bonding orbitals, and one antibonding orbital, and we can calculate using the following formula
-	$$
+$$
 BO = \frac{1}{2}(n_{b} - n_{ab})
 $$
 	For each total bonding and antibonding orbital, we multiply by two cuz one orbital can contain two alpha and beta elctron.
 	$n_{b} = 4 * 2 = 8$ 
 	$n_{ab} = 1 * 2 = 2$ 
-	Thus,
-	
-	$$
+	Thus, N2 Bond order:
+$$
 BO = \frac{1}{2}(8 - 2) = 3
 $$
 	For $N_{2}$, Bonding Order is 3, now we can calculate $N^{+}_{2}$
 	We know that the HOMO of N2 is located on a bonding orbital, so $N_{2}^+$, would lose electron in a Bonding orbital.
-	So, we can immediately calculate
-	$$
+	So, we can immediately calculate N2+ bond order:
+$$
 BO = \frac{1}{2}(7-2) = 2.5
 $$
 	So we can see that $N_{2}^+$ has 2.5 Bonding order, less than $N_{2}$, so we know that $N_{2}^+$ has a weaker bond due to the missing electron in the HOMO bonding orbital.
@@ -241,7 +241,7 @@ $$
 	**MO #8** $\pi$* HOMO 
 	![[Pasted image 20250523001941.png]]
 	
-	The 8th molecular orbital is an antibonding $\pi$* orbital, and it's also the HOMO. The fact that this is orbital is the HOMO is a side effect of this being a singlet O2. usually, from the diagram i see online, the HOMO of O2 should be after two $\pi$* orbitals. But turns out, because this is the singlet, the electron from the second $\pi$* orbital moves to this one, making this one the HOMO with paired electrons.
+	The 8th molecular orbital is an antibonding $\pi$\* orbital, and it's also the HOMO. The fact that this is orbital is the HOMO is a side effect of this being a singlet O2. usually, from the diagram i see online, the HOMO of O2 should be after two $\pi$\* orbitals. But turns out, because this is the singlet, the electron from the second $\pi$\* orbital moves to this one, making this one the HOMO with paired electrons.
 	
 	**MO #9** $\pi$*
 	![[Pasted image 20250523002210.png]]
@@ -271,14 +271,17 @@ $$
 	4. Comparing energies
    If we compare the UHF triplet's energy to the HF singlet's energy, surprisingly we see that the UHF singlet has lower energy compared to the singlet. This is because for O2, the triplet form is actually the ground form. This can be more easily explained with this diagram
    ![[9-min.png]]
-	If we see, O2 forms two $\pi$* orbitals, and these orbitals are actually degenerates (have same energy). so each being filled with one electron (meaning triplet multiplicity since open shell) is actually the ground state for O2, so it's less energy.
+	If we see, O2 forms two unpaired $\pi$* orbitals, these being unpaired causes it to be a triplet multiplicity, but these orbitals are actually degenerates (have same energy). so each being filled with one electron is actually the ground state for O2, because less energy than singlet.
 	
 	5. UHF orbital diagram
 	For UHF orbital diagram, i'll just draw by hand, since the orbital shapes themselves should be the same with the singlet, the difference being the HOMO and LUMO location.
 	
+	![[WhatsApp Image 2025-05-23 at 01.24.24_4afc7e28.jpg]]
 	
 	In my drawing, i follow the alpha ordering from IQmol, and turns out that IQmol doesn't order based off energy level, so it looks different from the diagram above (But i still line up orbitals that are degenerates so it looks nicer). And also the fact that IQmol includes non-valence electrons, so i added two more orbitals at the bottom when compared to the diagram from online above.
 	
-	For the triplet state, we can calculate the bond based off the number of alpha and beta spins. 
+	For the triplet state's bonding order, we can immediately calculate by counting the number of electrons on the bonding and antibonding orbitals
+	$BO = \frac{1}{2}(8-4) = 2$
 	
-	6. 
+	6. ionized $O_{2}$
+	if $O_{2}$ is ionized to become $O_{2}^{+}$, we know that we will lose one electron from the HOMO, reducing the alpha spin. Since grounded $O_{2}$ initially has two $\pi$\* orbitals with unpaired electrons, after ionized, we're only left with one unpaired electron, so we know that $S = \frac{1}{2}$, so the multiplicity would be $2*\frac{1}{2} + 1 = 2$.
