@@ -64,5 +64,55 @@ Point groups:
 Molecular structure
 -> Any symmetry operation in it's point group result in <u>the same structure</u>
 
-Orbital $\varphi(r)$ can be positive or negative depending on r
+Orbital $\varphi(r)$ can be positive or negative sign depending on r
+(Remember that wave functions have phase/sign)
+
+## Orbital (a)
+
+![[Pasted image 20250528155847.png]]
+We can assume the symmetry operations as actual operators.
+
+$\hat{E}\varphi_{a}(r) = \varphi_{a}(r)$ -> Means that the sign remains unchanged under this symmetry operation
+![[Pasted image 20250528155959.png]]
+
+"Irreducible representation (irrep) of $A_{1}$"
+
+## Orbital (b)
+
+![[Pasted image 20250528160340.png]]
+
+Some symmetrical operation causes the wave function's sign to change.
+
+![[Pasted image 20250528160418.png]]
+"$B_{1}$ irrep"
+
+
+## Character tables
+![[Pasted image 20250528160639.png]]
+
+
+# Reduction of computational cost by symmetry
+
+Often we need to compute elements like
+$O_{ij} = \bra{\phi_{i}}\hat{O}\ket{\phi_{j}} = \int dr\phi^*_{i}(r)\hat{O}\phi_{j}(r)$
+
+$S_{ij}=\bra{\phi_{i}}\ket{\phi_{j}} = \bra{\hat{R}\phi_{i}}\ket{\hat{R}\phi_{j}} = \bra{\chi_{\sigma_{i}}(\hat{R}\phi_{i})}\ket{\chi_{\sigma_{j}}(\hat{R})\phi_{j}}$
+
+if $\chi_{\sigma_{i}} \neq \chi_{\sigma_{j}}$, $S_{ij}$ = 0
+
+## Symmetry of wave function
+
+We can also check the symmetry of a wave function
+
+Remember we can think of the wave function as the possible positions of all the electrons of position $x = (r, \omega)$. So we can also check the symmetry of wave function
+
+$\hat{R}\ket{\Psi}=\chi_{\psi}(\hat{R})\ket{\Psi}$
+
+Basically:
+$\chi_{\Phi_{HF}}(\hat{R})\ket{\Phi_{HF}}$
+
+Where $\chi_{\Phi_{HF}}$ = -1/1
+
+Example:
+![[Pasted image 20250528162523.png]]
 
