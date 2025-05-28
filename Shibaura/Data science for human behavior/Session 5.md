@@ -49,6 +49,3 @@
 	Give more value to the weight of evidence against $H_{0}$ (The smallest level of significance that would lead to rejection of $H_{0}$)
 
 
-# Assignment
-
-1
