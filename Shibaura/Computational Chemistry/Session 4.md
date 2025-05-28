@@ -31,4 +31,38 @@ $\hat{E}$ -> Does nothing
 $\hat{C_{n}}$ -> Rotation about the axis by $360 \degree/n$
 $\hat{\sigma}$ -> Reflection through the plane
 $\hat{i}$ -> Reflection through the center (inversion center)
-$\hat{S_{n}}$ -> Rotation about the axis by $360$
+$\hat{S_{n}}$ -> Rotation about the axis by $360 \degree/ n$ followed by reflection through a plane perpendicular to the axis
+
+(Computationally relevant operations are Cn and $\sigma$) in most operations
+
+**i and center of inversion**
+![[Pasted image 20250528152831.png]]
+
+What kind of symmetry does this molecule have ?
+- $C_{2}$
+- Mirror reflection ($\sigma_{v}'$).
+- $\hat{i}$ center of inversion
+
+**Sn**
+ ![[Pasted image 20250528153216.png]]
+
+$S_{n}$ = $C_{n}$ then $\sigma$
+
+## Point Groups
+
+We can categorize any molecule to a certain **group**, **point group**, that has the same symmetry operations. 
+![[Pasted image 20250528154122.png]]
+
+since $H_{2}O$ only contains these operations, then falls into the category of $C_{2v}$.
+
+Point groups:
+![[Pasted image 20250528154717.png]]
+
+
+# Symmetry of orbitals
+
+Molecular structure
+-> Any symmetry operation in it's point group result in <u>the same structure</u>
+
+Orbital $\varphi(r)$ can be positive or negative depending on r
+
