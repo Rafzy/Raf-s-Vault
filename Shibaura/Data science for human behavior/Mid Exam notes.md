@@ -255,5 +255,11 @@ Common statistics for hypothesis test:
 
 1. Fixed significance level testing
 	When performing Hypothesis test, there are two types of error:
-	- False positive
-	- False negative
+	- False positive (Concluding there is a difference where there isnt one)
+	- False negative (Concluding there is no difference when there is one)
+	In general, alpha is specified in the procedure of hypothesis testing (0.05), meaning there is a 5% risk of deciding that an effect exists when it doesn't exist (false positive)
+
+2. P-value approach
+	Gives more information about **the weight of evidence** against $H_{0}$
+	The smallest level of significance that would lead to rejection of $H_{0}$
+
