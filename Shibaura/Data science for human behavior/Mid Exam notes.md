@@ -105,4 +105,50 @@ Research question (Hypothesis) -> Design experiment -> Collect data -> Analyze d
 > Use experiments to learn something new, to answer questions or to prove theoretic assumptions.
 
 - Define research question -> Start with a general question, identify a problem, set a hypothesis
-- Define target group -> C
+- Define target group -> Clarify characteristics, set sample size
+#### Defining Research Questions
+> Cause -> Effect
+ 
+ Show relationship between **independent variables** and **dependent variables**.
+ - Independent variable (Factor) -> changed/set by the experimenter
+ - Dependent variable -> Measured by the experimental
+
+Example:
+- General question: How does stress affect the interaction with others
+- Hypothesis: Having to **reply 100 or more incoming calls** <- (independent) per hour results in **reduced conversation** <- (dependent) with colleagues.
+
+#### Defining target group
+Clarify characteristics of target group
+- Demographic characteristics (Broad attributes that define groups within a population): age, gender, education, etc.
+- Individual characteristics (Personal traits that vary from person to person): health, number of sleeping hours, etc.
+
+#### Sample Size
+- Sample size -> Large
+	Reduce ambiguity of individual variation
+	Draw conclusions and generalize experimental result to population
+
+==Too large of a sample size is a waste of time & money!! ==
+Depending on the research target, appropriate sample size should be determined
+
+### Design of Experiment
+> Design the procedure to test the hypothesis
+
+Involves purposeful and carefully planned changes to a process, while controlling other factors, while measuring the impact of those changes.
+
+![[Pasted image 20250528205454.png]]
+
+Basically, the **response/dependent variable** is identified, and data are collected to explain how **one or more factors (independent variables)** influence the response. The value of each factor are called **treatments**.
+
+The purpose of most experiments is to compare and estimate the effects of different **treatments** on the response variable
+
+When doing the experiment process, there's bound to be controllable and uncontrollable factors. we do controlled factors as much as we can to reduce the effects of influences other than our Input factors.
+
+#### What needs to be determined before running the experiment
+- Stimuli
+- Evaluation Method
+- Experimental setup
+- Experimental procedure
+- Ethics
+
+
+
