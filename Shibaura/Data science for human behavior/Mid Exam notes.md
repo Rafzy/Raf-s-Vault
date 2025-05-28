@@ -144,11 +144,48 @@ The purpose of most experiments is to compare and estimate the effects of differ
 When doing the experiment process, there's bound to be controllable and uncontrollable factors. we do controlled factors as much as we can to reduce the effects of influences other than our Input factors.
 
 #### What needs to be determined before running the experiment
-- Stimuli
-- Evaluation Method
-- Experimental setup
-- Experimental procedure
-- Ethics
+**Stimuli**
+Types of stimuli:
+- Seeing
+- Hearing
+- Touch
+- Taste
+- Smell
+- Movement
+- Body awareness
 
+There are databases that provides a type of emotion evocation like IAPS, IADS, EMOTE, etc. However, there are limitations to these databases because perceptions of emotion may vary depending on experience, cultural difference, age, etc
 
+Stimuli sequence:
+The sequence of which we give stimulants to respondents
+- Fixed
+	Ideal for scenarios where first stimulus is known, and second is new. The first stimulus may be rated differently because the participant is still motivated
+- Random sequence
+	Avoid problem of fixed sequence by presenting stimuli in random order, but some sequences may appear first more dominantly than the other
+- Counterbalanced sequence 
+	Evenly distributes conditions across stimulus
+
+**Evaluation Method**
+- Free description (Interview, Questionnaire) -> More Subjective
+- Rating scales (Likert scale, raking, etc)
+- Forced choices (paired companions, etc)
+- Biological signals -> More objective
+
+**Experimental setup**
+Environments:
+- Lab experiment
+	Control all factors and conditions
+- Field experiment
+	Perform in natural surroundings, while the experimenter manipulates the cause, but no control over external factors
+- Natural experiment
+	Pure observation, no control over any factors
+
+### Collect Data
+Carry out the experiment following the planned procedure, observe, monitor, and report any important events.
+
+### Analyze Data
+Involves data preprocessing, cleaning data, and using methods to understand the data's patterns etc based on hypothesis.
+
+### Draw conclusion
+Link back to hypothesis
 
