@@ -2,8 +2,8 @@ Rafael Zefanya Jaya Surya
 Z125075
 
 1. What is the point group of CH2O?
-   
-	![[image.png|247x260]]
+	
+	![[image-4.png|304x324]]
 	
 	If we analyze the Structure of $CH_{2}O$, we can see the structure has a trigonal planar structure. If we want to evaluate the point group, we need to examine the symmetrical operations applicable to this structure.
 	
@@ -16,4 +16,11 @@ Z125075
 	
 	$CH_{2}O$ belongs in $C_{2v}$ point group
 
-2. 
+2. $CH_{2}O$ MO
+	Manual Input File:
+	![[image-3.png|317x246]]
+	
+	MO 1
+	![[image-5.png|274x295]]
+	
+	The first orbital surrounds the Oxygen atom, the energy of this level is -20.585, and the symmetry for this orbital from the .out file is labelled $1A 1$, we can analyze the character table for $C_{2v}$ Point group to analyze the 
