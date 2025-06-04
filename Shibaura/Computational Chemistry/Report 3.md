@@ -27,7 +27,7 @@ Z125075
 	
 	![[C2v-character-table.png]]
 	
-	We can see that for $A_{1}$, The characters for all symmetry operation is 1, so it stays symmetrical under $E$, $C_{2}$, $\sigma_{v}$, and $\sigma_{v}'$ symmetry operations. We can also imagine this, since if we have an axis that goes through the orbital, it will stay the same, and mirroring the orbital will also cause it to still stay symmetrical.
+	We can see that for $A_{1}$, The characters for all symmetry operation is 1, so it stays symmetrical under $E$, $C_{2}$, $\sigma_{v}$, and $\sigma_{v}'$ symmetry operations. We can also imagine this, since if we have an axis that goes through the orbital (The axis must go through the oxygen and carbon atom), it will stay the same, and mirroring the orbital will also cause it to still stay symmetrical (For both $\sigma_{v}$ and $\sigma'_{v}$)
 	
 	MO 2
 	![[image-6.png|308x295]]
@@ -37,4 +37,14 @@ Z125075
 	MO 3
 	![[image-7.png|301x324]]
 	
+	For the third orbital, we can see it's a negative sign this time, surrounding the whole molecule. Same with the previous orbitals, this is also $A_{1}$ symmetry. Which we can also prove by just looking at the orbital itself, it stays negative when we do $C_{2}$ operation, as well as both reflection operations.
 	
+	MO 4
+	![[image-8.png|308x321]]
+	
+	For MO 4, we can see it has positive sign orbital on top, and a bigger negative sign orbital in the bottom. The energy for this orbital is -0.866, and the symmetry is also $A_{1}$. If we have an axis that goes directly through the molecule vertically, we can see that $C_{2}$ operation retains the shape and sign of the orbitals. This is also true for both reflection operations.
+	
+	MO 5
+	![[image-9.png|320x291]]
+	
+	For MO 5, we can see it has both positive and negative sign on the left and right side of the molecule. The energy of this molecule is -0.689, and the symmetry for this orbital is B1. B1 means we have anti-symmetry result for $\hat{C_{2}}$ and $\sigma_{1}'$ operations. We can visualize this by having a vertical axis right in the middle, and if we imagine turning it 180 degrees, the shape ret
