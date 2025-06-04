@@ -110,4 +110,7 @@ Z125075
 	$IP[\Delta SCF] = -113.51898763 - (-113.86525396)$
 	$IP[\Delta SCF] = 0.34626633$
 
-7. Koopman's theorem states that 
+7. Koopman's theorem is derived from removing an orbital term from $\ket{\Phi}$, which then is stated as $\bra{\Phi_{i}}\hat{H}\ket{\Phi_{i}} = \bra{\Phi_{i}}\hat{H}\ket{\Phi_{i}} - \epsilon_{i}$.
+   But, koopman's theorem assumes that all the orbitals **stay the same** after ionization, it doesn't take into consideration factors like orbital relaxation, and of course the very complicated one-to-one electron interactions. And variational principle states that Approximated wave function will always have greater than or equals to the true wavefunction's energy.
+   But wait, doesn't HF also involve a lot of approximations?
+   Yes, HF does involve a lot of approximation as well, but in terms of calculating the IP, it can still be more accurate than koopman's theorem, because when subtracting the approximated SCF of the neutral molecule and the cation molecule, they cancel each other's error out assuming the approximation error for each is the same. So the difference between the two should be really close to the true Ionization potential. So, overall, i think that koopman's theorem will generally be higher when compared to calculating $\Delta SCF$
