@@ -77,4 +77,8 @@ Z125075
 
 3. Electronic configuration of $CH_{2}O$
 	Configuration:
-	$\ket{\Phi _{HF}} = \ket{[core]}$
+	$\ket{\Phi_{HF}} = \ket{[core] \phi_{3A_{1}}^{\alpha}\phi_{3A_{1}}^{\beta} \phi_{4A_{1}}^{\alpha} \phi_{4A_{1}} ^{\beta}\phi_{1B_{1}}^{\alpha}\phi_{1B_{1}}^{\beta} \phi_{5A_{1}}^{\alpha}\phi_{5A_{1}}^{\beta}\phi_{1B_{2}}^{\alpha}\phi_{1B_{2}}^{\beta}\phi_{2B_{1}}^{\alpha}\phi_{2B_{1}}^{\beta}}$ 
+	
+	The first two Molecular orbitals are considered core because it is formed by non-valence electrons (1s2 from Oxygen and 1s2 from carbon). And all orbitals are doubly occupied (we know since this is a singlet), so alpha and beta spins exist for all orbitals.
+	
+	
