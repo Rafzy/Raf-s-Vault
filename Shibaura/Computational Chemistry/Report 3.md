@@ -99,5 +99,8 @@ Z125075
 	$IP = -\epsilon$.
 	The electron being ionized is from the HOMO, so if we check the orbital energy of HOMO which is -0.437, we can get the Ionization potential:
 	$IP = - (-0.437) = 0.437$.
-	
-5. I'm not too sure, but since ionizing $CH_{2}O$ into $CH_{2}O^+$ involves removing the 
+
+5. I'm not too sure, but since ionizing $CH_{2}O$ into $CH_{2}O^+$ involves removing the electron from the HOMO, and we know that the HOMO is antibonding, from the shape of the orbitals, then removing one electron should make the bond stronger. We know this because, antibonding is caused by Atomic Orbitals that form with differing signs, meaning a destructive interference, hence a weaker bond. So, the more electrons exist in this antibonding orbital, the weaker the bonding will be. If we were to remove one electron from ionization, we then **should** get a stronger bond, since we remove one electron from an orbital that causes the destructive interference. 
+   So, from ionization of $CH_{2}O$, we should see the HOMO orbital's bond becoming stronger and shorter in length.
+
+6. $IP[\Delta SCF] =E[CH_{2}O] - E[CH_{2}O^{+}]$
