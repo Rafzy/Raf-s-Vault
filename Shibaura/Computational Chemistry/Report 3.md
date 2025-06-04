@@ -12,7 +12,7 @@ Z125075
 	Next, we can also tell that the molecule possesses a rotation symmetry, imagine the axis going through the oxygen and carbon atom right in the middle. And if we spin the molecule $180 \degree$, the shape is the same (symmetrical), so now we know it  also possesses $\hat{C}_{2}$ rotation, and $n = 2$ since we rotate it by $180 \degree$, and $360 \degree / n$.f
 	
 	And i think that's all for $CH_{2}O$'s symmetry operation, and referencing last lecture's ppt,
-	![[image-1.png|387x135]]
+	![[image-1.png|394x137]]
 	
 	$CH_{2}O$ belongs in $C_{2v}$ point group
 
@@ -25,7 +25,7 @@ Z125075
 	
 	The first orbital surrounds the Oxygen atom, the energy of this level is -20.585, and the symmetry for this orbital from the .out file is labelled $1A_{1}$, we can analyze the character table for $C_{2v}$ Point group to analyze the character  irreducible representation for $A_{1}$.
 	
-	![[C2v-character-table.png]]
+	![[C2v-character-table.png|496x147]]
 	
 	We can see that for $A_{1}$, The characters for all symmetry operation is 1, so it stays symmetrical under $E$, $C_{2}$, $\sigma_{v}$, and $\sigma_{v}'$ symmetry operations. We can also imagine this, since if we have an axis that goes through the orbital (The axis must go through the oxygen and carbon atom), it will stay the same, and mirroring the orbital will also cause it to still stay symmetrical (For both $\sigma_{v}$ and $\sigma'_{v}$)
 	
@@ -66,12 +66,12 @@ Z125075
 	
 	
 	MO 8 (HOMO)
-	![[image-15.png|394x337]]
+	![[image-15.png|353x302]]
 	
 	For the last occupied orbital (HOMO), we can see it is an antibonding $\pi$ orbital, resulting in four orbitals, two positive and two negative. This orbital's energy level is -0.437, and has a symmetry of $B_{1}$, yielding antisymmetry for both $\hat{C_{2}}$ and ${\sigma_{v}'}$. We can visualize this by flipping the image/molecule.
 	
 	Flipped image:
-	![[image-16.png|403x395]]
+	![[image-16.png|353x346]]
 	
 	When we rotate the molecule by 180 degree, we can see that the shape is the same, but the sign of the two orbitals on either side is flipped, resulting in antisymmetry. This is also true for the reflection operator as well.
 
@@ -81,4 +81,23 @@ Z125075
 	
 	The first two Molecular orbitals are considered core because it is formed by non-valence electrons (1s2 from Oxygen and 1s2 from carbon). And all orbitals are doubly occupied (we know since this is a singlet), so alpha and beta spins exist for all orbitals.
 	
+	Since we know that all orbitals are doubly occupied, and $CH_{2}O$ is closed shell, then we know all orbitals contribute $A_{1}$, since same irrep x same irrep = $A_{1}$. So, the overall symmetry of this molecule is $A_{1}$
 	
+4. Electronic configuration of $CH_{2}O^+$.
+	Configuration:
+	$\ket{\Phi_{HF}} = \ket{[core] \phi_{3A_{1}}^{\alpha}\phi_{3A_{1}}^{\beta} \phi_{4A_{1}}^{\alpha} \phi_{4A_{1}} ^{\beta}\phi_{1B_{1}}^{\alpha}\phi_{1B_{1}}^{\beta} \phi_{5A_{1}}^{\alpha}\phi_{5A_{1}}^{\beta}\phi_{1B_{2}}^{\alpha}\phi_{1B_{2}}^{\beta}\phi_{2B_{1}}^{\alpha}}$ 
+	
+	For $CH_{2}O^+$, we check the orbital for the HOMO first, since the HOMO is $2B_{1}$ orbital, we can remove 1 electron from that orbital for positively charged $CH_{2}O$.
+	
+	Now, for the HOMO since it is a singly occupied orbital, it will contribute $B_{1}$ to the overall symmetry, while the others still contribute $A_{1}$. If we multiply all of the contributing orbitals, we get an overall of $A_{1}$ ⊗ $B_{1}$, and consulting this table from the last lecture:
+	
+	![[image-17.png|350x183]]
+	
+	Then we get $B_{1}$ as the overall symmetry of the $CH_{2}O^+$ molecule.
+	
+	Koopman's theorem states that the potential energy of ionization is equal to the negative of the orbital energy being removed.
+	$IP = -\epsilon$.
+	The electron being ionized is from the HOMO, so if we check the orbital energy of HOMO which is -0.437, we can get the Ionization potential:
+	$IP = - (-0.437) = 0.437$.
+	
+5. I'm not too sure, but since ionizing $CH_{2}O$ into $CH_{2}O^+$ involves removing the 
