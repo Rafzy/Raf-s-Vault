@@ -103,4 +103,11 @@ Z125075
 5. I'm not too sure, but since ionizing $CH_{2}O$ into $CH_{2}O^+$ involves removing the electron from the HOMO, and we know that the HOMO is antibonding, from the shape of the orbitals, then removing one electron should make the bond stronger. We know this because, antibonding is caused by Atomic Orbitals that form with differing signs, meaning a destructive interference, hence a weaker bond. So, the more electrons exist in this antibonding orbital, the weaker the bonding will be. If we were to remove one electron from ionization, we then **should** get a stronger bond, since we remove one electron from an orbital that causes the destructive interference. 
    So, from ionization of $CH_{2}O$, we should see the HOMO orbital's bond becoming stronger and shorter in length.
 
-6. $IP[\Delta SCF] =E[CH_{2}O] - E[CH_{2}O^{+}]$
+6. $IP[\Delta SCF] =E[CH_{2}O^{+}] - E[CH_{2}O]$
+	Total energy of $CH_{2}O$: -113.86525396
+	Total energy of $CH_{2}O^{+}$: -113.51898763
+	
+	$IP[\Delta SCF] = -113.51898763 - (-113.86525396)$
+	$IP[\Delta SCF] = 0.34626633$
+
+7. Koopman's theorem states that 
