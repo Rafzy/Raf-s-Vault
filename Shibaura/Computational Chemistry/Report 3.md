@@ -47,4 +47,34 @@ Z125075
 	MO 5
 	![[image-9.png|320x291]]
 	
-	For MO 5, we can see it has both positive and negative sign on the left and right side of the molecule. The energy of this molecule is -0.689, and the symmetry for this orbital is B1. B1 means we have anti-symmetry result for $\hat{C_{2}}$ and $\sigma_{1}'$ operations. We can visualize this by having a vertical axis right in the middle, and if we imagine turning it 180 degrees, the shape ret
+	For MO 5, we can see it has both positive and negative sign on the left and right side of the molecule. The energy of this molecule is -0.689, and the symmetry for this orbital is B1. B1 means we have anti-symmetry result for $\hat{C_{2}}$ and $\sigma_{v}'$ operations. We can visualize this by having a vertical axis right in the middle, and if we imagine turning it 180 degrees, the shape retains but the sign of the orbitals will swap. This also applies to the reflection operation, which can be easily visualized by flipping the image.
+	
+	Flipped image:
+	![[image-12.png|333x301]]
+	
+	
+	MO 6
+	![[image-13.png|313x379]]
+	
+	For the 6th MO, we can see three orbitals, two negative and one positive in the middle, the energy for this orbital is -0.684, and the symmetry is $A_{1}$, retaining symmetry for all symmetrical operation. If we imagine rotating the orbitals by the y axis, it stays symmetrical, and goes for reflection operations as well.
+	
+	
+	MO 7
+	![[image-14.png|341x361]]
+	
+	For the 7th orbital, we can see there are two orbitals, one positive and one negative, located in the "Frontside" and "Backside" of the molecule, kind of surrounding it laterally. The energy for this orbital is -0.533, and the symmetry is $B_{2}$, which means the orbital results in anti-symmetry for $\hat{C_{2}}$ operation, and $\hat{\sigma_{v}}$ operation. This is a similar case with MO 5 where if we rotate the molecule by 180 degrees, the signs of the orbital will flip, as well as the reflection operator, just differing in the type of the reflection, because of the different positions of the orbital.
+	
+	
+	MO 8 (HOMO)
+	![[image-15.png|394x337]]
+	
+	For the last occupied orbital (HOMO), we can see it is an antibonding $\pi$ orbital, resulting in four orbitals, two positive and two negative. This orbital's energy level is -0.437, and has a symmetry of $B_{1}$, yielding antisymmetry for both $\hat{C_{2}}$ and ${\sigma_{v}'}$. We can visualize this by flipping the image/molecule.
+	
+	Flipped image:
+	![[image-16.png|403x395]]
+	
+	When we rotate the molecule by 180 degree, we can see that the shape is the same, but the sign of the two orbitals on either side is flipped, resulting in antisymmetry. This is also true for the reflection operator as well.
+
+3. Electronic configuration of $CH_{2}O$
+	Configuration:
+	$\ket{\Phi _{HF}} = \ket{[core]}$
