@@ -23,4 +23,18 @@ Z125075
 	MO 1
 	![[image-5.png|274x295]]
 	
-	The first orbital surrounds the Oxygen atom, the energy of this level is -20.585, and the symmetry for this orbital from the .out file is labelled $1A 1$, we can analyze the character table for $C_{2v}$ Point group to analyze the 
+	The first orbital surrounds the Oxygen atom, the energy of this level is -20.585, and the symmetry for this orbital from the .out file is labelled $1A_{1}$, we can analyze the character table for $C_{2v}$ Point group to analyze the character  irreducible representation for $A_{1}$.
+	
+	![[C2v-character-table.png]]
+	
+	We can see that for $A_{1}$, The characters for all symmetry operation is 1, so it stays symmetrical under $E$, $C_{2}$, $\sigma_{v}$, and $\sigma_{v}'$ symmetry operations. We can also imagine this, since if we have an axis that goes through the orbital, it will stay the same, and mirroring the orbital will also cause it to still stay symmetrical.
+	
+	MO 2
+	![[image-6.png|308x295]]
+	
+	The second orbital surrounds the C atom, The energy for this orbital is -11.344, the symmetry is also $A_{1}$, labelled as $2A_{1}$ in the output file, meaning this is also has the same orbital symmetry as the first orbital
+	
+	MO 3
+	![[image-7.png|301x324]]
+	
+	
