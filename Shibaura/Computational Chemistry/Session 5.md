@@ -18,3 +18,13 @@ $\hat{\mu} = \sum_{i}q_{i}r_{i}$
 
 ($q_{i}=-1$ for electrons, and $q_{i} = +Z_{A}$ for nucleus A)
 
+
+# Population Analysis
+
+$\rho(r)q$ is viewed as the spatial distribution of electrons at coordinate $r$. We can obtain teh total number of electrons N by integrating it over all space
+
+$$
+\int dr \rho(r) = N
+$$
+
+
