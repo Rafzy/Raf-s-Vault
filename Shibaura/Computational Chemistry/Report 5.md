@@ -98,4 +98,7 @@ Let's analyze from the core, we can see that only C and O atom that contains ele
 
 For valence, C is 3.6 which in theory should be 4, so it is according to lewis structure, C should have 4 valence electrons (2 electrons each bond to H, and the other 2 forms a double bond with O).
 O has 6.5, in theory O has 6 valence electrons, and this is still according to lewis structure, O contributes 2 electrons to double bond with C, and has 2 lone pairs.
-Same goes with H which has 0.87 electrons, in theory, H only has one electron that contributes to 
+Same goes with H which has 0.87 electrons, in theory, H only has one electron that contributes to bonding. 
+What's interesting is that, O has around 0.55 extra electrons which assumingly is gained from C and H, and this corresponds to the negative charge we saw above, with the case of C and H, C lost around 0.4 electrons, and H lost around 0.2 electrons, both also correspond to the positive charge we saw the table above. 
+The rydberg orbital is typically unoccupied, only there to accomodate things like hypervalence, excited state etc, which explains why the values are so small in rydberg's orbital for all atoms.
+If we total up all the electrons from the table, it sums up to 16, so it sums up perfectly to the total amount of electrons in formaldehyde.
