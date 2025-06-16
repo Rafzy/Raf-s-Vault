@@ -51,3 +51,10 @@ The fact that we can cancel out the two terms solidify that doubly occupied orbi
 
 3. Summarize each atomic charges
 
+
+| Atom | NBO (6-31G*) |
+| ---- | ------------ |
+| C    |              |
+| O    |              |
+| H1   |              |
+| H2   |              |
