@@ -38,7 +38,17 @@ $$
 Now, since $N_{\alpha} > N_{\beta}$, we know that all the $\beta$ spin orbitals are all doubly occupied, up until it reaches the orbital with only $\alpha$ spin electrons, we also know that spin density is expressed as $\rho^{s}(r) = \rho^{\alpha}(r) - \rho^{\beta}(r)$. So, we can express them as this:
 
 $$
-\rho^{s}(r) = \left[ \sum_{i=1}^{N_{\beta}} |\varphi_{i}^{\alpha}(r)|^{2}+ \sum_{i=N_{\beta}+1}^{N_{\alpha}}|\varphi_{i}^{\alpha}(r)|^{2} \right] - \sum_{i=1}^{\beta}|\varphi_{i}^{\beta}(r)|^{2}
+\rho^{s}(r) = \left[ \sum_{i=1}^{N_{\beta}} |\varphi_{i}^{\alpha}(r)|^{2}+ \sum_{i=N_{\beta}+1}^{N_{\alpha}}|\varphi_{i}^{\alpha}(r)|^{2} \right] - \sum_{i=1}^{N_{\beta}}|\varphi_{i}^{\beta}(r)|^{2}
 $$
 
-for the alpha orbitals, i split them out, one part we sum up from 1 up to $\beta$ spin electron's number, and the other continues from there up until $\alpha$ spin electron's number. 
+for the alpha orbitals, i split them out, one part we sum up from 1 up to $\beta$ spin electron's number, and the other continues from there up until $\alpha$ spin electron's number. This way, since $\varphi^{\alpha}$ and $\varphi^{\beta}$ are the same according to ROHF, we can cancel two terms out, so we end up with this expression
+
+$$
+\rho^{s}(r) = \sum_{i=N_{\beta}+1}^{N_{\alpha}}|\varphi_{i}^{\alpha}(r)|^{2}
+$$
+
+The fact that we can cancel out the two terms solidify that doubly occupied orbitals don't contribute to spin density, we only need to calculate the density for the singly occupied $\alpha$ spin orbitals, which starts from $N_{\beta}+1$ up until $N_{\alpha}$ (in this case since $N_{\alpha}$ > $N_{\beta}$)
+
+3. Summarize each atomic charges
+
+

@@ -51,3 +51,4 @@ $$
 = Tr(PS)
 $$
 
+The matrix $PS$ = Number of electrons
