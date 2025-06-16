@@ -1,3 +1,5 @@
+Rafael Zefanya Jaya Surya
+Z125075
 
 1. $H_{2}O$
 	**MO #1**
@@ -122,7 +124,7 @@
 	**MO #5** $\sigma$
 	![[Pasted image 20250522203643.png]]
 	
-	From the 5th molecular orbital, we can see two nodes forming in between the two N atoms
+	From the 5th molecular orbital, we can see it's actually bonding orbital that's formed by $p_{z}$ orbital. Due to the shape of the $p_{z}$ orbital, it causes the orbitals to look like squished together (like a burger). But this is still considered a $\sigma$ bonding orbital.
 	
 	**MO #6** $\pi$
 	![[Pasted image 20250522204356.png]]
@@ -150,4 +152,138 @@
 	**MO #9** $\pi$*
 	![[Pasted image 20250522215343.png]]
 	
-	For the 9th molecular, similar to the previous orbital 
+	For the 9th molecular, similar to the previous orbital, we can see that it is an antibonding $\pi$* orbital, since it forms two nodes between the two atoms. We can also analyze the output file.
+	![[Pasted image 20250522222037.png]]
+	
+	Similar to the reason above, the two N atoms have different major MO coefficient signs, resulting in an antibonding orbital.
+	 
+	**MO #10** $\sigma$*
+	![[Pasted image 20250522222340.png]]
+	
+	For the 10th orbital, we can see that it forms a sort of antibonding orbital with three nodes, since it is a head-on overlap, not parallel, we can assume that it is a $\sigma$* antibonding orbital.
+	![[Pasted image 20250522222503.png]]
+	
+	If we analyze the MO coefficient output file, we can see that within one N atom, there are different MO coefficient signs, that may cause this antibonding formation
+	
+	**Bond order**
+	
+3. $N_{2}^+$
+	![[Pasted image 20250522224558.png]]
+	The \<S^2> shown here is 0.752720080, we can try to solve it theoretically and compare it with IQMol's answer.
+	The formula for S^2 should be $(S(S  +  1))$  and $S = ms = \frac{N_{\alpha}-N_{\beta}}{2}$ , given unrestricted open shell Hartree Fock, since UHF may have spin contamination.
+	Still we can use that formula to see whether the result is close enough for UHF or not.
+	Since we know $N_{2}^+$ definitely has unpaired electron, and it's located at the HOMO, because HOMO is the likely orbital to be a donor electron. So we know either the alpha spin or the beta spin would be one less than the other, so $S = \frac{1}{2}$. Thus,
+	$$
+	<S^{2}> = \frac{1}{2}\left( \frac{1}{2} + 1\right)= \frac{3}{4} = 0.75
+    $$
+	Based on our formula, the <S^2> should be 0.75, and thus, the result of the IQmol is reasonable.
+	
+	**Bond Order**
+	For the bond order, we don't have to calculate $N_{2}^+$, We know that $N_{2}$ has 4 bonding orbitals, and one antibonding orbital, and we can calculate using the following formula
+$$
+BO = \frac{1}{2}(n_{b} - n_{ab})
+$$
+	For each total bonding and antibonding orbital, we multiply by two cuz one orbital can contain two alpha and beta elctron.
+	$n_{b} = 4 * 2 = 8$ 
+	$n_{ab} = 1 * 2 = 2$ 
+	Thus, N2 Bond order:
+$$
+BO = \frac{1}{2}(8 - 2) = 3
+$$
+	For $N_{2}$, Bonding Order is 3, now we can calculate $N^{+}_{2}$
+	We know that the HOMO of N2 is located on a bonding orbital, so $N_{2}^+$, would lose electron in a Bonding orbital.
+	So, we can immediately calculate N2+ bond order:
+$$
+BO = \frac{1}{2}(7-2) = 2.5
+$$
+	So we can see that $N_{2}^+$ has 2.5 Bonding order, less than $N_{2}$, so we know that $N_{2}^+$ has a weaker bond due to the missing electron in the HOMO bonding orbital.
+
+4. $O^{2}$
+	Singlet:
+	Energy
+	![[Pasted image 20250522233333.png]] 
+	This is the total energy when SCF convergence is met
+	
+	1. O2's orbitals
+	**MO #1**
+	![[Pasted image 20250522234854.png]]
+	
+	For the first molecular orbital, it's quite the same with N2's case where this is actually the non-valence electron or core electron, which is why they don't form any bondings, because they are closely bound to the nucleus.
+	
+	**MO #2**
+	![[Pasted image 20250522235349.png]]
+	
+	Same case with the first Molecular Orbital, this the "antibonding" equivalent of the first MO, and it still involves 1s or the core electron.
+	
+	**MO #3** $\sigma$
+	![[Pasted image 20250522235836.png]]
+	
+	The third MO shows the first bonding orbital, it's formed by the 2s AO from O's atom. similar with N2, it's a $\sigma$ bonding orbital. Since it's similar to N2's result i won't be showing the output file for all of them now, (point is, different sign creates antibonding, same sign creates bonding :D, it's just a matter of whether it's sigma or pi bonding).
+	
+	**MO #4** $\sigma$*
+	![[Pasted image 20250523000650.png]]
+	
+	This seems to be an antibonding $\sigma$* orbital, because it's a product of different signs of MO coefficient between atoms, and it's a head-on overlap between AOs.
+	
+	**MO #5** $\pi$
+	![[Pasted image 20250523000934.png]]
+	
+	For the fifth MO, we can see that it's a bonding pi orbital.
+	
+	**MO #6** $\sigma$
+	![[Pasted image 20250523001142.png]]
+	
+	This seems to be a $\sigma$ bonding orbital, similar to $N_{2}$'s case explained before, it's a bonding orbital that's formed by $p_{z}$ AOs
+	
+	**MO #7** $\pi$
+	![[Pasted image 20250523001418.png]]
+	
+	The 7th MO shows a $\pi$ bonding orbital
+	
+	**MO #8** $\pi$* HOMO 
+	![[Pasted image 20250523001941.png]]
+	
+	The 8th molecular orbital is an antibonding $\pi$\* orbital, and it's also the HOMO. The fact that this is orbital is the HOMO is a side effect of this being a singlet O2. usually, from the diagram i see online, the HOMO of O2 should be after two $\pi$\* orbitals. But turns out, because this is the singlet, the electron from the second $\pi$\* orbital moves to this one, making this one the HOMO with paired electrons.
+	
+	**MO #9** $\pi$*
+	![[Pasted image 20250523002210.png]]
+	
+	The 9th MO is the second $\pi$* i was talking about before, and because of my previous explanation, it makes this the LUMO
+	
+	**MO #10** $\sigma$*
+	![[Pasted image 20250523002325.png]]
+	
+	For the 10th MO, it's an antibonding $\sigma$* orbital that's formed by $p_{z}$ AOs, similar to N2's case
+	
+	2. ROHF energy:
+	![[Pasted image 20250523002609.png]]
+	
+	UHF energy:
+	![[Pasted image 20250523002853.png]]
+	
+	The UHF's energy is lower compared to ROHF's. Maybe, because of the fact that for UHF, it separates the spatial orbital for alpha and beta, but this also suffers spin contamination.
+
+	3. Compare UHF's <S^2>
+	For the UHF's <S^2>, we can use a similar method from $N_{2}$.
+	We calculate with $<S^{2}> = S(S+1)$.
+	Since this is a triplet, we know that $2S + 1 = 3$, so, S must be 1.
+	We plug in the formula, $<S^{2>}= 1(1+1) = 2$. 
+	The result of the UHF is close enough, so it is very reasonable
+	
+	4. Comparing energies
+   If we compare the UHF triplet's energy to the HF singlet's energy, surprisingly we see that the UHF singlet has lower energy compared to the singlet. This is because for O2, the triplet form is actually the ground form. This can be more easily explained with this diagram
+   ![[9-min.png]]
+	If we see, O2 forms two unpaired $\pi$* orbitals, these being unpaired causes it to be a triplet multiplicity, but these orbitals are actually degenerates (have same energy). so each being filled with one electron is actually the ground state for O2, because less energy than singlet.
+	
+	5. UHF orbital diagram
+	For UHF orbital diagram, i'll just draw by hand, since the orbital shapes themselves should be the same with the singlet, the difference being the HOMO and LUMO location.
+	
+	![[WhatsApp Image 2025-05-23 at 01.24.24_4afc7e28.jpg]]
+	
+	In my drawing, i follow the alpha ordering from IQmol, and turns out that IQmol doesn't order based off energy level, so it looks different from the diagram above (But i still line up orbitals that are degenerates so it looks nicer). And also the fact that IQmol includes non-valence electrons, so i added two more orbitals at the bottom when compared to the diagram from online above.
+	
+	For the triplet state's bonding order, we can immediately calculate by counting the number of electrons on the bonding and antibonding orbitals
+	$BO = \frac{1}{2}(8-4) = 2$
+	
+	6. ionized $O_{2}$
+	if $O_{2}$ is ionized to become $O_{2}^{+}$, we know that we will lose one electron from the HOMO, reducing the alpha spin. Since grounded $O_{2}$ initially has two $\pi$\* orbitals with unpaired electrons, after ionized, we're only left with one unpaired electron, so we know that $S = \frac{1}{2}$, so the multiplicity would be $2*\frac{1}{2} + 1 = 2$.
