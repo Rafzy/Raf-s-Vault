@@ -51,10 +51,23 @@ The fact that we can cancel out the two terms solidify that doubly occupied orbi
 
 3. Summarize each atomic charges
 
+These are the natural Charges of each atom accross the board with NBO and Mulliken and two different basis sets
 
-| Atom | NBO (6-31G*) |
-| ---- | ------------ |
-| C    |              |
-| O    |              |
-| H1   |              |
-| H2   |              |
+| Atom | NBO (6-31G*) | NBO (6-31+G*) | Mulliken (6-31G*) | Mulliken(6-31+G*) |
+| ---- | ------------ | ------------- | ----------------- | ----------------- |
+| C    | 0.33193      | 0.33547       | 0.134642          | 0.078075          |
+| O    | -0.57767     | -0.59315      | -0.415739         | -0.389353         |
+| H1   | 0.12287      | 0.12884       | 0.140549          | 0.155639          |
+| H2   | 0.12287      | 0.12884       | 0.140549          | 0.155639          |
+
+Accross NBO and Mulliken, and all the basis sets, these all agree to the relative electronegativeness.
+We see accross the board Oxygen is the most electrically rich. According to the pauling scale, oxygen has electronegativity value of 3.44, Hydrogen is 2.20, and Carbon is 2.55
+So Oxygen should attract the most electrons in the chemical bond of Formaldehyde, which is exactly what we're seeing, Oxygen has negative charge across the board.
+But wait a second, in pauli's scale, carbon has electronegativity of 2.55, more than hydrogen which is 2.20, how come C is more positively charged than the two Hydrogens?
+This is because, both hydrogens are connected to C and C alone is double bonded to O,
+
+![[image-27.png|289x251]]
+
+The fact that C is connected to O (with high electronegativity), and it's double bonded, causes C to lose alot of electrons, making it positively charged. Meanwhile for both Hydrogen, they're singly bonded to C with smaller electronegativity than O, causing them to lose not as much electrons.
+
+4. Do the compu
