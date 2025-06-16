@@ -70,4 +70,32 @@ This is because, both hydrogens are connected to C and C alone is double bonded 
 
 The fact that C is connected to O (with high electronegativity), and it's double bonded, causes C to lose alot of electrons, making it positively charged. Meanwhile for both Hydrogen, they're singly bonded to C with smaller electronegativity than O, causing them to lose not as much electrons.
 
-4. Do the compu
+4. Do the computed charges change with the basis set
+
+Yes, they do, if we compare the results of both NBO and Mullikens based on the two basis sets, they yield different results. I'll make a table that summarize the output difference between two base sets for NBO and Mulliken
+
+| Atom | NBO     | Mulliken |
+| ---- | ------- | -------- |
+| C    | 0.00354 | 0.056567 |
+| O    | 0.01548 | 0.026386 |
+| H1   | 0.00597 | 0.01509  |
+| H2   | 0.00597 | 0.01509  |
+
+With this table, we can see that NBO's output is more stable accross 6-31G* and 6-31+G* basis sets compared to Mulliken. NBO's difference on average is < 0.01, while Mulliken's difference on average is > 0.02
+This may be tied to the fact that Mulliken's population analysis utilizes a non-orthogonal basis function and it doesn't satisfy Pauli's exclusion principle. In short, with Mulliken, electrons are delocalized. While NBO represents atomic orbitals that are localized to each atom.
+
+
+5. Natural Population
+
+| Atom | Core    | Valence | Rydberg | Total   |
+| ---- | ------- | ------- | ------- | ------- |
+| C    | 1.99972 | 3.63146 | 0.03689 | 5.66807 |
+| O    | 1.99972 | 6.55185 | 0.02601 | 8.57767 |
+| H1   | 0       | 0.87489 | 0.00224 | 0.87713 |
+| H2   | 0       | 0.87489 | 0.00224 | 0.87713 |
+
+Let's analyze from the core, we can see that only C and O atom that contains electrons in the core atom. it should be the ($1s^{2}$) orbitals from both C and O. These electrons don't contribute the chemical bonding of the overall molecule, meanwhile both H doesn't have electron belonging in the core, meaning H contributes all of it's electron to the chemical bonding (well yeah since H only has 1 electron)
+
+For valence, C is 3.6 which in theory should be 4, so it is according to lewis structure, C should have 4 valence electrons (2 electrons each bond to H, and the other 2 forms a double bond with O).
+O has 6.5, in theory O has 6 valence electrons, and this is still according to lewis structure, O contributes 2 electrons to double bond with C, and has 2 lone pairs.
+Same goes with H which has 0.87 electrons, in theory, H only has one electron that contributes to 
