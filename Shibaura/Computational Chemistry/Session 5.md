@@ -26,5 +26,15 @@ $\rho(r)q$ is viewed as the spatial distribution of electrons at coordinate $r$.
 $$
 \int dr \rho(r) = N
 $$
+We can verify this by normalization of $\varphi_{i}(r)$
 
+$$
+\int dr \rho(r) = \sum_{i=1}^{N}\int dr |\varphi_{i}(r)|^{2}=N
+$$
+since $\int dr|\varphi_{i}(r)|^{2}$ is equal to 1, it directly equals to N
 
+we can substitute in the equation from before
+
+$$
+N = \int dx
+$$
