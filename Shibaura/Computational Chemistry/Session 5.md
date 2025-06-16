@@ -36,5 +36,18 @@ since $\int dr|\varphi_{i}(r)|^{2}$ is equal to 1, it directly equals to N
 we can substitute in the equation from before
 
 $$
-N = \int dx
+N = \int dx \rho(r)
 $$
+$$
+= \int dr \sum_{\mu v}^{M}P_{\mu v}\chi_{\mu}(r)\chi^{*}_{v}(r)
+$$
+$$
+= \sum_{\mu v}^{M}P_{\mu v}S_{v\mu}
+$$
+$$
+=\sum_{\mu}(PS)_{\mu \mu}
+$$
+$$
+= Tr(PS)
+$$
+

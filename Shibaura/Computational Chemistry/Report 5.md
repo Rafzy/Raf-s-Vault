@@ -25,6 +25,20 @@ And, we know that $\bra{v}r\ket{\mu} = \int dr \chi^{*}_{v}(r)r \chi_{\mu}(r)$, 
 Q.E.D
 
 
+2. Express spin density
 
+We can define the electron densities for both $\alpha$ and $\beta$ spin electrons as:
 
+$$
+\rho^{\alpha}(r) = \sum_{i=1}^{N_{a}}|\varphi_{i}^{\alpha}(r)|^{2}
+$$
+$$
+\rho^{\beta}(r) = \sum_{i=1}^{N_{\beta}}|\varphi_{i}^{\beta}(r)|^{2}
+$$
+Now, since $N_{\alpha} > N_{\beta}$, we know that all the $\beta$ spin orbitals are all doubly occupied, up until it reaches the orbital with only $\alpha$ spin electrons, we also know that spin density is expressed as $\rho^{s}(r) = \rho^{\alpha}(r) - \rho^{\beta}(r)$. So, we can express them as this:
 
+$$
+\rho^{s}(r) = \left[ \sum_{i=1}^{N_{\beta}} |\varphi_{i}^{\alpha}(r)|^{2}+ \sum_{i=N_{\beta}+1}^{N_{\alpha}}|\varphi_{i}^{\alpha}(r)|^{2} \right] - \sum_{i=1}^{\beta}|\varphi_{i}^{\beta}(r)|^{2}
+$$
+
+for the alpha orbitals, i split them out, one part we sum up from 1 up to $\beta$ spin electron's number, and the other continues from there up until $\alpha$ spin electron's number. 
