@@ -36,6 +36,7 @@
 - [x] Start OS
 - [x] Continue my habitat
 - [x] Meet with minamigyotoku
-- [ ] Finish 3b1b's deep learning series
+- [x] Finish 3b1b's deep learning series
 	- [ ] Finish 3b1b's calculus series
 	- [ ] Finish 3b1b's data series
+- [ ] Start boot.dev

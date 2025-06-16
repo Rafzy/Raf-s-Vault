@@ -182,8 +182,8 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           },
           {
@@ -197,7 +197,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -211,48 +211,50 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
   "active": "90cbc6e137a8ab88",
   "lastOpenFiles": [
+    "Shibaura/Computational Chemistry/Season 5.md",
+    "Shibaura/Computational Chemistry/Report 4.md",
+    "Images/image-2.png",
+    "Images/image-1.png",
+    "Images/image.png",
+    "Shibaura/AI in games/Session 1.md",
+    "Shibaura/Autonomous mobile robot system/Session 1.md",
+    "Shibaura/Computational Chemistry/Report 2.md",
+    "Shibaura/Computational Chemistry/Session 3.md",
+    "Shibaura/Autonomous mobile robot system/Session 2.md",
+    "Shibaura/Untitled.md",
+    "Shibaura/AI in games",
+    "Shibaura/Advanced OS and virtualization/Session 3.md",
+    "Shibaura/Computer Architecture/Session 8.md",
+    "BNCC/TnD Class Prompting AI.md",
+    "Meg's aussie log.md",
+    "Shibaura/Computer Architecture/Session 7.md",
+    "Shibaura/Computer Architecture/Session 6.md",
+    "Shibaura/Computer Architecture/Session 5.md",
+    "Shibaura/Mechatronics/Session 7.md",
+    "To Do List.md",
     "Images/Pasted image 20250522215343.png",
     "Images/Pasted image 20250522212430.png",
     "Images/Pasted image 20250522211541.png",
     "Images/Pasted image 20250522211445.png",
     "Images/Pasted image 20250522211118.png",
     "Images/Pasted image 20250522203643.png",
-    "Shibaura/Computational Chemistry/Report 2.md",
     "Images/Pasted image 20250522205019.png",
-    "Images/Pasted image 20250522204356.png",
-    "Images/Pasted image 20250522203334.png",
-    "Images/Pasted image 20250522203301.png",
-    "Images/Pasted image 20250522165029.png",
-    "BNCC/TnD Class Prompting AI.md",
     "conflict-files-obsidian-git.md",
     "Shibaura/Autonomous mobile robot system/Short report 5.md",
     "Shibaura/Advanced OS and virtualization/Session 5.md",
     "Shibaura/Data science for human behavior/Session 5.md",
-    "Shibaura/Computational Chemistry/Session 3.md",
     "Shibaura/Autonomous mobile robot system/Short report 4.md",
-    "Shibaura/Advanced OS and virtualization/Session 3.md",
     "Shibaura/Advanced OS and virtualization/Session 2.md",
     "Shibaura/Data science for human behavior/Session 3.md",
-    "Shibaura/Computer Architecture/Session 5.md",
     "Shibaura/Computer Architecture/Session 3.md",
     "Shibaura/Autonomous mobile robot system/Session 4.md",
-    "Shibaura/Autonomous mobile robot system/Session 2.md",
-    "Shibaura/Autonomous mobile robot system/Session 1.md",
-    "Shibaura/Autonomous mobile robot system/Session 3.md",
-    "Shibaura/Computer Architecture/Session 2.md",
-    "Shibaura/Data science for human behavior/Presentation.md",
-    "BNCC/TnD Ai Prompting.md",
-    "Shibaura/Advanced OS and virtualization/Session 1.md",
-    "Shibaura/Mechatronics/Session 1.md",
-    "Shibaura/Mechatronics/Session 2.md",
-    "To Do List.md",
     "Shibaura/Computer Architecture",
-    "Shibaura/Data science for human behavior/Session 2.md",
     "Shibaura/Computational Chemistry",
     "Shibaura/Advanced OS and virtualization",
     "Shibaura/Autonomous mobile robot system",
@@ -261,7 +263,6 @@
     "Shibaura",
     "BNCC/Raker36",
     "LLM",
-    "Untitled.canvas",
-    "9b841903-a7b4-4548-8820-a05c807cd211-1.pdf"
+    "Untitled.canvas"
   ]
 }
