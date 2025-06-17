@@ -139,14 +139,46 @@ The output of the 6-31+G* is more or less the same, C = O still forms a double b
 
 7. NBO and Canonical Molecular orbitals
 
+I'll show the orbitals from NBO that's drastically different from HF's Canonical orbitals (which usually is the bonding orbitals since the difference between NBO and HF is more apparent in the valence region)
+
+**NBO's Orbitals**
+![[image-31.png|313x292]]
+
+![[image-32.png|317x316]]
+
+![[image-33.png|322x348]]
+
+![[image-34.png|326x310]]
+
+These three visualizations from NBO's orbital highlight the difference between NBO and HF's orbitals. The first two images show the bonding orbital between C and H atoms, with the small red region i'm assuming is the antibonding orbital.
+The third region seems to be showing the Lone Pair electrons that's surrounding O.
+The fourth orbital seems to be the showing the bonding orbital between O and C atoms.
+Let's compare these with HF's canonical orbitals
+
+**HF Canonical MO visualization**
+
+![[image-35.png|333x373]]
+
+![[image-36.png|335x362]]
+
+![[image-37.png|334x429]]
+
+![[image-38.png|343x356]]
+
+These are the visualization from HF's canonical orbitals. The main difference we can see between them is that some of the HF's orbital appear to be **delocalized**, the orbitals don't belong to one or two atoms. For example if we see the second image, we can see that it appears to visualize the bonding orbital of two of the H atoms with C simultaneously. Another point of difference is that HF's orbitals **energy ordered**. which is why the order of which we find the core orbital in HF and NBO is different, even though the core orbitals between HF and NBO shouldn't change.
+
+
 
 **NBO**
 Advantages:
 As we know, NBO directly solves one of HF's disadvantages which is that HF doesn't represent lewis structures, because electron density is localized to 1 or two atoms unlike HF canonical orbitals which is delocalized. 
 So in several orbitals, we can directly see the visualization of bonding formed, like bonding between C=O and C-H, so it's a better visualization when it comes to bonding between atoms. 
 Disadvantages:
-However, because NBO forces localization, it can obscure delocalization effects when it's important. And NBO is also more computationally heavy compared to HF, because of the fact that NBO introduces non-orthogonality.
+However, because NBO forces localization, it can obscure delocalization effects when it's important. And NBO is also more computationally heavy compared to HF, because of the fact that NBO introduces non-orthogonality. NBO is also great for visualization for students, because it respects the lewis structure, it should be more familiar for students since students most likely learn lewis structures for molecule bond structures.
 
 
 **Hartree Fock Canonical Molecular Orbitals**
-HF gives a direct solution within HF approximation. 
+Advantages:
+HF gives a direct solution within HF approximation, so HF canonical orbitals show the actual quantum mechanical energy. Compared to NBO, HF is not as computationally heavy to perform, and turns out HF canonical orbitals is the standard output of most programs including IqMol. HF also reflects the true symmetry of the molecule orbitals, as we have learnt in the previous session of symmetrical operations on MO, we used HF canonical orbitals instead of NBO.
+Disadvantages:
+However, as discussed before, HF doesn't correspond to bonds, lone pairs, or lewis structure, and because HF is delocalized, it can be harder for larger molecules, the orbitals can be hard to tell since it can spread everywhere. And compared to NBO, HF Canonical orbital isn't familiar, since most students would have learnt about lewis structures when it comes to bonding in molecules.
