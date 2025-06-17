@@ -137,4 +137,16 @@ to find out whether they are basis set dependent, let's compare it to 6-31+G*'s 
 The output of the 6-31+G* is more or less the same, C = O still forms a double bond of $\sigma$ and $\pi$ bond, C-H is formed from $sp^{2}$ hybridization. So this shouldn't be basis set dependent.
 
 
-7. 
+7. NBO and Canonical Molecular orbitals
+
+
+**NBO**
+Advantages:
+As we know, NBO directly solves one of HF's disadvantages which is that HF doesn't represent lewis structures, because electron density is localized to 1 or two atoms unlike HF canonical orbitals which is delocalized. 
+So in several orbitals, we can directly see the visualization of bonding formed, like bonding between C=O and C-H, so it's a better visualization when it comes to bonding between atoms. 
+Disadvantages:
+However, because NBO forces localization, it can obscure delocalization effects when it's important. And NBO is also more computationally heavy compared to HF, because of the fact that NBO introduces non-orthogonality.
+
+
+**Hartree Fock Canonical Molecular Orbitals**
+HF gives a direct solution within HF approximation. 
