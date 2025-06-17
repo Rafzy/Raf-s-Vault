@@ -108,9 +108,33 @@ If we total up all the electrons from the table, it sums up to 16, so it sums up
 
 These are the results for bonding orbitals based on NBO
 
-![[image-28.png|560x440]]
+![[image-28.png|523x411]]
 
-Let's look at the double bond between C - O first.
-Because it is a double bond, we have two BD orbitals between C - O.
+Let's look at the double bond between C = O first.
+Because it is a double bond, we have two BD orbitals between C = O.
 For BD(1), we can see that from both C and O, the bond is formed from almost purely p orbital (> 99%). while BD(2), we can see it's a bond from $sp^{2}$ hybrid for C atom, and more or less $sp$ hybrid for O atom.
-We know that $sp_{2}$ hybridization orbitals will make $\sigma$ bonding. 
+We know that $sp_{2}$ hybridization orbitals will make $\sigma$ bonding, so BD(2) results in $\sigma$ bonding.
+For BD(2), since it is a pure p orbital, and we know there is already a sigma bonding formed, and we can imagine the p orbitals are perpendicular to the formed $\sigma$ bond, so the perpendicular p orbitals will form $\pi$ bonding.
+So in summary, C = O bonding consists of $\sigma$ + $\pi$ bond.
+Since we can see for both bonds of C=O, they're basically fully occupied, assuming no electrons in antibonding orbital, we can immediately tell the bonding order by the number of bonds.
+(C = O)Bond order = (Num of electrons) / 2 = 2
+
+For both C-H bonds, we can see that that it's formed by an overlap of C's $sp^{2}$ hybrid orbital (we can tell because s contributes around 30 percent, and p contributes around 60 percent, around 1:2 ratio), and H's only s orbital contribution.
+since we can tell it's a head on overlap between $sp^{2}$ and $s$ orbitals, and only one bond between C and H, we know that both C-H bond is of $\sigma$ bond.
+Same case with C=O, since we can see both C-H bonds are basically fully occupied, we can assume there's no antibonding electrons, thus we can immediately tell that bond order of C-H is
+(C - H)Bond order = (Num of electrons in bond) / 2 = 1
+
+I can say that yes, the NBO matches our chemical intuition. Based on our theory, and from looking at the lewis structure of formaldehyde. We expect things like C = O forms a double bond of $\sigma$ and $\pi$ bonding, and C hybridization should be of $sp^{2}$, and the result of the NBO matches those intuitions. We should also see two lone pairs that belongs to O, and NBO also shows this result.
+
+![[image-29.png]]
+
+to find out whether they are basis set dependent, let's compare it to 6-31+G*'s result.
+
+6-31+G* NBO analysis result
+
+![[image-30.png|549x487]]
+
+The output of the 6-31+G* is more or less the same, C = O still forms a double bond of $\sigma$ and $\pi$ bond, C-H is formed from $sp^{2}$ hybridization. So this shouldn't be basis set dependent.
+
+
+7. 
