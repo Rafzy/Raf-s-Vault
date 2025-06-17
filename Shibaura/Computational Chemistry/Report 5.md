@@ -24,7 +24,6 @@ And, we know that $\bra{v}r\ket{\mu} = \int dr \chi^{*}_{v}(r)r \chi_{\mu}(r)$, 
 
 Q.E.D
 
-
 2. Express spin density
 
 We can define the electron densities for both $\alpha$ and $\beta$ spin electrons as:

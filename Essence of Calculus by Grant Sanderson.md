@@ -31,12 +31,12 @@ If we can get the representation for the area of this inner ring, and we can add
 Let's flatten out this inner ring into a long trapezoidal shape 
 In reality, the shape of this flattened ring is a trapezoid, but for simplicity sake, let's estimate this area to be a rectangle
 
-![[Pasted image 20250223213146.png]] 
+![[Pasted image 20250223213146.png|469x45]]
 
 The width of this rectangle is the circumference of the original ring ($2\pi r$), and the thickness depends on how much inner ring we divide the circle into.
 
 For now, let's call the thickness $dr$ for the difference in the radius from one ring to the next
-![[Pasted image 20250223213347.png]]
+![[Pasted image 20250223213347.png|474x87]]
 
 So, approximating the area of this inner ring would be
 
@@ -57,15 +57,15 @@ if we plot this out with the x axis being $r$, we can see that the spacing for $
 Using this idea, we can fit each of the flattened rings next to each other in the graph, this gives us a better representation of the approximate area for the whole circle
 
 The height of one of the rectangle sitting above some specific value $r$, would be $2 \pi r$
-![[Pasted image 20250223214516.png]]
+![[Pasted image 20250223214516.png|161x309]]
 
 
-![[Pasted image 20250223214527.png]]
+![[Pasted image 20250223214527.png|348x309]]
 
 
 we can draw the graph for the line $2 \pi r$ which is a line with the slope $2 \pi$, and each of the rectangle extends up to the point until it barely touches the graph
 
-![[Pasted image 20250223214724.png]]
+![[Pasted image 20250223214724.png|335x304]]
 
 
 remember that the smaller the size of $dr$ is, the better approximation we will get, if we do this for infinitely small $dr$, we see that the total sum of all the rectangles become more like the total area under the graph $2\pi r$
@@ -88,4 +88,9 @@ How did we go from approximating the area of sub areas of the circle, into somet
 
 
 There are two important things for $dr$
-- 
+- $dr$ gives the spacing between different values of $r$
+- The smaller $dr$ is, the better the approximation will be. (The smaller and smaller $dr$ is, the closer it is that the total area of rings approach the area under the graph of $2\pi r$)
+
+Basically: Hard Problem => Sum of many small values
+
+
