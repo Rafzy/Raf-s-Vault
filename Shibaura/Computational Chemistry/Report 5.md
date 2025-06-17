@@ -102,3 +102,15 @@ Same goes with H which has 0.87 electrons, in theory, H only has one electron th
 What's interesting is that, O has around 0.55 extra electrons which assumingly is gained from C and H, and this corresponds to the negative charge we saw above, with the case of C and H, C lost around 0.4 electrons, and H lost around 0.2 electrons, both also correspond to the positive charge we saw the table above. 
 The rydberg orbital is typically unoccupied, only there to accomodate things like hypervalence, excited state etc, which explains why the values are so small in rydberg's orbital for all atoms.
 If we total up all the electrons from the table, it sums up to 16, so it sums up perfectly to the total amount of electrons in formaldehyde.
+
+
+6. Bond type, order, and hybridization of each bond
+
+These are the results for bonding orbitals based on NBO
+
+![[image-28.png|560x440]]
+
+Let's look at the double bond between C - O first.
+Because it is a double bond, we have two BD orbitals between C - O.
+For BD(1), we can see that from both C and O, the bond is formed from almost purely p orbital (> 99%). while BD(2), we can see it's a bond from $sp^{2}$ hybrid for C atom, and more or less $sp$ hybrid for O atom.
+We know that $sp_{2}$ hybridization orbitals will make $\sigma$ bonding. 
