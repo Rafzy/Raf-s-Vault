@@ -11,3 +11,4 @@ $$
 
 Closed shell:
 $\rho^{\alpha}\equiv \rho^{\beta}$
+
