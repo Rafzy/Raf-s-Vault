@@ -47,4 +47,29 @@ Geometry in IQMol:
 Final optimized energy: -379.208942
 Nuclear repulsion energy: 326.851417 hartrees
 Point group: $C_{s}$
-Number of inactiv
+Number of inactive IR modes: 0
+Frequency of most intense mode: 1129.81 (Mode 18 with IR intensity of 243.312)
+![[image-47.png|385x411]]
+
+This is the vibrational mode with the most IR intensity. The atom with the most movement is the hydrogen that's bonded with the O atom, stretching and bending the bond downwards, left a bit. The C atom that's single bonded to the bottom O atom also propagates a little to the bottom right, while stretching the double bond to the left and single bond to the right.
+The two hydrogens on the left also seems to propagate upwards, causing the two C atom that's bonded to them to also move a bit.
+
+Energy relative to the most stable structure:
+
+
+4. ![[image-48.png|172x258]]
+
+Geometry in IQMol:
+![[image-49.png|362x332]]
+
+Final optimized energy: -379.340984
+Nuclear repulsion energy: 320.992918 hartrees
+Point group: $D_{2}h$
+Number of inactive IR modes: 17
+Frequency of most intense mode: 1693.18 (Mode 25 with IR intensity of 172.872)
+![[image-50.png|358x318]]
+
+This is the vibrational mode with the most IR intensity. The two C atoms that's doubly bonded to the two Oxygen atoms are both propagating to the bottom right, and the two O atoms are propagating to the top left, so the double bonds stretch in and out because of the opposing directions of the C and O atoms.
+The four H atoms also propagate, kindof to one side of the molecule, in this case, they're kindof propagating to the down right.
+
+Energy relative to the most stable structure: 
