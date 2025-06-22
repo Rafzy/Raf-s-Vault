@@ -70,4 +70,4 @@ $$
 \hat{H_{vib}} = \sum_{j=1}^{N_{vib}}\hat{H_{j}}
 $$
 
-What m
+So, consequently, the total wave function can also be expressed as a product of individual wave functions of $\hat{H_{j}}$.
