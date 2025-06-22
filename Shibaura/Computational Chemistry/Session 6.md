@@ -47,5 +47,20 @@ $\frac{1}{2}\sum \sum\left( \frac{{\partial^{2}v}}{\partial q_{i}\partial q_{j}}
 These are second derivatives, how steeply the energy changes with displacement. This term is used to determine vibrational frequencies
 
 So the taylor expansion is basically saying
->If i'm at dequilibrium, and i displace the atoms by small amoung qi, how does the energy change?
+>If i'm at equilibrium, and i displace the atoms by small amoung qi, how does the energy change?
 
+Now the equation would look like this now
+$$
+V(q_{1},q_{2},\dots,q_{N_{vib}}) \approx \frac{1}{2}\sum_{i=1}^{N_{vib}}\sum_{j=1}^{N_{vib}}f_{ij}q_{i}q_{j}
+$$
+where:
+$$
+f_{ij} = \left( \frac{{\partial^{2}V}}{\partial q_{i} \partial q_{j}} \right)_{q=0}
+$$
+is the **Hessian matrix**
+
+Now, this equation is very complex to solve since we have coupled vibrations (we have i and j, meaning moving one atom affects others)
+which is why we introduce **Normal Mode** coordinates ${Q_{j}}$ such that
+$$
+V=\frac{1}{2}\sum_{j=1}^{N_{vib}}F_{j}Q_{j}^{2}
+$$
