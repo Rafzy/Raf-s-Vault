@@ -28,5 +28,24 @@ $$
 Expanding the function around the equilibrium geometry q=0
 
 $$
-V(q_{1},q_{2},\dots, q_{N_{vib}})=V(0,0,\dots,0)+ \sum_{i=1}^{N_{vib}}(\partial)
+V(q_{1},q_{2},\dots, q_{N_{vib}})=V(0,0,\dots,0)+ \sum_{i=1}^{N_{vib}}\left( \frac{{\partial V}}{\partial q_{i}} \right)_{q=o_{9}}q_{i}+\frac{1}{2}\sum_{i=1}^{N_{vib}}\sum_{j=1}^{N_{vib}}\left( \frac{{\partial^{2}V}}{\partial q_{i}\partial q_{j}} \right)_{q=0}q_{i}q_{j}+\dots
 $$
+
+This is the [[Taylor Series]] expansion of the potential energy function around the equilibrium.
+Basically -> Expands the V as a function of small displacements from the equilibrium.
+
+**First term**
+$V(0,0,\dots,0)$
+This describes the potential energy at the equilibrium, by definition we set this to 0.
+
+**Second term**
+$\sum \left( \frac{{\partial v}}{\partial q_{i}} \right)_{q=0}q_{i}$
+These are the first derivatives -> Forces on each atom, at equilibrium geometry, all forces are zero, so this term disappears
+
+**Third term**
+$\frac{1}{2}\sum \sum\left( \frac{{\partial^{2}v}}{\partial q_{i}\partial q_{j}} \right)_{q=0}q_{i}q_{j}$
+These are second derivatives, how steeply the energy changes with displacement. This term is used to determine vibrational frequencies
+
+So the taylor expansion is basically saying
+>If i'm at dequilibrium, and i displace the atoms by small amoung qi, how does the energy change?
+
