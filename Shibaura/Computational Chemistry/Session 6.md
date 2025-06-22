@@ -64,3 +64,10 @@ which is why we introduce **Normal Mode** coordinates ${Q_{j}}$ such that
 $$
 V=\frac{1}{2}\sum_{j=1}^{N_{vib}}F_{j}Q_{j}^{2}
 $$
+With normal modes, the hamiltionian for molecular vibration becomes
+
+$$
+\hat{H_{vib}} = \sum_{j=1}^{N_{vib}}\hat{H_{j}}
+$$
+
+What m
