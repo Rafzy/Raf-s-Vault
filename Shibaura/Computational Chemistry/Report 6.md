@@ -22,6 +22,7 @@ The leftmost C atom seems to be stretching and bending just a slight bit, becaus
 Energy relative to the most stable structure: 
 
 
+
 2. ![[image-42.png|217x212]]
 
 Geometry in IQMol:
@@ -72,7 +73,7 @@ Frequency of most intense mode: 1693.18 (Mode 25 with IR intensity of 172.872)
 This is the vibrational mode with the most IR intensity. The two C atoms that's doubly bonded to the two Oxygen atoms are both propagating to the bottom right, and the two O atoms are propagating to the top left, so the double bonds stretch in and out because of the opposing directions of the C and O atoms.
 The four H atoms also propagate, kindof to one side of the molecule, in this case, they're kindof propagating to the down right.
 
-Energy relative to the most stable structure: 
+After comparing all of the isomer's final optimized energy, this has the least amount of energy, thus this should be the most stable structure out of all of the isomers.
 
 
 5. ![[image-51.png|183x252]]
@@ -141,4 +142,14 @@ Geometry in IQMol
 Final optimized energy: -379.316004
 Nuclear repulsion energy: 342.717833 hartrees
 point group: $C_{s}$
-Number of inactive IR modes: 
+Number of inactive IR modes: 15
+Frequency of most intense mode: 715.83
+
+![[image-64.png|434x410]]
+
+This is the vibrational mode with the most IR intensity. similar to the previous isomer, we see that all of the atoms are propagating towards/outwards from the screen if we face the molecule head on. The four hydrogen propagates towards the screen, while two C atoms on the top left and bottom right propagates outwards into the screen, causing the four bonds with the H atom to bend inwards and outwards.
+
+Energy relative to the most stable structure: 
+
+
+
