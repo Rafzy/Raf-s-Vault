@@ -181,4 +181,8 @@ For an IR to be considered active, in other words for infrared absorption to occ
 So, in a more symmetric molecules, some vibrations or normal mode motion doesn't break symmetry, so the IR is silent. The reason why isomer 8 has silent modes, is because it has a more symmetrical structure compared to isomer 7. 
 
 
-4. 
+4. Which isomer corresponds to this spectrum
+
+![[image-69.png]]
+
+As we can see, this IR spectrum shows four distinct peaks, the highest peak being at around 1600 - 1800. So, what we can do first is try to find the isomer whose highest's IR intensity
