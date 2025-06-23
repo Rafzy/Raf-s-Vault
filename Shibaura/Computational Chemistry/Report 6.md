@@ -73,3 +73,24 @@ This is the vibrational mode with the most IR intensity. The two C atoms that's 
 The four H atoms also propagate, kindof to one side of the molecule, in this case, they're kindof propagating to the down right.
 
 Energy relative to the most stable structure: 
+
+
+5. ![[image-51.png|183x252]]
+
+Geometry in IQMol:
+![[image-54.png|351x329]]
+
+Final optimized energy: -379.331635
+Nuclear repulsion energy: 324.463097 hartrees
+Point Group: $C_{1}$
+Number of inactive IR modes: 0
+Frequency of most intense Mode: 1662.95 (Mode 24 with IR intensity of 105.648)
+
+![[image-55.png|358x329]]
+
+This is the vibrational mode of with the highest IR intensity. We can see that the two C atoms that's doubly bonded to the two O atoms move opposite of each other, the two C atoms propagate inwards to the molecule, and the two O atoms propagate outwards of the molecule, causing the two double bonds to stretch inwards and outwards.
+We can also see that the two H atoms on the sides also slightly propagates upwards, bending the bond a little bit.
+
+Energy relative to the most stable structure:
+
+6. 
