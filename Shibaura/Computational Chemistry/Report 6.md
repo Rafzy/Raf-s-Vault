@@ -100,3 +100,25 @@ Geometry in IQMol:
 
 This is the geometry in iQMol after symmetrizing and minimizing energy using force field of MMFF94
 
+Final optimized energy: -379.187630
+Nuclear repulsion energy: 325.710872
+Point group: $C_{1}$
+Number of inactive IR modes: 0
+Frequency of most intense mode: 2910.18 (Mode 27 with IR intensity of 134.704)
+
+![[image-58.png|417x402]]
+
+This is the vibrational mode with the most IR intensity. Seems like the only atom propagating back and forth in this mode is the one hydrogen atom at the bottom, moving kind of inwards toward the molecule.
+
+Energy relative to the most stable structure:
+
+7. ![[image-59.png]]
+
+Geometry in IQMol: 
+
+![[image-60.png|431x326]]
+
+Final optimized energy: -379.310707
+Nuclear repulsion energy: 341.470827
+Point group: $C_{s}$
+Number of
