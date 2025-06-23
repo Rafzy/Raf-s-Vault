@@ -121,4 +121,24 @@ Geometry in IQMol:
 Final optimized energy: -379.310707
 Nuclear repulsion energy: 341.470827
 Point group: $C_{s}$
-Number of
+Number of inactive IR modes: 0
+Frequency of most intense mode: 783.62
+
+
+![[image-61.png|366x366]]
+
+This is the vibrational mode with the most IR intensity. most of the atoms propagate towards and outwards of the screen, if we look at the molecule kind-of face on. three all of the hydrogen atoms propagate towards the screen, along with one C atom in the top-middle. And one c atom on the top right propagates outwards from the screen.
+
+Energy relative to the most stable structure:
+
+
+8. ![[image-62.png]]
+
+Geometry in IQMol
+
+![[image-63.png|416x302]]
+
+Final optimized energy: -379.316004
+Nuclear repulsion energy: 342.717833 hartrees
+point group: $C_{s}$
+Number of inactive IR modes: 
