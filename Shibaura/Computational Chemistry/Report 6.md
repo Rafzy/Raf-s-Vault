@@ -93,4 +93,10 @@ We can also see that the two H atoms on the sides also slightly propagates upwar
 
 Energy relative to the most stable structure:
 
-6. 
+6. ![[image-56.png|161x268]]
+
+Geometry in IQMol:
+![[image-57.png|409x401]]
+
+This is the geometry in iQMol after symmetrizing and minimizing energy using force field of MMFF94
+
