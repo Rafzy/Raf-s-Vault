@@ -171,3 +171,4 @@ Surprisingly, after forming all the isomers and minimizing their energy, i didn'
 
 3. Why isomer 8 has IR silent modes, whereas 7 does not
 
+For an IR to be considered active, i
