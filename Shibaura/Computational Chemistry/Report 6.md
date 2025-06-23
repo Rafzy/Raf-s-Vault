@@ -171,4 +171,14 @@ Surprisingly, after forming all the isomers and minimizing their energy, i didn'
 
 3. Why isomer 8 has IR silent modes, whereas 7 does not
 
-For an IR to be considered active, i
+Isomer 8:
+![[image-67.png|388x255]]
+
+Isomer 7:
+![[image-68.png|389x312]]
+
+For an IR to be considered active, in other words for infrared absorption to occur, the dipole moment must vary during the vibration. So if the normal modes movement doesn't change the dipole, then it's IR inactive.
+So, in a more symmetric molecules, some vibrations or normal mode motion doesn't break symmetry, so the IR is silent. The reason why isomer 8 has silent modes, is because it has a more symmetrical structure compared to isomer 7. 
+
+
+4. 
