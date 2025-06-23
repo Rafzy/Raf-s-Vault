@@ -185,4 +185,28 @@ So, in a more symmetric molecules, some vibrations or normal mode motion doesn't
 
 ![[image-69.png]]
 
-As we can see, this IR spectrum shows four distinct peaks, the highest peak being at around 1600 - 1800. So, what we can do first is try to find the isomer whose highest's IR intensity
+As we can see, this IR spectrum shows four distinct peaks, the highest peak being at around 1600 - 1800. So, what we can do first is try to find the isomer whose highest's IR intensity mode's frequency is around that value. This gives us two candidates: Isomer (4) and Isomer (5). 
+Next, we should also compare the three peaks, and which isomer corresponds best to the absorption values in the spectrum.
+
+Isomer (4) four highest IR intensity modes:
+
+| Frequency | IR Intens |
+| --------- | --------- |
+| 1693.18   | 172.872   |
+| 965.50    | 96.457    |
+| 1079.36   | 88.056    |
+| 1319.16   | 43.231    |
+
+Isomer (5) four highest IR intensity modes:
+
+| Frequency | IR Intens |
+| --------- | --------- |
+| 1662.95   | 105.648   |
+| 782.44    | 102.618   |
+| 1162.83   | 40.654    |
+| 1457.50   | 20.986    |
+
+By looking at the four highest IR intensity from both isomers, in my opinion, Isomer (4) fits the spectrum a bit more, if we can see, the frequency 1693.18 corresponds to the highest peak, second being at frequency 965.50, which matches the second highest peak in the spectrum, being somewhere just below 1000.
+We can also see that the third and fourth highest IR intensity respectively are at frequency 1079.36 and 1319.16, both matching the second and third peak from the spectrum.
+
+Meanwhile, for isomer (5), the difference between the highest and second highest peak is not big, the highest peak being at 1662.95, and 782.44, which somewhat matches the position in the spectrum, but the spectrum shows a bigger difference between the highest peak and the second highest peak. meanwhile, the fourth highest IR intensity is located around 1475.50, a value closer to 1500, in which we don't see any peaks near 1500, the closest peak should be at around 1300.
