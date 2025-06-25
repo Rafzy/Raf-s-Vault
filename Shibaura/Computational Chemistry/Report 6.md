@@ -33,7 +33,7 @@ Nuclear repulsion energy: 298.913772 hartrees
 Point group: $C_{1}$.
 Number of inactive IR modes: 0
 Frequency of most intense mode: 1188.53 (Mode 20 with 677.538 IR Intensity)
-![[image-44.png|411x214]]
+![[image-44.png|10xInfinity|10x214]]
 
 This is the vibrational mode with the most IR intensity. It seems like most of the vibration is from the stretching and bending from the single bond between the Oxygen and C atom, the C atom seems to propagate to the left and right, while the O atom seems to go right, slightly upward. We can also see both Hydrogen atom that's bonded to the single C atom also propagates to the right in phase with each other.
 We can also see that the leftmost H atom and the C atom bonded to it also moves ever so slightly.

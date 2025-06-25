@@ -87,7 +87,7 @@ In this component tree, the HomePage is the root (at the top) that nests several
 This modularity allows us to re-use several components inside our application
 
 
-**Displaying data with props**
+**Displaying data with propsl**
 
 If we were to re-use our components two times, so far it would display the same thing, but let's say we want to pass in different text, or maybe we don't know the information beforehand, or we want to be able to update that value.
 
