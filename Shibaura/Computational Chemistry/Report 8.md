@@ -250,6 +250,7 @@ We know that the first reaction is a primary reaction (Molecule is connected wit
 
 4. Free energies
 
+**First reaction**
 $$
 CH_{3}Br + CN^{-} \to CH_{3}CN + Br^{-}
 $$
@@ -261,7 +262,7 @@ $$
 \Delta E = -131.924684 + (-2572.170865) - (-2611.71562506) - (-92.285729)
 $$
 $$
-\Delta E = -0.094195 Ha = 59.108257 \frac{kcal}{mol}
+\Delta E = -0.094195 Ha = -59.108257 \frac{kcal}{mol}
 $$
 
 $$
@@ -288,5 +289,71 @@ $$
 \Delta G_{sol} = dG_{ILD}(CH_{3}CN) + dG_{ILD}(Br^{-}) - dG_{ILD}(CH_{3}Br) - dG_{ILD}(CN^{-})
 $$
 $$
-\Delta G_{sol} = -9.19 + (-73.61) - (-2.23) - ()
+\Delta G_{sol} = -9.19 + (-73.61) - (-2.23) - (-88.29)
+$$
+$$
+\Delta G_{sol} = 7.72 \frac{kcal}{mol}
+$$
+
+$$
+\Delta G_{gas} = \Delta E + \Delta H - T \Delta S
+$$
+$$
+\Delta G_{gas} = -59.108257 \frac{kcal}{mol} + 1.884 \frac{kcal}{mol} - \left( 0.298 K * -9.489 \frac{cal}{mol.K} \right)
+$$
+$$
+\Delta G_{gas} = -54.396535
+$$
+
+$$
+\Delta G = \Delta G_{gas} + \Delta G_{sol}
+$$
+$$
+\Delta G = -54.396535 + 7.72
+$$
+$$
+\Delta G = -46.676535
+$$
+
+**Second reaction**
+
+$$
+C(CH_{3})_{3}Br + CN^{-} \to C(CH_{3})_{3}CN + Br^{-}
+$$
+
+$$
+\Delta E = E(C(CH_{3})_{3}CN) + E(Br^{-}) - E(C(CH_{3})_{3}Br) - E(CN^{-})
+$$
+$$
+\Delta E = -249.00307612 + (-2572.170965) - (-2728.822236) - (-92.285729)
+$$
+$$
+\Delta E = -0.066076 Ha = -41.463393 \frac{kcal}{mol}
+$$
+
+$$
+\Delta H = H(C(CH_{3})_{3}CN) + H(Br^{-})-H(C(CH_{3})_{3}Br) - H(CN^{-})
+$$
+$$
+\Delta H = (90.852 + 1.481 - 85.278 - 5.485) \frac{kcal}{mol}
+$$
+$$
+\Delta H = 1.57 \frac{kcal}{mol}
+$$
+
+$$
+\Delta S = S(C(CH_{3})_{3}CN) + S(Br^{-}) - S(C(CH_{3})_{3}Br) - S(CN^{-})
+$$
+$$
+\Delta S = (75.662 + 39.012 - 75.667 - 46.965) \frac{cal}{mol.K}
+$$
+$$
+\Delta S = -7.958 \frac{cal}{mol.K}
+$$
+
+$$
+\Delta G_{sol} = dG_{ILD}(C(CH_{3})_{3}CN) + dG_{ILD}(Br^{-}) - dG_{ILD}(C(CH_{3})_{3}Br) - dG_{ILD}(CN^{-})
+$$
+$$
+\Delta G_{sol} = -8.76 + (-73.61) - (-2.49) - ()
 $$
