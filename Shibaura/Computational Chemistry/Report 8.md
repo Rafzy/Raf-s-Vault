@@ -38,6 +38,9 @@ $[Br\dots C(CH_{3})_{3}\dots CN]^{+}$
 2. Reaction Barrier
 
 Primary Reaction:
+$$
+CH_{3}Br + CN^{-} \to CH_{3}CN + Br^{-}
+$$
 **SN1 Barriers**
 $CH_{3}Br + CN^{-}\to CH_{3}^{+}+ Br^{-}$
 
@@ -127,5 +130,45 @@ $$
 \Delta S = S([Br\dots CH_{3}\dots CN]^{-}) - S(CH_{3}Br) - S(CN^{-})
 $$
 $$
-\Delta S = (73.244 - 60.675 - )
+\Delta S = (73.244 - 60.675 - 46.965) \frac{cal}{mol.K}
 $$
+$$
+\Delta S = -34.396 \frac{cal}{mol.K}
+$$
+
+$$
+\Delta G_{sol} = dG_{ILD}([Br\dots CH_{3}\dots CN]^{-}) - dG_{ILD}(CH_{3}Br) - dG_{ILD}(CN^{-})
+$$
+$$
+\Delta G_{sol} = -69.02 - (-2.23) - (-88.29)
+$$
+$$
+\Delta G_{sol} = 21.5 \frac{kcal}{mol}
+$$
+
+$$
+\Delta G_{gas} = \Delta E + \Delta H - T \Delta S
+$$
+$$
+\Delta G_{gas} = 18.269545 \frac{kcal}{mol} + \left( -1.778 \frac{kcal}{mol} \right) - \left( 0.298 K * -34.396 \frac{cal}{mol.K} \right)
+$$
+$$
+\Delta G_{gas} = 26.741553 \frac{kcal}{mol}
+$$
+
+$$
+\Delta G = \Delta G_{gas} + \Delta G_{sol}
+$$
+$$
+\Delta G = (26.741553 + 21.5) \frac{kcal}{mol}
+$$
+$$
+\Delta G = 48.241553 \frac{kcal}{mol}
+$$
+
+Discussion:
+SN 1 Barrier: $\Delta G = 58,061.853644 \frac{kcal}{mol}$
+SN 2 Barrier: $\Delta G = 48.241553 \frac{kcal}{mol}$
+
+As we can see, for this primary reaction, SN1 barrier shows an almost impossibly large value. If we analyze the cause, the large number stems from $\Delta E$'s result. Because the intermediate and the reactant's energy values aren't balanced. 
+This imp
