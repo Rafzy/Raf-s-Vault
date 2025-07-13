@@ -235,5 +235,15 @@ $$
 \Delta G = 6,437.775147 \frac{kcal}{mol} + \left( -139.03 \frac{kcal}{mol} \right)
 $$
 $$
-\Delta G = 6,298.74514
+\Delta G = 6,298.745147 \frac{kcal}{mol}
 $$
+
+**SN2 Barrier**
+$C(CH_{3})_{3}^{+} + CN^{-} \to [Br\dots C(CH_{3})_{3}\dots CN]^{-}$
+
+Since my IQMol couldn't compute the transition state, i am unable to calculate the SN Barrier, but i will try to explain which method is best for this reaction based on the SN1 calculation.
+
+3. Which mechanism is favored for each reaction?
+
+For the first reaction, we can see that SN2 is more favorable since the SN1 Barrier energy value is impossibly high, while SN2 is more reasonable.
+That'
