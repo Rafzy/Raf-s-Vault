@@ -127,5 +127,5 @@ $$
 \Delta S = S([Br\dots CH_{3}\dots CN]^{-}) - S(CH_{3}Br) - S(CN^{-})
 $$
 $$
-\Delta S = (73.244)
+\Delta S = (73.244 - 60.675 - )
 $$
