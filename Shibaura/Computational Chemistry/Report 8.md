@@ -246,4 +246,47 @@ Since my IQMol couldn't compute the transition state, i am unable to calculate t
 3. Which mechanism is favored for each reaction?
 
 For the first reaction, we can see that SN2 is more favorable since the SN1 Barrier energy value is impossibly high, while SN2 is more reasonable.
-That'
+We know that the first reaction is a primary reaction (Molecule is connected with one carbon), while the second molecule is a tertiary reaction (Connected to three other carbons). Tertiary carbonations should be more stable than primary ones, so for the second reaction, SN1 should be more favorable compared to SN2.
+
+4. Free energies
+
+$$
+CH_{3}Br + CN^{-} \to CH_{3}CN + Br^{-}
+$$
+
+$$
+\Delta E = E(CH_{3}CN) + E(Br^{-}) - E(CH_{3}Br) - E(CN^{-})
+$$
+$$
+\Delta E = -131.924684 + (-2572.170865) - (-2611.71562506) - (-92.285729)
+$$
+$$
+\Delta E = -0.094195 Ha = 59.108257 \frac{kcal}{mol}
+$$
+
+$$
+\Delta H = H(CH_{3}CN) + H(Br^{-}) - H(CH_{3}Br) - H(CN^{-})
+$$
+$$
+\Delta H = (32.675 + 1.481 - 26.787 - 5.485) \frac{kcal}{mol}
+$$
+$$
+\Delta H = 1.884 \frac{kcal}{mol}
+$$
+
+$$
+\Delta S = S(CH_{3}CN) + S(Br^{-}) - S(CH_{3}Br) - S(CN^{-})
+$$
+$$
+\Delta S = (59.139 + 39.012 - 60.675 - 46.965) \frac{cal}{mol.K}
+$$
+$$
+\Delta S = -9.489 \frac{cal}{mol.K}
+$$
+
+$$
+\Delta G_{sol} = dG_{ILD}(CH_{3}CN) + dG_{ILD}(Br^{-}) - dG_{ILD}(CH_{3}Br) - dG_{ILD}(CN^{-})
+$$
+$$
+\Delta G_{sol} = -9.19 + (-73.61) - (-2.23) - ()
+$$
