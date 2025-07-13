@@ -85,5 +85,47 @@ $$
 \Delta G_{gas} = \Delta E + \Delta H - T \Delta S
 $$
 $$
-\Delta G_{gas} = 58,134.409 \frac{kcal}{mol} + \left( -8.708 \frac{kcal}{mol} \right) - (298 K * ) 
+\Delta G_{gas} = 58,134.409 \frac{kcal}{mol} + \left( -8.708 \frac{kcal}{mol} \right) - \left( 0.298 * - 20.378 \frac{cal}{mol K} \right)
+$$
+$$
+\Delta G_{gas}= 58,131.773644 \frac{kcal}{mol}
+$$
+$$
+\Delta G = \Delta G_{gas} + \Delta G_{sol}
+$$
+$$
+\Delta G = 58,131.773644 + (-69.92) \frac{kcal}{mol}
+$$
+$$
+\Delta G = 58,061.853644 \frac{kcal}{mol}
+$$
+
+**SN2 Barriers**
+$CH_{3}Br  + CN^{-} \to [Br\dots CH_{3}\dots CN]^{-}$
+
+$$
+\Delta E = E([Br\dots CH_{3}\dots CN]^{-}) - E(CH_{3}Br) - E(CN^{-})
+$$
+$$
+\Delta E = -2703.97225383 - (-2611.71562506) - (-92.28572880)
+$$
+$$
+\Delta E = 0.02910003 Ha = 18.260545 \frac{kcal}{mol}
+$$
+
+$$
+\Delta H = H([Br\dots CH_{3}\dots CN]^{-}) - H(CH_{3}Br) - H(CN^{-})
+$$
+$$
+\Delta H = (30.494 - 26.787 - 5.485) \frac{kcal}{mol}
+$$
+$$
+\Delta H = -1.778 \frac{kcal}{mol}
+$$
+
+$$
+\Delta S = S([Br\dots CH_{3}\dots CN]^{-}) - S(CH_{3}Br) - S(CN^{-})
+$$
+$$
+\Delta S = (73.244)
 $$
