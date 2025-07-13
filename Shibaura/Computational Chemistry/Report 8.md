@@ -188,10 +188,26 @@ $$
 \Delta E = 10.277666
 $$
 
-
 $$
 \Delta H = H(C(CH_{3})_{3}^{+}) + H(Br^{-}) - H(C(CH_{3})_{3}Br)
 $$
 $$
-\Delta H = 
+\Delta H = (81.506 + 1.481 - 85.278) \frac{kcal}{mol}
+$$
+$$
+\Delta H = -2.291 \frac{kcal}{mol}
+$$
+
+$$
+\Delta S = S(C(CH_{3})_{3}^{+}) + S(Br^{-}) - S(C(CH_{3})_{3}Br)
+$$
+$$
+\Delta S = (67.752 + 39.012 - 75.667) \frac{cal}{mol.K}
+$$
+$$
+\Delta S = 31.097 \frac{cal}{mol.K}
+$$
+
+$$
+
 $$
