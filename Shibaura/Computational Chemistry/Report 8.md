@@ -35,4 +35,13 @@ $[Br\dots C(CH_{3})_{3}\dots CN]^{+}$
 ![[image-86.png|414x312]]
 
 
-2. 
+2. Reaction Barrier
+
+Primary Reaction:
+**SN1 Barriers**
+$CH_{3}Br + CN^{-}\to CH_{3}^{+}+ Br^{-}$
+
+$$
+\Delta E = E(CH_{3}^{+}) + E(Br^{-}) - E(CH_{3}Br) - E(CN^{-})
+$$
+
