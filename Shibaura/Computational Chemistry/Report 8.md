@@ -36,8 +36,6 @@ $[Br\dots C(CH_{3})_{3}\dots CN]^{+}$
 
 
 2. Reaction Barrier
-
-Primary Reaction:
 $$
 CH_{3}Br + CN^{-} \to CH_{3}CN + Br^{-}
 $$
@@ -171,4 +169,15 @@ SN 1 Barrier: $\Delta G = 58,061.853644 \frac{kcal}{mol}$
 SN 2 Barrier: $\Delta G = 48.241553 \frac{kcal}{mol}$
 
 As we can see, for this primary reaction, SN1 barrier shows an almost impossibly large value. If we analyze the cause, the large number stems from $\Delta E$'s result. Because the intermediate and the reactant's energy values aren't balanced. 
-This imp
+This implies that $CH_{3}^{+}$, the intermediate structure, is unstable, and in reality, this reaction would never go through SN1.
+
+
+$$
+C(CH_{3})_{3}Br + CN^{-} \to C(CH_{3})_{3}CN + Br^{-}
+$$
+**SN1 Barriers**
+$C(CH_{3})_{3}Br + CN^{-} \to C(CH_{3})_{3}^{+} + Br^{-} + CN^{-}$
+
+$$
+\Delta E = E(C(CH_{3})_{3}^{+})
+$$
