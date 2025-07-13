@@ -185,7 +185,7 @@ $$
 \Delta E = -156.373605 + (- 2562.170965) - (-2728.822236)
 $$
 $$
-\Delta E = 10.277666
+\Delta E = 10.277666 Ha = 6,449.333053 \frac{kcal}{mol}
 $$
 
 $$
@@ -209,5 +209,31 @@ $$
 $$
 
 $$
+\Delta G_{sol} = dG_{ILD}(C(CH_{3})_{3}^{+}) + dG_{ILD}(Br^{-}) - dG_{ILD}(C(CH_{3})_{3}Br)
+$$
+$$
+\Delta G_{sol} = -67.91 + (-73.61) - (-2.49)
+$$
+$$
+\Delta G_{sol} = -139.03 \frac{kcal}{mol}
+$$
 
+$$
+G_{gas} = \Delta E + \Delta H - T \Delta S 
+$$
+$$
+\Delta G_{gas} = 6,449.333053 \frac{kcal}{mol} + \left( -2.291 \frac{kcal}{mol} \right) - \left( 0.298 K * 31.097 \frac{cal}{mol.K} \right)
+$$
+$$
+\Delta G_{gas} =  6,437.775147 \frac{kcal}{mol}
+$$
+
+$$
+\Delta G = \Delta G_{gas} + \Delta G_{sol}
+$$
+$$
+\Delta G = 6,437.775147 \frac{kcal}{mol} + \left( -139.03 \frac{kcal}{mol} \right)
+$$
+$$
+\Delta G = 6,298.74514
 $$
