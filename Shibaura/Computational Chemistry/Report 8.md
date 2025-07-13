@@ -32,6 +32,7 @@ $C(CH_{3})_{3}^{+}$
 Transition state:
 $[Br\dots C(CH_{3})_{3}\dots CN]^{+}$
 
+![[image-86.png|414x312]]
 
 
 2. 
