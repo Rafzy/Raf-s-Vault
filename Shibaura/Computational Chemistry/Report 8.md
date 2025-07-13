@@ -48,12 +48,42 @@ $$
 \Delta E = -39.17863413 + (-2572.1796463) - (-2611.71562506) - (-92.28572880)
 $$
 $$
-\Delta E = 92.64307343
+\Delta E = 92.64307343 Ha = 58,134.408686 \frac{kcal}{mol}
 $$
 
 $$
 \Delta H = H(CH_{3}^{+}) + H(Br^{-}) - H(CH_{3}Br) - H(CN^{-})
 $$
 $$
-\Delta H = 
+\Delta H = 22.083 + 1.481 - 26.787 - 5.485
+$$
+$$
+\Delta H = -8.708 \frac{kcal}{mol}
+$$
+
+$$
+\Delta S = S(CH_{3}^{+}) + S(Br^{-}) - S(CH_{3}Br) - S(CN^{-})
+$$
+$$
+\Delta S = 48.250 + 39.012 - 60.675 - 46.965
+$$
+$$
+\Delta S = -20.378 \frac{cal}{mol.K}
+$$
+
+$$
+\Delta G_{sol} = dG_{ILD}(CH_{3}^{+}) + dG_{ILD} (Br^{-}) - dG_{ILD}(CH_{3}Br) - dG_{ILD}(CN^{-})
+$$
+$$
+\Delta G_{sol} = -86.83 + (-73.61) - (-2.23) - (-88.29)
+$$
+$$
+\Delta G_{sol} = -69.92 \frac{kcal}{mol}
+$$
+
+$$
+\Delta G_{gas} = \Delta E + \Delta H - T \Delta S
+$$
+$$
+\Delta G_{gas} = 58,134.409 \frac{kcal}{mol} + \left( -8.708 \frac{kcal}{mol} \right) - (298 K * ) 
 $$
