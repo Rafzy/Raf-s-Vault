@@ -154,3 +154,31 @@ So my prediction is the same as before, because the electrons move from HOMO, a 
 Same with naphthelene, the geometry optimization for the triplet structure doesn't seem to change to the naked eye. But we can observe the exact change in length between triplet structure and singlet structure
 
 Triplet:
+![[image-109.png|423x304]]
+
+Singlet
+![[image-111.png|425x315]]
+
+As we can see, for the two C atom bond, it grows longer for the triplet structure compared to the singlet.
+
+Singlet energy at optimized triplet energy: -615.39879622
+
+
+## Answers for questions
+
+Optimized energies
+
+| Energies                  | Biphenyl      | Naphthalene   | Pyrene        |
+| ------------------------- | ------------- | ------------- | ------------- |
+| Singlet                   | -463.04049661 | -385.66834379 | -615.41644366 |
+| Triplet                   | -462.91834876 | -385.56177608 | -615.33410840 |
+| Singlet energy at triplet | -463.01296690 | -385.64927511 | -615.39879622 |
+
+Nuclear repulsion
+
+| Energies                  | Biphenyl | Naphthalene | Pyrene |
+| ------------------------- | -------- | ----------- | ------ |
+| Singlet                   |          |             |        |
+| Triplet                   |          |             |        |
+| Singlet energy at triplet |          |             |        |
+
