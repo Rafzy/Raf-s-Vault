@@ -85,4 +85,30 @@ Here, we can see that this is a bonding$\pi$ orbital, adjacent C bonding create 
 Alpha 35 (LUMO)
 ![[image-97.png|463x344]]
 
-For LUMO, we can see that this is bonding forms an antibonding $\pi^{*}$ orbital, we can see nodes between 
+For LUMO, we can see that this is bonding forms an antibonding $\pi^{*}$ orbital, we can see nodes between C bondings, except for the two leftmost and rightmost C pair.
+
+So, from what we can see, my prediction is that the general bonding length will lengthen when transitioning into an excited triplet state, same case with biphenyl, however we might see mixed effects for the peripheral C-C bond in the middle, because there's no apparent change that might happen between HOMO and LUMO as of now.
+
+
+**Geometry optimization for triplet**
+![[image-98.png|402x272]]
+
+By the naked eye, there doesn't seem to be much change, but if we analyze the length of the C bonds, we can see that the triplet structure has longer bonds
+
+Triplet:
+![[image-100.png|510x360]]
+
+Singlet:
+![[image-101.png|503x403]]
+
+As we can see, for the C bonds it's longer for the triplet state compared to the singlet state by around 0.07 angstrom. proving the previous prediction. Now, let's examine the C bond in the middle to see the effect, since i couldn't make a clear prediction before
+
+Triplet:
+![[image-102.png|506x368]]
+
+Singlet:
+![[image-103.png|509x381]]
+
+So it seems that the C-C bond in the middle also increases in length, but not as drastic as the other C-C bonds
+
+
