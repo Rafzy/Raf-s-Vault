@@ -111,4 +111,9 @@ Singlet:
 
 So it seems that the C-C bond in the middle also increases in length, but not as drastic as the other C-C bonds
 
+Single point energy for triplet structure: -385.64927511
+
+## Pyrene
+
+![[image-104.png|479x365]]
 
