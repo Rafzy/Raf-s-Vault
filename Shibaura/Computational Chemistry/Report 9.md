@@ -202,4 +202,25 @@ For example, it's not allowed for transitions to change from zero spin quantum t
 
 3. phosphorescence from the lowest triplet to the ground state
 
-To predict the phosphorescence from lowest triplet to ground state, i'll subtract the energy at the triplet geometry with the single 
+To predict the phosphorescence from lowest triplet to ground state, i'll subtract the energy at the triplet geometry with the single point energy at triplet geometry.
+The reason we get this is because the prediction is:
+$T_{1} \to S_{0}^{T} + photon$
+What i mean is, the energy for the optimized triplet geometry, is the product of the single point energy at that geometry + photon
+
+with that, we'll get this result
+
+| Molecule    | Phosphorescence energy |
+| ----------- | ---------------------- |
+| Biphenyl    | 2.57 eV                |
+| Naphthalene | 2.38 eV                |
+| Pyrene      | 1.76 eV                |
+
+4. Geometric effects from singlet to triplet
+I've answered this in the lab report above, but to summarize, all three molecules result in the bond length increasing, going from singlet to triplet structures. Pictures are also included above.
+
+5. What is the magnitude of Stokes shift
+We can calculate the stokes shift by subtracting the absorption energy with the emission energy (Phosphorescence energy). Stoke shift represents the energy loss between absorption and emission. So we can immediately calculate stoke shift with what we have
+
+Biphenyl: 5.7823 - 2.57 = 3.21 eV
+Naphthalene: 5.1907 - 2.38 = 2.81 eV
+Pyrene: 4.4176 - 1.76 = 2.66 eV
