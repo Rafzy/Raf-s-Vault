@@ -117,3 +117,40 @@ Single point energy for triplet structure: -385.64927511
 
 ![[image-104.png|479x365]]
 
+Transitions with strength > 0.1
+**From a.out**
+Excited state 7
+excitation energy: 4.4176
+Oscillator strength: 0.4188466109
+Dominant orbital: D(53) -> V(1) amplitude = 0.9096
+Multiplicity: singlet
+
+Excited state 10
+excitation energy: 5.6549
+Oscillator strength: 0.6067996962
+Dominant orbital: D(52) -> V(1) amplitude = 0.6751
+Multiplicity: singlet
+
+Main orbitals involved in the lowest triple energy:
+![[image-105.png|586x116]]
+
+Most dominant: D(53) -> V(1) amplitude: 0.9427
+Plot:
+Alpha 53 (HOMO)
+![[image-106.png|515x463]]
+
+This seems to be also a bonding $\pi$ orbital, we can see that there the Molecular orbital is comprised of in phase orbitals that surrounds most of the bond between C atoms.
+
+Alpha 54 (LUMO)
+![[image-107.png|519x394]]
+
+For the LUMO orbital, we can see that it's a antibonding $\pi^{*}$ orbital, since we can see a lot more nodes in between most of the C bondings.
+
+So my prediction is the same as before, because the electrons move from HOMO, a bonding MO, to LUMO, an antibonding MO, the length of the bonds would generally lengthen.
+
+**Geometry optimization for triplet**
+![[image-108.png|532x422]]
+
+Same with naphthelene, the geometry optimization for the triplet structure doesn't seem to change to the naked eye. But we can observe the exact change in length between triplet structure and singlet structure
+
+Triplet:
