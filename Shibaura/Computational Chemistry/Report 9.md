@@ -52,3 +52,37 @@ Singlet energy at optimized triplet energy: -463.01296690
 
 ![[image-94.png|479x312]]
 
+Transition with strength > 0.1:
+**From a.out file**
+Excited state 7
+Excitation energy: 5.1907
+Oscillation strength: 0.1052894505
+Dominant orbitals: D(34) -> V(1) amplitude: 0.9286
+Multiplicity: singlet
+
+Excited state 9
+Excitation energy: 6.9303
+Oscillation strength: 2.0213810885
+Dominant orbitals: D(34) -> V(2) amplitude: 0.6919
+Multiplicity: singlet
+
+Excited state 10
+Excitation energy: 7.1270
+Oscillation strength: 0.3857387817
+Dominant orbitals: D(33) -> V(2) amplitude 0.8961
+Multiplicity: singlet
+
+Main orbitals involved in the lowest triple energy:
+![[image-95.png|569x130]]
+
+Most dominant: D(34) -> V(1) amplitude = 0.9420
+Plot:
+Alpha 34 (HOMO)
+![[image-96.png|460x350]]
+
+Here, we can see that this is a bonding$\pi$ orbital, adjacent C bonding create bonding orbitals, dibided into several orbitals of the structure.
+
+Alpha 35 (LUMO)
+![[image-97.png|463x344]]
+
+For LUMO, we can see that this is bonding forms an antibonding $\pi^{*}$ orbital, we can see nodes between 
