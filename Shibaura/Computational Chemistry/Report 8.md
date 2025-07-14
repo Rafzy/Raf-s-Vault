@@ -355,5 +355,41 @@ $$
 \Delta G_{sol} = dG_{ILD}(C(CH_{3})_{3}CN) + dG_{ILD}(Br^{-}) - dG_{ILD}(C(CH_{3})_{3}Br) - dG_{ILD}(CN^{-})
 $$
 $$
-\Delta G_{sol} = -8.76 + (-73.61) - (-2.49) - ()
+\Delta G_{sol} = -8.76 + (-73.61) - (-2.49) - (-88.29) \frac{kcal}{mol}
 $$
+$$
+\Delta G_{sol} = 8.41 \frac{kcal}{mol}
+$$
+
+$$
+\Delta G_{gas} = \Delta E + \Delta H - T \Delta S
+$$
+$$
+\Delta G_{gas} = -41.463393 \frac{kcal}{mol} + 1.57 \frac{kcal}{mol} - \left( 0.298 K * -7.958 \frac{cal}{mol.K} \right)
+$$
+$$
+\Delta G_{gas} = -37.521909 \frac{kcal}{mol}
+$$
+
+$$
+\Delta G = \Delta G_{gas} + \Delta G_{sol}
+$$
+$$
+\Delta G = -37.521909 + 8.41 \frac{kcal}{mol}
+$$
+$$
+\Delta G = -29.111909 \frac{kcal}{mol}
+$$
+
+5. Why is it important to consider solvation effects for these reactions?
+
+There are several reasons why it's important especially for these reactions to include solvation effect. These reactions involved charged molecules/atoms, And charged structures are stabilized by polar solvents. Solvation also stabilizes carbocations (which is important since it's what makes SN1 possible), so without solvation in our equation, SN1 would most likely always appear impossible.
+
+Aside from that, real chemistry reactions are usually performed in solvents (like water, or alcohol), and so solvation effects are part of the actual reaction environment. 
+
+6. How can we improve upon the calculations?
+
+Instead of HF, we can use DFT methods, with HF, we know that HF ignores electron correlations, and each electron are assumed to be independent, meanwhile carbocation depends on electron movement. Using DFT would allow electron correlation to be considered in the calculations, so using something like B3LYP with 6-311+G basis would be good.
+
+Other than that, we can use other solvation model aside from ChemSol. ChemSol is a simple model relative to other models, and it may not accurately capture specific solvent interactions. So we can try using other solvation models like SMD (Solvation Model Density) or PCM (Polarizable Continuum Model)
+
