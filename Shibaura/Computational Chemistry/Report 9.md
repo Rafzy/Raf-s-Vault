@@ -166,6 +166,8 @@ Singlet energy at optimized triplet energy: -615.39879622
 
 ## Answers for questions
 
+1. Result tables
+
 Optimized energies
 
 | Energies                  | Biphenyl      | Naphthalene   | Pyrene        |
@@ -176,9 +178,28 @@ Optimized energies
 
 Nuclear repulsion
 
-| Energies                  | Biphenyl | Naphthalene | Pyrene |
-| ------------------------- | -------- | ----------- | ------ |
-| Singlet                   |          |             |        |
-| Triplet                   |          |             |        |
-| Singlet energy at triplet |          |             |        |
+| Energies                  | Biphenyl     | Naphthalene  | Pyrene       |
+| ------------------------- | ------------ | ------------ | ------------ |
+| Singlet                   | 599.17351703 | 457.42431267 | 966.04381800 |
+| Triplet                   | 595.34834823 | 453.93939959 | 962.75448116 |
+| Singlet energy at triplet | 595.34834043 | 453.93940286 | 962.75447983 |
 
+eV table
+
+| Molecule    | Energy (eV) | Oscillator strength | Configuration |
+| ----------- | ----------- | ------------------- | ------------- |
+| Biphenyl    | 5.7823      | 0.5881856949        | D(41) -> V(1) |
+| Naphthalene | 5.1907      | 0.1052894505        | D(34) -> V(1) |
+| Naphthalene | 6.9303      | 2.0213810885        | D(34) -> V(2) |
+| Naphthalene | 7.1270      | 0.3857387817        | D(33) -> V(2) |
+| Pyrene      | 4.4176      | 0.4188466109        | D(53) -> V(1) |
+| Pyrene      | 5.6549      | 0.6067996962        | D(52) ->V(1)  |
+
+2. Why are all the bright transitions singlets?
+
+Because of selection rules for transitions, for electric dipole transitions, total spin quantum numbers cannot change. Since we calculated TDA from an optimized singlet structure of the three molecules, the transitions would be (singlet -> singlet).
+For example, it's not allowed for transitions to change from zero spin quantum to one spin quantum (singlet -> triplet)
+
+3. phosphorescence from the lowest triplet to the ground state
+
+To predict the phosphorescence from lowest triplet to ground state, i'll subtract the energy at the triplet geometry with the single 
