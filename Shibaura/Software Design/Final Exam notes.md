@@ -906,3 +906,36 @@ We cannot confirm the software is developed completely "right"
 
 ## Testing
 
+**Purpose**
+Find bugs by executing the target software 
+- To check whether required functions of the software has
+
+**Model of software testing process**
+
+![[image-138.png]]
+
+**Test case and test suite**
+Test case
+set of input values, execution conditions, and expected output values
+
+Test suite
+A collection of test cases for the test target (the whole system, a sub system, a component, etc)
+
+**Test level**
+Categorization of testing by it's target and purpose
+- Unit testing: Test individual units, objects classes, and components. To separate a unit from other parts, drivers and stubs are used
+- Integration testing: Several individual units are integrated, and interfaces and communication between them are tested. Drivers and stubs may be needed.
+- System testing: Whole system is tested. The behavior of the system is checked, whether they meet the functional and non-functional requirements or not.
+- Acceptance testing: Customer determines whether the system achieves the purpose and is acceptable or not
+
+**Test type**
+Categorization of testing by it's purpose
+- Functional testing: Ensure that the system implements the functionality according to specifications 
+- Non-functional testing: Testing non-functional aspects. Performance testing, load testing, stress testing, usability testing, etc.
+- Structural testing: Test based on the architecture of the system and the structure of it's components
+- Testing when the software is changed:
+	- Conformance testing (re-testing): testing to see if the defects have been corrected properly
+	- Regression testing: Make sure that the changes have not created any other defects.
+
+**Black box testing**
+Testing that ignores the internal mechanism of the system.
