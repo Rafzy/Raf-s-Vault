@@ -702,3 +702,26 @@ Example: Class
 
 **Data abstraction**
 Focuses on the operation that can be done on data, don't care on how it does it.
+Abstract data type is a data type defined as a set of operations
+Evolved to the object-oriented programming
+
+
+## Viewpoint of software design
+
+**Basic viewpoints of design**
+How can we find and design modules to realize good modularization?
+We can choose basic viewpoints
+![[image-130.png]]
+
+**Overview of structured method**
+Method to structure software
+Focus on functions of software
+
+
+**Functional decomposition**
+Modules in structured methods are to realize functions called as processes. Each function is a transformation of input to output.
+In structured method, a system is considered as one function, and decomposed into necessary sub functions -> Functional decomposition
+
+**Data flow diagram**
+![[image-131.png]]
+
