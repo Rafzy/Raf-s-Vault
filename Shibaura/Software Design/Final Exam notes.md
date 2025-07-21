@@ -725,3 +725,79 @@ In structured method, a system is considered as one function, and decomposed int
 **Data flow diagram**
 ![[image-131.png]]
 
+![[image-132.png|378x269]]
+
+**Structured chart**
+Shows program structure 
+In structured method, each process becomes a module, and data flow becomes a relationship between modules
+
+**Data oriented approach**
+The structure of information and data is clarified before the design of functionality
+The structure of information and data -> Database design
+
+**Design focused on state**
+Many embedded systems are reactive systems.
+In reactive systems, each response is determined by combination of an event and the internal state
+Design focused on state is necessary to design such reactive systems
+
+**Description of state transitions**
+- State machine diagrams
+	Describe possible states and transitions between them graphically
+	easy to follow state transitions
+- State transition table
+	Describes states in a table
+	- row: State name
+	- column: event name
+	- cell: name of a next state on the top, activities on the transitions on the bottom
+
+
+# Session 9
+
+## Data Oriented approach
+
+Structure of information and data is clarified before the design of functionality
+Structure of information and data -> database design
+
+![[image-133.png]]
+
+**Process of data modeling**
+Conceptual design: Real world -> conceptual model
+logical design: conceptual model -> logical world
+
+**Entity relationship model**
+Basic concepts:
+- Entity: Description of a thing or an object existing in the real world
+- Relationship: model element specifying a relationship between entities
+
+**Entity relationship diagram**
+graphical expression of entity relationship model
+Notations of basic elements:
+- Entity set: rectangle
+- Relationship set: diamond shape
+- Attribute: ellipse
+
+example:
+![[image-134.png]]
+
+
+## Object-oriented design
+
+Advanced method of the basic viewpoint of design
+
+**Characteristics of object oriented design**
+Object-oriented design is the design method in which a class and an object is a unit of modularization
+Characteristics:
+- Inheritance
+- Polymorphism
+- Delegation
+
+**Inheritance**
+Good for independence of object 
+Localize effect of changes
+
+![[image-135.png]]
+
+**Polymorphism**
+Different classes may have the same operation name
+Specification of the operation is identical for each class, but each class can implement the operation differently
+Useful for achieving a highly independent module structure
