@@ -801,3 +801,85 @@ Localize effect of changes
 Different classes may have the same operation name
 Specification of the operation is identical for each class, but each class can implement the operation differently
 Useful for achieving a highly independent module structure
+
+Example:
+Client has to know that each subclass of figure has a method named "move()"
+at run time, the appropriate implementation of move() is executed
+If pentagon is added as a subclass of figure, no change to client is needed
+
+![[image-136.png]]
+
+**Delegation**
+A class passes a request received to other classes and let them handle it
+
+![[image-137.png]]
+
+**How to find appropriate classes?**
+In object-oriented design, a class is the unit of modularization. Focus on the role that classes play in the system
+
+**CRC**
+Class-Responsibility-Collaborator
+A method for examining class roles using CRC cards
+- CRC cards has three areas:
+	- Class name
+	- responsibilities (methods)
+	- Collaborators (another classes that a class interacts wth to fulfill it's responsibilities)
+
+**Design by contract (DBC)**
+Method describing the interface of a class in a specification called a contract.
+Contract -> Conditions that must be met between the class that provide the method and the class that use the method
+Precondition -> Conditions that must be satisfied before calling a method
+Postcondition -> Conditions that should be satisfied after calling a method
+
+Contract and class responsibility
+Caller of the method must guarantee preconditions
+Provider of the methods must guarantee postconditions
+
+**Design guideline**
+Principles of achieving the desired module structure
+- Single responsibility principle (SRP)
+- Open closed principle (OCP)
+- Liskov substitution principle 
+- Dependency inversion principle (DIP)
+- Interface segregation principle (ISP)
+
+
+**Single Responsibility principle**
+A class should only have one reason to change
+Changing a class is necessary when the role the class plays changes
+One class should not have more than one role
+
+**Open Closed Principle (OCP)**
+A class should be able to extend it's behavior without modifying it
+"Open" for extension
+"Closed" for modification
+
+**Liskov substitution Principle (LSP)**
+The derived class must be replaceable with the original class
+A subclass "is a" parent class, it must behave as it's parent class
+
+**Dependency Inversion Principle**
+Should not depend on concrete classes (implementation), but on the abstractions (interface)
+Increase independence through intervening interfaces rather than relying directly on lower layers 
+
+**Interface segregation principle**
+A fine grained interface should be provided for each client. 
+One interface for a set of methods needed by different clients exposes unnecessary methods and introduces the risk of unnecessary coupling.
+
+**OO design and UML**
+Before designing, develop a *use case diagram*. for requirements definition
+To consider data structure, we may use *class diagrams* instead of entity relationship diagrams
+Using CRC cards or other methods, we find class candidates, and based on these candidates, design the static structure of the software using *class diagrams*.
+To consider collaboration between classes in developing class diagram, we may use *sequence diagram*
+To design the behavior of the class, we may use *state machine diagrams*, especially for embedded software development
+
+# Verification & Validation
+
+## Verification & Validation
+
+**Checking artifacts**
+Artifacts are programs, data, documents, others that are developed in the software development process.
+
+We need to check all these artifacts (Verification & Validation)
+
+**Verification**
