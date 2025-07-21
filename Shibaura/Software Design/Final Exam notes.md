@@ -883,3 +883,26 @@ Artifacts are programs, data, documents, others that are developed in the softwa
 We need to check all these artifacts (Verification & Validation)
 
 **Verification**
+Assess whether the artifacts developed during a phase meet the condition and constraints imposed at the start of that phase
+"Are we building the product right?"
+
+**Validation**
+Confirm that the requirements for the intended use and purpose have been achieved based on objective evidence
+"Are we building the right product?"
+
+**V&V**
+To check the artifact, both of verification, and validation are needed and important.
+We cannot confirm the software is developed completely "right"
+
+**Typical methods**
+- Software testing
+	System is executed with test data and it's operational behavior is observed
+- Review
+	Discuss the evaluation of outputs from each phase, and whether we can accept outputs from the previous phase
+- Static analysis
+	Analyzes artifacts without executing them, using tools
+- Formal verification
+	Verify software using formal and mathematical methods
+
+## Testing
+
