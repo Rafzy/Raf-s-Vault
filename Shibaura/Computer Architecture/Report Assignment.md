@@ -1,3 +1,49 @@
 
 ## Q1
 
+In the case of "taken",  in the original RISC-V pipeline, the instruction that needs to be executed would have been fetched in clock cycle 5.
+
+Let's look at this step by step:
+
+- CC1: 'beq' instruction fetched
+- CC2: 'beq' in ID (because we assume no branch is taken, the next instruction is fetched, which is the wrong instruction)
+- CC3: 'beq' in EX (another wrong instruction is fetched)
+- CC4: 'beq' in MEM (Decision is made) (Another wrong instruction fetched)
+- CC5: Branch target then finally fetched
+
+Since the next instruction is first taken at CC2 then the delay would be:
+CC5 - CC2 = 3 clock cycles
+
+## Q2
+
+If we use the technique of moving up the branch decision and branch adder to ID, we would significantly decrease the delay. Let's analyze this step by step
+
+- CC1: 'beq' instruction fetched
+- CC2: 'beq' in ID (**Branch decision made**, wrong instruction fetched)
+- CC3: Branch target is fetched!
+
+When the branch is taken, the fetch would occur on the third clock cycle, and the delay would be:
+CC3 - CC2 = 1 Clock cycle
+This immediately shows a significant improvement compared to the previous technique. However this approach has some difficulties, like having to add new forwarding logic since forwarding the operand of branches was initially handled by the ALU forwarding logic.
+Also, the value we need to compare in ID may be dependent on previous instructions, which hasn't been produced yet, causing data hazard, which means we would need to stall, because we can't do forwarding, since we need the value very early on in the ID stage, the value wouldn't have been finished producing from the previous instruction.
+
+
+## Q3
+
+The best case is to be able to fetch the instruction needed after beq at CC2, regardless of whether the branch is taken or not.
+
+There are many researches and many approaches that have tried to solve this dilemma.
+Including:
+
+### Dynamic Branch Prediction
+With this approach, the hardware will try to predict the branch's outcome before it's computed. It makes the decision based on the **runtime behavior**, it will learn from what the branch did in the past, and tries to predict what it will do in the future.
+If the prediction is correct, then there will be no penalty and the next instruction will be able to be fetched at CC2, but if the prediction is wrong, we will need to flush the registers. 
+
+There are some key implementations for this approach
+1. Two bit saturating counter
+	We use two bits that represent the decision making of the model. 
+	(11 = strongly taken, 10 = weakly taken, 01 = weakly not taken, 00 = strongly not taken), with the hierarchy sorted as how i listed them out.
+	We will start at a certain state of the counter, and based on the result of the prediction, will go up (towards strongly taken), or go down (towards strongly not taken).
+2. Branch history table
+### Branch Target Buffer
+
