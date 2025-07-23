@@ -324,3 +324,77 @@ DC ratings are lowr than AC because
 	- Switch ON = Logic '0' (0v)
 	- Switch OFF = Logic '1' (5v)
 
+### Basic switch circuits for microcontroller
+- Pull-up/Pull-down resistor : Ensures defined logic level
+- Current protection resistor: Protects against short
+
+## Switch bouncing
+
+### Problem
+When a mechanical switch changes state:
+- Contacts don't make clean connection immediately
+- Bounce multiple times (milliseconds)
+- Creates multiple ON/OFF tranisitions
+- Can cause false triggers
+
+### Solution
+1. Mechanical debouncing
+	- Spring loaded mechanisms
+	- Bistable action
+2. Electrical debouncing
+	- R1 (100$\ohm$ + C1(100$nF$) creates a low pass filter
+	- Schmitt trigger provides clean digital output
+	- Filters out fast bounces
+3. Software debouncing
+```
+1. Check switch state
+2. If changed, wait 10-50ms (blocking delay)
+3. Check again
+4. If still changed, accept new state
+```
+
+
+# Session 5
+
+## Introduction to sensors
+
+### What are sensors
+Devices that convert physical phenomena into electrical signals that can be processed by microcontrollers
+
+**Goal:** Produce a changing voltage signal to be fed into microprocessor
+
+### Typical Electrical Signal gates
+- Resistance gates (Thermistors, photoresistors)
+- Capacitance change (humidity, proximity)
+- Voltage change (thermocouples, piezoelectric)
+- Current changes (photodiodes)
+
+## Sensor terminology
+
+### Key Terms
+#### Transfer function
+- Signal response from the sensor
+- Mathematical relationship between input and output
+#### Sensitivity
+- Slop of transfer function
+- How much output changes per unit input charge
+#### Resolution
+- Minimum detectable change in input signal
+- Smallest increment sensor can detect
+#### Etc
+
+
+## Analog vs Digital Signals
+
+### Analog signals
+- Contains all information
+- Continuous values
+- Attenuates, contains noise
+- Most sensors inherently analog
+
+### Digital signals
+- Information is quantized (discrete values)
+- Robust, easy to transmit long distances
+- Most microprocessors inherently digital
+
+
