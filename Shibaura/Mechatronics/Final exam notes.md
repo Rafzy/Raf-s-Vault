@@ -407,5 +407,49 @@ Types:
 
 Temperature formula:
 $$
-T[]
+T[C\degree] = \frac{298.15 \beta}{298.15 \ln\left( \frac{c}{1023-c}+\beta \right)} - 273.15
 $$
+![[image-146.png]]
+
+## Photoresistor
+
+### Characteristics:
+- Light energy-dependent resistor
+- Similar to human's eye's spectral response
+
+![[image-145.png|327x159]]
+
+## Vibration switch
+
+Mechanical switch consisting of high compliance spring
+
+![[image-147.png|396x219]]
+
+# Session 7
+
+## Event driven programming vs Traditional programming
+
+Traditional programming -> sequential/synchronous
+Event driven programming -> Asynchronous (the program's flow is determined by events, which are unpredictable occurrences).
+
+### Events, Actions, States
+
+- **Events**: Instantaneous change in environment
+- **Actions**: Instantaneous response to an event
+- **State**: Condition or mode of the system resulting from an action
+
+![[image-148.png]]
+
+
+## Finite state machine
+
+(Honestly u learned this in software design)
+Just be careful about what counts as events, it needs to be an **Instantaneous** change
+
+![[image-150.png|579x328]]
+
+![[image-149.png|577x286]]
+
+
+
+
