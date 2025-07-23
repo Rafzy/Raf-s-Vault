@@ -1,4 +1,7 @@
 
+Rafael Zefanya Jaya Surya
+Z125075
+
 ## Q1
 
 In the case of "taken",  in the original RISC-V pipeline, the instruction that needs to be executed would have been fetched in clock cycle 5.
@@ -43,10 +46,30 @@ We use two bits that represent the decision making of the model.
 (11 = strongly taken, 10 = weakly taken, 01 = weakly not taken, 00 = strongly not taken), with the hierarchy sorted as how i listed them out.
 We will start at a certain state of the counter, and based on the result of the prediction, will go up (towards strongly taken), or go down (towards strongly not taken).
 
-This is extremely effective for loops in programs, since loops are usually done in multiple concurrent times, the program would be encouraged to predict the "taken" state in loops, 
+This is extremely effective for loops in programs, since loops are usually done in multiple concurrent times, the program would be encouraged to predict the "taken" state in loops, which would be true up until the end of the loop when it ends.
+This technique would essentially make loops have over 90% accuracy in predicting the branch decisions.
 
 Source:
 Smith, J.E. (1981). "A Study of Branch Prediction Strategies"  
 Proceedings of the 8th Annual International Symposium on Computer Architecture (ISCA), pp. 135-148
 
+### Branch Target Buffer 
 
+Branch target buffer aims to solve a problem even when we have perfect branch prediction. Imagine we can perfectly predict whether the next branch will be taken or not, the problem with this, is we still need to decode where the branch would go (Calculating the branch address), this problem was previously fixed by moving it up to the ID stage, this means we still cannot guarantee to fetch the next instruction in CC2.
+
+BTB aims to solve this, by utilizing a sort of table that stores entries. Each entry has five attributes: PC (Tag), Target address, prediction (Can be taken from dynamic branch prediction which i explained before), Valid, Type.
+
+PC is the address of the branch instruction itself, Target address is the branch goes if taken, prediction is a 2 bit counter similar to the dynamic branch prediction method i said before, Valid is a bool value that explains whether this entry is valid or not, and type is the branch type (BEQ, JAL, BNE, etc). 
+
+
+How it works:
+- Send PC to IF (Instruction Fetch), and BTB (To check if it's a branch or not, if it is, save in entry with the attributes explained above)
+- Since it is the first time seeing this branch and it is just put in the entry, so we most likely have to flush if branch is taken (BTB miss essentially). The branch is executed normally, and the branch address is also saved in the entry
+- Next time another branch instruction is found, we look up the BTB and compare the PC with all tags, if found => Hit (We read the target address as well as the prediction), if miss => we have to flush
+
+
+This approach is akin to caching, but contains PC, branch prediction, and target, allowing the possibility to instruction fetch at CC2 for both taken and not taken situation, since both the prediction and the branch target address is stored in the BTB.
+
+Source:
+Lee, J.K.F. and Smith, A.J. (1984). "Branch Prediction Strategies and Branch Target Buffer Design"
+IEEE Computer, vol. 17, no. 1, pp. 6-22
