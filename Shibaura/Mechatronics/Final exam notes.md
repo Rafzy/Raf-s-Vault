@@ -458,3 +458,11 @@ Just be careful about what counts as events, it needs to be an **Instantaneous**
 
 Transistors are more versatile switches because they use a small current at the base to control a much larger current flowing from the **collector** to the **emitter**. Separating the control (input) and load (output) circuits.
 
+Two main types of bipolar junction transistors (BJTs)
+
+NPN and PNP transistors
+- NPN transistor: Consist of a P type semiconductor layer between two N-type layers
+- PNP transistor: Consist of an N type semiconductor layer between two P-type layers
+
+The key difference of NPN and PNP transistors lies in their internal structure, current flow direction, and biasing requirements. Both are bipolar junction transitions but behave as complementary opposites.
+
