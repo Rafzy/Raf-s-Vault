@@ -39,11 +39,14 @@ Including:
 With this approach, the hardware will try to predict the branch's outcome before it's computed. It makes the decision based on the **runtime behavior**, it will learn from what the branch did in the past, and tries to predict what it will do in the future.
 If the prediction is correct, then there will be no penalty and the next instruction will be able to be fetched at CC2, but if the prediction is wrong, we will need to flush the registers. 
 
-There are some key implementations for this approach
-1. Two bit saturating counter
-	We use two bits that represent the decision making of the model. 
-	(11 = strongly taken, 10 = weakly taken, 01 = weakly not taken, 00 = strongly not taken), with the hierarchy sorted as how i listed them out.
-	We will start at a certain state of the counter, and based on the result of the prediction, will go up (towards strongly taken), or go down (towards strongly not taken).
-2. Branch history table
-### Branch Target Buffer
+We use two bits that represent the decision making of the model. 
+(11 = strongly taken, 10 = weakly taken, 01 = weakly not taken, 00 = strongly not taken), with the hierarchy sorted as how i listed them out.
+We will start at a certain state of the counter, and based on the result of the prediction, will go up (towards strongly taken), or go down (towards strongly not taken).
+
+This is extremely effective for loops in programs, since loops are usually done in multiple concurrent times, the program would be encouraged to predict the "taken" state in loops, 
+
+Source:
+Smith, J.E. (1981). "A Study of Branch Prediction Strategies"  
+Proceedings of the 8th Annual International Symposium on Computer Architecture (ISCA), pp. 135-148
+
 
