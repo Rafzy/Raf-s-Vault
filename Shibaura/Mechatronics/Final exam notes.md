@@ -452,4 +452,9 @@ Just be careful about what counts as events, it needs to be an **Instantaneous**
 
 
 
+# Session 9
+
+## Transistors as switches
+
+Transistors are more versatile switches because they use a small current at the base to control a much larger current flowing from the **collector** to the **emitter**. Separating the control (input) and load (output) circuits.
 
