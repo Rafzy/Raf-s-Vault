@@ -540,11 +540,25 @@ Ideal characteristics:
 The two golden rules of op-amps (WIth negative feedback)
 When op-amp is used in a circuit with negative feedback, we can simplify it's analysis using two rules:
 - The input draws no current (Comes from the infinite input resistance)
+- The output will do whatever is necessary to make the two input voltages match ($V_{+} = V_{-}$) Often called a virtual short
 
 
 
+## Common Op-amp circuits
 
+1. Buffer (Unity Gain Amplifier)
+	Buffer provides a gain of 1. Output voltage directly follows the input voltage (Useful for isolating circuits or driving heavy load)
+	Function: $V_{out}$ = $V_{in}$
+	A common use for a buffer is **rail splitter**, which generates a stable reference voltage exactly halfway between the power supply rails
 
+2. Comparator (No feedback)
+	Without feedback, the op-amp acts as a comparator. It compares the voltages as it's two inputs and drives the output to either it's positive or negative supply rail.
+
+3. Inverting Amplifier
+	The circuit amplifies the input signal and inverts it's polarity
+	1. The non-inverting input (+in) is connected to ground, so $V_{+}= 0$
+	2. Due to the virtual short (Golden rule 2), the inverting input is also at 0V
+	3. 
 
 
 
