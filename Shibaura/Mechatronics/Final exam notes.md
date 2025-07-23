@@ -398,3 +398,14 @@ Devices that convert physical phenomena into electrical signals that can be proc
 - Most microprocessors inherently digital
 
 
+## Thermistor
+
+Types:
+- NTC (Negative temperature coefficient): Resistance decreases with temperature
+- PTC (Positive temperature coefficient): Resistance increases with temperature
+
+
+Temperature formula:
+$$
+T[]
+$$
