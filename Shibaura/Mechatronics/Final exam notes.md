@@ -485,3 +485,7 @@ $$
 
 ![[image-155.png|506x310]]
 
+1. $h_{FE}$ -> Current amplification factor, gain decreases at higher currents (80 -> 50)
+2. $V_{CE(SAT)}$ -> Voltage drop across transistors when fully ON
+3. $V_{BE}(SAT)$ -> Voltage needed at base to turn transistor ON
+
