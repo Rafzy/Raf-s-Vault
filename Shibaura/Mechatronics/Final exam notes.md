@@ -185,3 +185,61 @@ $\epsilon$ = expected fluctuation
 - Converts AC to pulsating DC
 - Both halves of AC cycles are used
 
+### Protection Circuits
+
+#### Flywheel (Flyback) Diode
+- Protects against inductive voltage spikes
+- Placed across inductors/coils
+- Provides path for current when switch opens 
+#### Clamping diode
+- Protects semiconductors from overvoltage
+- Limits voltage to safe levels
+
+### Zener Diodes
+
+Special diodes with controlled breakdown
+- Steep reverse characteristics = constant voltage
+- Used for voltage regulation
+- Current must be limited!
+
+Applications:
+- Voltage regulatros
+- Input protection circuits
+- Reference voltage sources
+
+## Light Emitting Diodes (LEDs)
+
+### LED Basics
+- Recombination of carriers produces photons (light)
+- Different colors have different forward voltages
+	- Infrared: ~1.2V
+	- Red: ~1.8V
+	- Orange: ~2.0V
+	- Green : ~2.2V
+	- Yellow: ~2.2V
+	- Blue: ~3.0V
+	- White: ~3.2V
+	- UV: ~3.5V
+
+### LED Driving Circuit
+
+Formula:
+$$
+R = \frac{V-V_{f}}{I_{f}}
+$$
+
+- $R$ = Current limiting resistor
+- $V$ = Supply voltage
+- $V_{f}$ = LED Forward voltage
+- $I_{f}$ = Desired LED current
+
+==LEDs can act as light sensors in reverse!!!==
+
+## Photodiodes
+
+- Operates in reverse bias mode
+- Light increases reverse current
+- Two modes:
+	- Photovoltaic: Generates voltage
+	- Photoconductive: Current proportional to light intensity
+
