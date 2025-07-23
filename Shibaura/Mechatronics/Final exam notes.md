@@ -499,6 +499,8 @@ $$
 
 ### Determine Base Resistor (Rb) for switching
 
+![[image-156.png]]
+
 $$
 R_{B} = \frac{V_{CC} - V_{BES}}{I_{B}}
 $$
@@ -514,4 +516,106 @@ Estimating $I_{B}$ for saturation mode
 # Session 10
 
 ## Ideal OP amp
+
+![[image-157.png]]
+
+
+An op-amp is a high-gain differential amplifier. Main job: Amplify the voltage difference between it's two inputs
+
+Symbols:
+- V+ (or +In): Non-inverting input
+- V- (or -In): Inverting Input
+- Vout: Output voltage
+- Vs+ and Vs-: Power supply connections
+
+$$
+V_{out} = A(V_{+} - V_{-})
+$$
+
+Ideal characteristics:
+- Infinite open-loop gain: The gain is considered infinitely large
+- Infinite input resistance: The input draws no current
+- Zero output resistance: The output can supply any amount of current without it's voltage dropping
+
+The two golden rules of op-amps (WIth negative feedback)
+When op-amp is used in a circuit with negative feedback, we can simplify it's analysis using two rules:
+- The input draws no current (Comes from the infinite input resistance)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
