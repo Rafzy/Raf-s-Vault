@@ -243,3 +243,84 @@ $$
 	- Photovoltaic: Generates voltage
 	- Photoconductive: Current proportional to light intensity
 
+
+# Session 4
+
+## Introduction to switches
+
+### Basic function
+
+Switch turns on or off a current
+
+Different functions of switches:
+- Toggle/power switch: For power control
+- DIP Switch: Input presetting
+- Tact switch: Momentary input in real time
+- Reed switch: Sensor (activated by magnetic field)
+- Microswitch: Sensor with mechanical actuation
+- Joyswitch: Not technically a switch but has switch functionality
+
+
+## Switch forms and terminology
+
+![[image-143.png]]
+
+### Poles and throws
+**Throw:** Number of contacts
+- Single throw (ST): Form A or B (one contact position)
+- Double throw (DT): Form C (two contact position)
+
+**Pole:** number of circuits
+- Single Pole (SP): Single circuit
+- Double Pole (DP): Double circuit (Like two independent switches)
+
+### Common configurations
+1. SPST (Single pole single throw): Simple ON/OFF
+2. SPDT (Single Pole Double Throw): One input, two outputs
+3. DPST (Double Pole, single throw): Two independent ON/OFF
+4. DPDT (Double Pole, Double Throw): Two independent changeover switches
+
+## Switch Actions
+
+### Momentary vs alternate action
+
+#### Momentary Action:
+- Returns to original position when released
+- Example: Push button (springs back)
+
+#### Alternate action:
+- Stays in new position after actuation
+- Example: Toggle switch
+
+## Switch rating and arc generation
+
+### Operating Range chart
+
+![[image-144.png]]
+
+As current increases, maximum safe voltage decreases.
+
+### Arc generation
+Term when switch contacts separate but:
+- Current tries to continue flowing
+- Creates an electric arc between contacts
+- Can damage contacts and create safety hazards
+
+DC ratings are lowr than AC because
+- AC naturally crosses zero 120 times/second
+- This helps extinguish arcs
+- DC has no zero crossings, making arcs harder to break
+
+
+## Switch logic and microcontroller interface
+
+### Switch status vs logic
+=='1' doesn't always mean ON==
+
+1. Active high (Pull down)
+	- Switch ON = Logic '1' (5v)
+	- Switch OFF = Logic '0' (0v)
+2. Active Low (Pull up)
+	- Switch ON = Logic '0' (0v)
+	- Switch OFF = Logic '1' (5v)
+
