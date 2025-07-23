@@ -407,7 +407,7 @@ Types:
 
 Temperature formula:
 $$
-T[C\degree] = \frac{298.15 \beta}{298.15 \ln\left( \frac{c}{1023-c}+\beta \right)} - 273.15
+T[C\degree] = \frac{298.15 \beta}{298.15 \ln\left( \frac{c}{1023-c} \right)+\beta} - 273.15
 $$
 ![[image-146.png]]
 
@@ -465,4 +465,23 @@ NPN and PNP transistors
 - PNP transistor: Consist of an N type semiconductor layer between two P-type layers
 
 The key difference of NPN and PNP transistors lies in their internal structure, current flow direction, and biasing requirements. Both are bipolar junction transitions but behave as complementary opposites.
+
+![[image-151.png|619x353]]
+
+
+## Definition of currents through transistors
+
+$$
+I_{E} = I_{B} + I_{C}
+$$
+$$
+I_{C} = h_{FE}I_{B}
+$$
+![[image-152.png]]
+
+![[image-153.png|494x306]]
+
+![[image-154.png|500x310]]
+
+![[image-155.png|506x310]]
 
