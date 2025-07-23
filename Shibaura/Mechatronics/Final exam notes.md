@@ -481,11 +481,37 @@ $$
 
 ![[image-153.png|494x306]]
 
-![[image-154.png|500x310]]
+![[image-154.png|477x341]]
 
-![[image-155.png|506x310]]
 
 1. $h_{FE}$ -> Current amplification factor, gain decreases at higher currents (80 -> 50)
 2. $V_{CE(SAT)}$ -> Voltage drop across transistors when fully ON
 3. $V_{BE}(SAT)$ -> Voltage needed at base to turn transistor ON
+
+### Need of small $V_{CE}$ for a Tr switch with large $I_{C}$
+$V_{CE}$ has the lower limit called saturation voltage $V_{CE}(SAT)$
+Minimum Dissipation
+$$
+P_{C} = V_{CE(SAT)}I_{C}
+$$
+
+**Transistor as a switch = Operating in saturation mode**
+
+### Determine Base Resistor (Rb) for switching
+
+$$
+R_{B} = \frac{V_{CC} - V_{BES}}{I_{B}}
+$$
+
+Estimating $I_{B}$ for saturation mode
+1. Assume $V_{CE(SAT)}$ = 0
+2. Determine $I_{C}$ we need
+3. See the DS and guess $h_{fe}$ and $V_{CE(SAT)}$ using the $I_{C}$
+4. Update $I_{C}$ using $V_{CE(SAT)}$
+5. Determine $h_{fe}'$, a value smaller than $h_{fe}$
+6. $I_{B} = \frac{I_{C}}{h_{FE}'}$
+
+# Session 10
+
+## Ideal OP amp
 
