@@ -558,27 +558,33 @@ When op-amp is used in a circuit with negative feedback, we can simplify it's an
 	The circuit amplifies the input signal and inverts it's polarity
 	1. The non-inverting input (+in) is connected to ground, so $V_{+}= 0$
 	2. Due to the virtual short (Golden rule 2), the inverting input is also at 0V
-	3. 
+
+
+# Session 11
+
+
+## Why power drivers are necessary
+
+Microcontrollers and other logic circuits operate at low voltage (5V), and can only supply a small amount of current. We sometimes require larger voltage and current.
+
+
+### What is a power driver
+It's an interface circuit that takes a low power logic signal, and use it to switch a much higher power source to drive these actuators
 
 
 
+Current per circuit:
+$$
+I_{c} = \frac{V_{cc_{2}}-V_{CE(SAT)}}{R_{load}}
+$$
 
+We need to choose the right heat sink for our power driver, because power driver creates a lot of power dissipation to heat.
 
+![[image-158.png]]
 
+![[image-159.png]]
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+![[image-160.png]]
 
 
 
