@@ -589,18 +589,21 @@ We need to choose the right heat sink for our power driver, because power driver
 
 
 
+1. Find Np
+$I_{c} = I_{f} N_{p}$
 
 
+2. Min R
+V = IR
+Vcc * Np = Imax R
+
+3. Vcc = Vce + Vf Ns + Rmin If
+
+4. V = Vcc2 - Vces - NsVf
+   R = V/If
 
 
-
-
-
-
-
-
-
-
+# Session 13
 
 
 
