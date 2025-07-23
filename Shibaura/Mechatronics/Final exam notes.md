@@ -158,4 +158,30 @@ Diode acts as a voltage-controlled switch
 - Reverse voltage (VRRM) = -100V for 1N4148
 - Forward current : Increases rapidly after Vf threshold
 - Reverse current: Very small ($\mu A$ range) until breakdown
-- 
+- Steep slope: Close to a switch - either on or off
+
+## Diode Ratings and Selection
+
+![[image-142.png|469x212]]
+
+### Selection guideline
+1. VRRM -> Peak to peak voltage (Vp-p)
+2. IF(AV) -> 2x estimated max current
+3. IFSM -> 10x estimated average current
+
+For AC applications:
+$V_{p-p} = 2\sqrt{ 2 } VRMS (1+\epsilon)$
+$\epsilon$ = expected fluctuation
+## Diode Applications
+
+### Rectifier circuits
+#### Power OR circuits
+- Two power sources with diodes
+- Output gets power from whichever source is higher
+- prevents reverse current flow between sources
+
+#### Full-wave rectifier
+- Bridge configuration with 4 diodes
+- Converts AC to pulsating DC
+- Both halves of AC cycles are used
+
