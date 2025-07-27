@@ -28,4 +28,25 @@ Then i initialized this cpu struct using cpu_init() function, as you can tell, f
 
 ![[image-164.png]]
 
-As you can see, init_cpu()
+As you can see, init_cpu() takes in a pointer for a cpu_state_t struct, and initializes all the arrays with it's initial values, for the segments, i kind of gave them a random segment address, but i was sure to give gaps of 1000 hex values in between the segments.
+The interpreter will be primarily working with this cpu_state_t struct to change the register values, flags, Instruction Pointer, etc.
+
+
+## Parser
+
+Now going back a bit, to the parser themselves that takes in the machine code and pops out the opcode, and operands.
+The parser itself is made out of a lot of switch cases, it's used to filter out the known machine code hex values and what opcode they're correlated to.
+To do this, i used the documentation for opcode patterns
+
+
+![[image-165.png]]
+
+
+This goes on for pretty long.
+I also created specific parser functions, for specific opcode patterns, because there are several machine code patterns that are reused for several opcodes (Same w, mods, reg bits position, same operand length, etc)
+And the output of this function is the result info containing all the opcodes and operands required, this also carries the info of how much byte this instruction uses, taking into account the dynamic nature of operands. The length then is used to be added to the IP to grab the next appropriate opcode.
+
+
+## Interpreter
+
+For the interpreter, i it will take in the result_info given by the parser, and it executes exec_parsed, which identifies the opcode, then p
