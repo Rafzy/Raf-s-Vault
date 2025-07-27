@@ -2,10 +2,31 @@ Welcome to my spaghetti code
 
 # Introduction
 
-This is a documentation for my code of Minix's X86 instruction set interpreter. For disclaimer, i am an undergraduate that's taking this class, and i did my best to implement the interpreter, although my interpreter worked for 1.c - 6.c, i recognize that my code is a mess and that there are a lot of things that can be improved.
+This is a documentation for my code of Minix's X86 instruction set interpreter. For disclaimer, i am an undergraduate that's taking this class my knowledge was very limited for this class, but did my best to implement the interpreter, although my interpreter worked for 1.c - 6.c, i recognize that my code is a mess and that there are a lot of things that can be improved.
 
 Github for my code:
 https://github.com/Rafzy/Minix
+
+# How to compile the interpreter
+
+I don't use cmake or anything complicated, to compile, any cpp compiler would do, for example:
+
+- Using gcc
+```
+g++ -o minix *.cpp
+```
+
+"\*.cpp" is basically a wildcard that says, compile all code with the cpp extension
+
+# How to execute
+
+To execute is also as simple as executing the compiled code, the .out files are compiled from the lecturer's m2cc executable
+
+```
+./minix 1.out
+./minix 2.out
+./minix 5.out 1 2 3
+```
 
 # Documentation
 
@@ -31,6 +52,13 @@ Then i initialized this cpu struct using cpu_init() function, as you can tell, f
 As you can see, init_cpu() takes in a pointer for a cpu_state_t struct, and initializes all the arrays with it's initial values, for the segments, i kind of gave them a random segment address, but i was sure to give gaps of 1000 hex values in between the segments.
 The interpreter will be primarily working with this cpu_state_t struct to change the register values, flags, Instruction Pointer, etc.
 
+## Initialize Stack
+
+We also have to initialize the stack before starting to execute the machine code, since the stack information must already be known before execution.
+The stack will be stored in the stack segment of the cpu, denoted by "SS" of the cpu's register values.
+The stack itself contains argv and env values, and the stack starts at virtual address 0xFFFF (This part is initialized in the init_cpu, for the SP initial value).
+
+![[image-168.png]]
 
 ## Parser
 
@@ -49,4 +77,18 @@ And the output of this function is the result info containing all the opcodes an
 
 ## Interpreter
 
-For the interpreter, i it will take in the result_info given by the parser, and it executes exec_parsed, which identifies the opcode, then p
+For the interpreter, i it will take in the result_info given by the parser, and it executes exec_parsed, which identifies the opcode, then passes the operands to the according functions for that specific operation.
+
+![[image-166.png]]
+
+(I know, this is so messy, and probably breaks 10 different programming standards)
+
+Basically, after recognizing the opcode from the result_info, we pass the operands to the corresponding functions to handle the logic. Something else to note, since there are different types of operands (Immediate, register, register high, register low, memory), i also created a function that detects the operand type based on the string given, and depending on the type, the operator function's logic can handle the operand accordingly
+
+![[image-167.png]]
+
+
+## Syscalls
+
+The syscalls are for the `int` operations, since for this project, there are only several syscalls implemented, i only implemented the syscalls required for 1.c - 6.c
+
