@@ -87,8 +87,21 @@ Basically, after recognizing the opcode from the result_info, we pass the operan
 
 ![[image-167.png]]
 
+And since the operands are in string data type, there's a lot of helper functions that help convert string operands to their corresponding type values (Immediate values, memory address, access register index, etc).
+(This is the part that kind of makes it complicated, but it was my fault to use the parser that returns string previously used for disassembler, but at some point it was too far for me, and i didn't have time to change it again)
 
 ## Syscalls
 
 The syscalls are for the `int` operations, since for this project, there are only several syscalls implemented, i only implemented the syscalls required for 1.c - 6.c
+
+
+## Main
+
+In the main file, i simply read the .out file, copies the values to an allocated buffer, and read the buffer one by one, and based on the header file, we extract the "text" or the instruction part of the machine code, and assign them to the Code Segment (CS) of the memory, and do the same for the data part of the machine code, assign them to Data Segment (DS) of the memory.
+For the disassembler, and the debugging, i didn't have time to implement the input parameters to enable them (using `-d` and `-m`), so i hardcoded them as bool values in the code
+
+
+# Comments
+
+I learned quite a lot while implementing this interpreter, even though i acknowledge that there is still a lot that can be improved, i still think that this class taught me a lot in regards to how machine code from an X86 instruction set is parsed through and executed, and it definitely left an big impression for me.
 
