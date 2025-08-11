@@ -7,7 +7,7 @@ abstract ideas
 - LLMs for creative works
 
 
-# Force activating neurons for certain inputs
+# Force activating neurons for certain inputsppar
 
 From anthropic research paper
 
