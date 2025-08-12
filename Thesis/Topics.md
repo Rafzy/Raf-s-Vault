@@ -37,3 +37,6 @@ In regular nn, each neuron layer passes through the output to the next layer unt
 End goal: we're trying to make an LLM more creative.
 
 We just modify the top K, the more it increases the more variance we have
+
+
+
