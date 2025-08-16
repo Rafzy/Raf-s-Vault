@@ -49,7 +49,11 @@ Notes:
 
 In regular nn, each neuron layer passes through the output to the next layer until it reaches the output layer
 
-Give the LLM 
+Give the LLM an interface to some outside tool. 
+
+Notes:
+- Evaluating the label from a certain layer isn't a good idea
+- The tool needs to understand how the underlying model works, meanwhile the model is a black box
 
 
 ## LLMs for creative works
@@ -57,6 +61,7 @@ Give the LLM
 End goal: we're trying to make an LLM more creative.
 
 We just modify the top K, the more it increases the more variance we have
+
 
 
 
