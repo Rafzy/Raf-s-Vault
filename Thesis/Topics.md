@@ -16,6 +16,17 @@ From anthropic research paper
 We want to find certain patterns of how llms think by dissecting the llm.
 We check neurons that isn't activated for certain inputs, and add it to the loss function, but then the loss gets rlly sparse
 
+We want to force certain neurons to activate given certain inputs.
+
+end goal: Make the LLM think a certain way (Not through fine tuning)
+
+Ko ocin's notes:
+- If certain inputs are expected to activate certain neurons, then those neurons will activate regardless of the input.
+- Inputs are arbitrary
+- Neural network affects all the nodes of a layer instead of directly a node, nodes that are deactivated don't contribute in the first place
+- 
+
+
 
 # Finding deterministic patterns in LLM logits conditioned on certain inputs
 
