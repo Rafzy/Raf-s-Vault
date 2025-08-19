@@ -21,3 +21,9 @@ Then these vectors goes through what's called a multilayer perceptron in which a
 After going through many repetition attention blocks and MLPs, we hope that the prediction for the next word is baked into the last vector of the sequence (Somehow)
 
 # Needed background knowledge
+
+## Word embedding
+
+This is the step that associates each token into a vector value. This vector value directly correlates into the "meaning" of said token. This is explained more in [[Word2Vec]].
+these word embedding is part of the total weights of the transformer, although a smaller part of the tons of total weights in transformers.
+
