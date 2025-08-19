@@ -62,3 +62,19 @@ Example: river "Bank" is different in meaning than regular "bank" (Money bank)
 
 Attention mechanism aims to adjust these vector embeddings to contain richer more contextual meaning based on the other tokens as well.
 
+Each token has another vector associated with it called the **Query vector** We can imagine this vector as a way for that token/word to ask a question to other tokens. For example a noun might ask "Are there any adjectives in front of me?".
+To get this **Query Vector**, we multiply the embedding vector with what's called as the **Query Matrix** which values are all tunable parameters. 
+We do this to all of the embeddings in the context, and so each token is also associated with a **Query Vector**.
+
+Similar to query vectors, we also associate each embedding with **Key vectors**, which we can imagine as "Answering" the questions of the query vectors. Similarly, we get key vectors by multiplying each embedding with a **Key Matrix** which is also composed of tunable parameters.
+
+We can imagine both Query and key vectors as mapping the embedding vectors into a smaller dimensional space, only carrying over information that's important for "Asking questions" and "Answering" them
+
+We think of the keys as matching the queries whenever they closely align with each other.
+
+We can do this by computing dot product for each possible key query pair.
+
+
+![[image-170.png]]
+
+
