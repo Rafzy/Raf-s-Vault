@@ -78,3 +78,26 @@ We can do this by computing dot product for each possible key query pair.
 ![[image-170.png]]
 
 
+we can see that the word "Fluffy" and "Blue" key vectors align well with the word "Creature" query matrix, same goes with "verdant" and "Forest".
+
+The more "Positive" the dot product is, the more related they are to each other, and the more "Negative" the dot product is, the more unrelated they are
+
+Then for each columns, we need them to be between 0 and 1, and for all of them to all add up to 1 (Use softmax!)
+
+We then fill in the grids with the new normalized values, we call this grid the **Attention pattern**
+
+During the training process, it's more efficient if we simultaneously ask the model to try to predict every possible next words for even for the subsequent words. This is useful because what's effectively before a single training example acts as many training examples
+
+![[image-171.png]]
+
+But from the perspective of our attention pattern, we never want the later words to affect earlier words, as to not give away the answer for what might come next. To do this, we somehow need to set these values as zero without affecting the softmax output
+
+![[image-172.png]]
+
+We can achieve this by, before applying softmax, we set those values into negative infinity, which after applying softmax will automatically be zero values. This approach is called **Masking**.
+
+Also notice that the attention pattern's size will be the squared of the context size, this is why the context size might be the biggest bottleneck for a lot of application.
+
+### Updating the embedding values
+
+The most straightforward way to update the vector values 
