@@ -1,0 +1,23 @@
+> Transformers are basically glorified autocomplete AI model
+
+Transformers are a specific implementation of neural networks, and is used in LLMs nowadays like ChatGPT.
+Transformers can be used outside of LLMs as well, like a text-to-voice model, or text-to-image models.
+
+The original transformer is introduced in 2017, from a paper called "Attention is all you need", which is originally invented for the specific use case of translation.
+[https://arxiv.org/abs/1706.03762]
+
+**The general data flow in a transformer**
+Embedding -> Attention -> MLPs -> Unembedding
+
+# Inside a transformer
+
+Before processing the input and ultimately generating the output, the input is separated into several chunks (Called tokens).
+Each of these tokens are associated with vector values, which somehow encode that word's meaning
+
+Then these vectors are passed through an attention block. The attention block basically allows the vectors to talk to each other, and give context from one token to another. Because in text input, some words can mean differently depending on the context. the vectors then gets updated accordingly now with added context to their meaning.
+
+Then these vectors goes through what's called a multilayer perceptron in which all vectors goes through the same process in parallel (Will be explored later)
+
+After going through many repetition attention blocks and MLPs, we hope that the prediction for the next word is baked into the last vector of the sequence (Somehow)
+
+# Needed background knowledge
