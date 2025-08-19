@@ -39,3 +39,26 @@ The network can only process a fixed number of words at a time, specified by wha
 ## Unembedding
 
 I mentioned that the next predicted word ends up accumulated in the last vector of the context, We then use what's called an unembedding matrix that we multiply with the last vector to create a resulting vector, which values corresponds to every word that was available in the embedded word, and each value gets put through a softmax which makes it into a distribution 
+
+The number of rows corresponds to the number of words in the vocabulary, and each row contains the same length as the embeddings length
+
+
+## Softmax
+
+Standardization technique, takes in vector values, and outputs a probability distribution (All adds up to 1, and all values are positive.)
+
+![[image-169.png]]
+
+
+**Temperature** -> The extent to which we give the lower values more weight, thus gives a more "distributed" distribution (If T is small, then the maximum value will dominate over the distribution). Higher temperature allows the model to "choose less likely words". Usually the max value for the temperature is set to 2, so the model doesn't spout bullshit if the temperature is too high
+
+**Logits** -> The raw unembedded matrix before going into normalization
+
+
+# Attention in transformers
+
+We know that each token is associated with it a token as well. The token contains not only the literal meaning of the word, but also the semantic meaning as well. However, individual words by themselves aren't enough to carry out the whole meaning of the input sentence, sometimes words are affected by other words in the sentence to give it context.
+Example: river "Bank" is different in meaning than regular "bank" (Money bank)
+
+Attention mechanism aims to adjust these vector embeddings to contain richer more contextual meaning based on the other tokens as well.
+
