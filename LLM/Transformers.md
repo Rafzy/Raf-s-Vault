@@ -36,3 +36,6 @@ Aside from encoding the meaning of the word, the vector must also contain the po
 
 The network can only process a fixed number of words at a time, specified by what's called the **Context window**. If the overall conversation exceeds the context window, the model might seem to lose track of the conversation it's holding
 
+## Unembedding
+
+I mentioned that the next predicted word ends up accumulated in the last vector of the context, We then use what's called an unembedding matrix that we multiply with the last vector to create a resulting vector, which values corresponds to every word that was available in the embedded word, and each value gets put through a softmax which makes it into a distribution 
