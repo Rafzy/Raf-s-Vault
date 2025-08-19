@@ -27,3 +27,12 @@ After going through many repetition attention blocks and MLPs, we hope that the 
 This is the step that associates each token into a vector value. This vector value directly correlates into the "meaning" of said token. This is explained more in [[Word2Vec]].
 these word embedding is part of the total weights of the transformer, although a smaller part of the tons of total weights in transformers.
 
+embedding utilizes what's called embedding matrix, which every column corresponds to a word's vector value.
+
+Good note:
+The dot product of two vectors corresponds to how well they align
+
+Aside from encoding the meaning of the word, the vector must also contain the positional information of that word in the input. This is important for the attention block later.
+
+The network can only process a fixed number of words at a time, specified by what's called the **Context window**. If the overall conversation exceeds the context window, the model might seem to lose track of the conversation it's holding
+
