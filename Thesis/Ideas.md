@@ -18,4 +18,3 @@ In this paper, they found out using PCA component analysis that 90% of the varia
 
 This paper introduces a method where we exploit that intrinsic dimensionality by using PCA to reduce computational cost while keeping attention quality.
 
-# 
