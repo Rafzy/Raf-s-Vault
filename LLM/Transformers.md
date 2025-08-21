@@ -100,4 +100,34 @@ Also notice that the attention pattern's size will be the squared of the context
 
 ### Updating the embedding values
 
-The most straightforward way to update the vector values 
+*Most straightforward way*
+The most straightforward way to update the vector values is to use a third matrix called the **Value Matrix**. We multiply this value matrix to the embedding of the adjective word, and we obtain the **Value matrix**, this value matrix then we add to the embedding of the noun, thus updating the embedding value of the noun, now containing updated information from the adjective in front of it.
+
+Note:
+==Notice that the value vector must live in the same high dimensional space as the embedding vectors in order for this to work==
+
+We can imagine value vectors as this:
+"If this word is important in updating the meaning of another word, what exactly should be added to the embedding of that word for it to reflect the new meaning"
+
+So, looking back at the attention pattern
+We first multiply each embedding with the value matrix to then get multiple value matrix. Each value matrix will then be multiplied to the softmaxed dot product from the attention pattern. These will act as "weights" for the value matrix, depending on how relevant the associated value vector word is.
+
+![[image-173.png]]
+
+We then do this for each word, adding the weighted vector values to the embedding of each word.
+
+![[image-174.png]]
+
+After doing this for each embedding and updating each, we call this as executing **one head of attention**
+
+## Cross attention
+
+Cross attention is used when models work with two distinct data, like two texts with different language, or audio input of speech, and an ongoing transcription.
+
+It works almost the same exact way, but the attention pattern is built with two of those distinct data instead of the same string of data.
+
+![[image-175.png]]
+
+
+# Multi-headed attention
+
