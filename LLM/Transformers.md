@@ -129,5 +129,7 @@ It works almost the same exact way, but the attention pattern is built with two 
 ![[image-175.png]]
 
 
-# Multi-headed attention
 
+# Inside Multilayer Perceptron
+
+ 
