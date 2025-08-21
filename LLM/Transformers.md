@@ -138,3 +138,20 @@ The input of the MLP is the embedding vectors for each token, and the output is 
 
 The first Linear step includes multiplying a matrix with the embedding vector. We can imagine this matrix multiplication as "Asking questions" for the embedding vector. Each row of this matrix can be imagined as a question for the embedding vector, and the result of one row reflects the "answer" for that question.
 
+The number of "questions" of rows of the matrix depends on how we design the model, in the case of GPT-3, it's just under 50k, and note that this increases the number of dimensions of the resulting vector from the embedding vector.
+
+On top of the matrix multiplication, we also add another vector to the resulting matrix multiplication, this vector is called **bias**.
+
+After the first linear step, we pass through the resulting vector to a ReLU, which flips all negative values into zero
+
+Then we pass through the second linear step which is the same as the first one, but the resulting vector's dimension goes back down to the original embedding's dimension. 
+Then, the final output of this vector is added to the original embedding vector, thus updating the embedding vector with more added information.
+
+
+# Superposition
+
+This is a hypothesis
+
+If we have an N=dimensional space, and we want to represent a bunch of different features that are perpendicular to one another in that space, then the max number of vectors is N
+
+But if we give it more wiggle room, let's say they don't have to be perfectly perpendicular, but let's say between 89 and 91 degrees, the max number of vectors drastically increases for high dimensions. In fact, with this wiggle room, the max number of vectors grows exponentially with the number of dimensions
