@@ -13,3 +13,9 @@ Literature review:
 
 
 ## Loki: Low-rank keys for efficient sparse attention
+
+In this paper, they found out using PCA component analysis that 90% of the variation in key vectors data is captured by 80 dimensions out of the total 128 total dimension in key vectors. This means that only 80 dimensions out of 128 is "relevant".
+
+This paper introduces a method where we exploit that intrinsic dimensionality by using PCA to reduce computational cost while keeping attention quality.
+
+# 
