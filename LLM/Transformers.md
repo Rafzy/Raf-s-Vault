@@ -132,4 +132,9 @@ It works almost the same exact way, but the attention pattern is built with two 
 
 # Inside Multilayer Perceptron
 
-Multilayer perceptron includes 
+Multilayer perceptron includes 3 general steps: Linear processing -> ReLU -> Linear
+
+The input of the MLP is the embedding vectors for each token, and the output is the updated version of those embedding vectors.
+
+The first Linear step includes multiplying a matrix with the embedding vector. We can imagine this matrix multiplication as "Asking questions" for the embedding vector. Each row of this matrix can be imagined as a question for the embedding vector, and the result of one row reflects the "answer" for that question.
+
