@@ -28,10 +28,15 @@ https://www.anthropic.com/research/tracing-thoughts-language-model
 https://transformer-circuits.pub/2025/attribution-graphs/biology.html
 https://transformer-circuits.pub/2024/scaling-monosemanticity/index.html
 
-
 # Testing memorization abilities on newer architectures
-
 
 Literature review:
 https://arxiv.org/pdf/2505.24832
 
+
+## Attribution graph Github
+
+https://github.com/safety-research/circuit-tracer
+
+
+Interpretability of 
