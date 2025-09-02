@@ -18,3 +18,20 @@ In this paper, they found out using PCA component analysis that 90% of the varia
 
 This paper introduces a method where we exploit that intrinsic dimensionality by using PCA to reduce computational cost while keeping attention quality.
 
+
+# Interpretability of AI
+
+"How does AI think?"
+
+Literature Review:
+https://www.anthropic.com/research/tracing-thoughts-language-model
+https://transformer-circuits.pub/2025/attribution-graphs/biology.html
+https://transformer-circuits.pub/2024/scaling-monosemanticity/index.html
+
+
+# Testing memorization abilities on newer architectures
+
+
+Literature review:
+https://arxiv.org/pdf/2505.24832
+

@@ -62,10 +62,9 @@ End goal: we're trying to make an LLM more creative.
 
 We just modify the top K, the more it increases the more variance we have
 
-
-
-
 Ko ocin's concern:
 - HOW?
 
 
+Note:
+- Start writing and start experimenting if we want to use a more general dataset to work on the topic
