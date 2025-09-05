@@ -20,5 +20,7 @@ General
 
 Anthropic utilized a technique called [[Dictionary Learning]] which involves ==Matching patterns of neuron activations== called "features", to human interpretable concepts, by isolating neuron activations that recur in different contexts.
 
-This allow san internal state of the model to be represented in terms of a few active features instead of many active neurons
+This allows an internal state of the model to be represented in terms of a few active features instead of many active neurons.
+
+
 
