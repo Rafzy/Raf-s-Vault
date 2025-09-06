@@ -939,3 +939,106 @@ Categorization of testing by it's purpose
 
 **Black box testing**
 Testing that ignores the internal mechanism of the system.
+(Specification based testing)
+
+**Strategies for black box testing**
+- Equivalence partitioning
+- Boundary value analysis
+- Decision table testing
+- State transition testing
+- Use case testing
+
+**Equivalence partitioning**
+Divides test input into equivalence partitions (classes), and for each of these classes, the set of data should be treated the same by the module.
+
+Ex: Test the program "child fee if under 12 years old, senior fee if over 65 years old, and adult fee otherwise"
+
+![[image-139.png]]
+
+
+**Boundary value analysis**
+Focus testing at the "boundaries"
+
+![[image-140.png]]
+
+**Decision table testing**
+Decision tables are used to record complex business rules that must be implemented, thus we test it using this
+
+![[image-141.png]]
+
+**State transition testing**
+Design testing based on state transition diagram
+There are some methods to design test cases from state transition diagram (Table)
+
+**Use case testing**
+Design testing based on use case diagram
+Use pre-condition, post-condition, main sequence, alternative sequence, etc
+
+**White-box testing**
+Testing that takes into account the internal mechanism of the system
+
+**Coverage**
+Measure of completeness of the set of test cases in white-box testing
+
+- Statement coverage (C0 coverage)
+	Measure of the percentage of statements that have been executed by test cases
+	Goal: Ensure every line of code is executed at least once during testing
+- Branch coverage (C1 coverage)
+	Measure of the percentage of the decision points (Bool expressions) of the program have been evaluated as both true and false in test cases
+	Goal: Ensure every possible path through conditional statement is tested
+
+**Key point of testing**
+- Independence of testing
+	If the testing is conducted by people and teams who are not involved in development, the independence 
+- Monitoring of testing
+	We can't verify all the behavior in testing. We must terminate it at some point
+	We use graphs to depict cumulative number of errors
+
+	![[image-142.png]]
+
+- Usage of tools
+	To automate testing is beneficial, there are many tools to automate testing
+
+## Review
+
+**Purpose of review:**
+Detect defects in the review target by the members participating in the review
+
+**Review types:**
+- Management review
+  Performed by a manager or someone of that position, systematic evaluation of a software product or process
+- Technical review
+  To examine whether it is suitable for it's intended use, and whether it deviates from specifications and standards
+- Inspection
+  Visual inspection of software products to detect and identify defects such as errors and deviations
+- Walk through
+  Static analysis technique in which designers / programmers describe a software product, and participants ask questions on defects.
+- Audit
+  Conducted by a third party to assess compliance with specifications, standards, agreements, etc
+
+
+# Session 11
+
+## Development Process Models
+
+**Software development process**
+Set of activities required to develop a software system
+Involves:
+- Requirements definition - Defining what the system should do
+- Design and implementation - Defining the structure of the system and implementing the system
+- Validation - Checking that it meets the customer's wants
+- Evolution - Changing the system in response to customer needs
+
+**Waterfall model process**
+Separate identified phases in the waterfall model:
+- Requirements analysis and definition
+- System and software design
+- Implementation and unit testing
+- Integration and system testing
+- Operation and maintenance
+![[image-143.png]]
+
+In principle, a phase has to be complete before moving on to the next phase
+
+
+**Problems with **
