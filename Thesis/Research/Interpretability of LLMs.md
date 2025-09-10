@@ -8,3 +8,8 @@ How does interpretable features extracted by sparse autoencoders change across d
 
 Is it possible to identify "Circuits" in language models that mirror biological circuits for mathematical cognition.
 
+# Idea Three
+
+Sparse autoencoders -> Still has polysemanticity
+Is there any way to reduce the polysemanticity autoencoders
+
