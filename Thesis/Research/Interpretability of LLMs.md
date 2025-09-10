@@ -13,3 +13,7 @@ Is it possible to identify "Circuits" in language models that mirror biological 
 Sparse autoencoders -> Still has polysemanticity
 Is there any way to reduce the polysemanticity autoencoders
 
+Copy surpression attention head
+Classifier for unfaithful output with the help of attention graph
+Quantification of features "Closeness" in dictionary learning/Sparse Autoencoders
+Use feature extraction to dissect how LLMs solve complex mathematical problems
