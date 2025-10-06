@@ -37,6 +37,8 @@
 - [x] Continue my habitat
 - [x] Meet with minamigyotoku
 - [x] Finish 3b1b's deep learning series
-	- [ ] Finish 3b1b's calculus series
-	- [ ] Finish 3b1b's data series
-- [ ] Start boot.dev
+	- [x] Finish 3b1b's calculus series
+	- [x] Finish 3b1b's data series
+- [x] Start boot.dev
+- [ ] Finish Circuit Tracing paper
+- [ ] Reread on the biology of large language models
