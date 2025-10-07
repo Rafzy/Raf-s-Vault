@@ -24,4 +24,5 @@ Anthropic's research involves several key methodogical decisions.
 	They utilized cross layer transcoders, this is big
 
 3. **Attribution Graph**
-	
+	 the attribution graph comes from the world of the the 
+
