@@ -22,8 +22,12 @@
 
 2. Soft skills yang dibutuhkan dalam menyelesaikan pekerjaan dengan baik.
 	Menurut saya, semua soft skill cukup penting dalam menyelesaikan pekerjaan apapun itu, tapi menurut saya, yang paling penting dalam konteks melakukan program enrichment ini adalah: Critical & Creative thinking, Adaptibility, dan Growth Mindset.
-	Posisi saya sebagai application developer memerlukan saya untuk dapat berpikir secara kritis dan dapat memecahkan masalah2 yang mungkin pada mulanya tampak tidak dapat dipecahkan, tapi dapat ditemukan jalan keluarnya asalkan dapat berpikir secara kreatif, dan melihat masalah tersebut dari sudut pandang2 yang berbeda.
-	Selain itu, adaptibility juga sangat penting, karena dalam program enrichment ini, atau pekerjaan apa pun itu kedepannya, kita pasti sering berhadapan dengan situasi yang tidak familiar dengan kita, dan kita harus dapat beradaptasi dengan baik, supaya kita dapat *survive* dalam situasi2 apapun itu, bahkan yang tampak asing bagi kita.
-	Dan akhirnya, Growth mindset sangatlah penting karena tanpa growth mindset, kemampuan kita akan stagnan, tidak berkembang meskipun kita mungkin sudah menjalani berbagai macam pengalaman, pekerjaan, tetapi jika kita tidak menanakan growth mindset, kita tidak akan dapat berkembang lebih dari sekarang.
-
-
+	Posisi saya sebagai application developer memerlukan saya untuk dapat berpikir secara kritis dan dapat memecahkan masalah2 yang mungkin pada mulanya tampak tidak dapat dipecahkan, tapi dapat ditemukan jalan keluarnya asalkan dapat berpikir secara kreatif, dan melihat masalah tersebut dari sudut pandang2 yang berbeda. Menurut Facione, berpikir kritis mencakup kemampuan untuk menganalisis argumen, mengevaluasi bukti, serta menarik kesimpulan yang logis.
+	Referensi:
+	Facione, P.A. (2015). *Critical Thinking; What Is and Why It Counts. Insight Assessment*
+	Selain itu, adaptibility juga sangat penting, karena dalam program enrichment ini, atau pekerjaan apa pun itu kedepannya, kita pasti sering berhadapan dengan situasi yang tidak familiar dengan kita, dan kita harus dapat beradaptasi dengan baik, supaya kita dapat *survive* dalam situasi2 apapun itu, bahkan yang tampak asing bagi kita. menurut Pulakos et al, adatabillity meliputi lebih dari satu dimensi, yaitu (Creative problem solving, handling work stress, dan learning work tasks)
+	Referensi:
+	Pulakos, E. D., Arad, S., Donovan, M. A., & Plamondon, K. E. (2000). _Adaptability in the workplace: Development of a taxonomy of adaptive performance_. Journal of Applied Psychology, 85(4), 612–624.
+	Dan akhirnya, Growth mindset sangatlah penting karena tanpa growth mindset, kemampuan kita akan stagnan, tidak berkembang meskipun kita mungkin sudah menjalani berbagai macam pengalaman, pekerjaan, tetapi jika kita tidak menanakan growth mindset, kita tidak akan dapat berkembang lebih dari sekarang. Menurut Carol Dweck, seseorang yang mimiliki growth mindset memiliki karateristik: Lebih terbuka terhadap feedback, lebih tahan terhadap tantangan dan kesulitan, dan juga lebih cenderung untuk mengembangkan kemampuan secara terus menerus.
+	Referensi:
+	Dweck, C. S. (2006). _Mindset: The New Psychology of Success_. Random House.
