@@ -21,4 +21,9 @@
 
 
 2. Soft skills yang dibutuhkan dalam menyelesaikan pekerjaan dengan baik.
-	Menurut saya, soft skills BGA 
+	Menurut saya, semua soft skill cukup penting dalam menyelesaikan pekerjaan apapun itu, tapi menurut saya, yang paling penting dalam konteks melakukan program enrichment ini adalah: Critical & Creative thinking, Adaptibility, dan Growth Mindset.
+	Posisi saya sebagai application developer memerlukan saya untuk dapat berpikir secara kritis dan dapat memecahkan masalah2 yang mungkin pada mulanya tampak tidak dapat dipecahkan, tapi dapat ditemukan jalan keluarnya asalkan dapat berpikir secara kreatif, dan melihat masalah tersebut dari sudut pandang2 yang berbeda.
+	Selain itu, adaptibility juga sangat penting, karena dalam program enrichment ini, atau pekerjaan apa pun itu kedepannya, kita pasti sering berhadapan dengan situasi yang tidak familiar dengan kita, dan kita harus dapat beradaptasi dengan baik, supaya kita dapat *survive* dalam situasi2 apapun itu, bahkan yang tampak asing bagi kita.
+	Dan akhirnya, Growth mindset sangatlah penting karena tanpa growth mindset, kemampuan kita akan stagnan, tidak berkembang meskipun kita mungkin sudah menjalani berbagai macam pengalaman, pekerjaan, tetapi jika kita tidak menanakan growth mindset, kita tidak akan dapat berkembang lebih dari sekarang.
+
+
