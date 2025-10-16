@@ -4,3 +4,6 @@
 
 2. Posisi saya di BCA adalah sebagai developer di subdivisi FPM dalam divisi DCSP Atau kepanjangan Divisi Corporate Strategy & Planning. Sebagai application developer, saya mengembangkan aplikasi yang lebih mengarah kepada automasi pekerjaan internal BCA. Divisi Developer FPM ini juga cukup baru, dengan sekarang juga masih generasi kedua. Karena divisi developer FPM ini masih baru, masih banyak project yang harus di tackle karena masih banyak divisi internal BCA yang perlahan transisi menggunakan aplikasi yang dikembangkan kami untuk mengautomasi pekerjaan mereka.
    Untuk sekarang, saya membantu senior untuk mengerjakan sebuah project untuk BOC (Board of commissioner) dimana aplikasi yang kita kembangkan akan mengautomasi pembuatan dan pendataan berbagai macam surat dan dokumen yang mereka perlukan. Project ini yang kami lakukan disertai dengan update mingguan dengan user, dimana kita mengadakan meeting setiap hari selasa dengan salah satu staff dewan komisaris untuk mendiskusikan update perkembangan aplikasi, dan juga jika ada penyesuaian dari pihak user dalam pengembangan aplikasi tersebut.
+
+
+you are more likely to have more 
