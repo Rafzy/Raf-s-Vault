@@ -18,11 +18,9 @@ Some recent sparse coding models can decompose model activations into sparse fea
 Anthropic's research involves several key methodogical decisions.
 
 1. **Transcoders instead of SAEs**
-	They extracted the features using a variant of transcoders. They use this as a proxy for the original model.
-
+	Instead of SAEs (Sparse autoencoders), they extract features using a variant of transcoders.
 2. **Cross Layer**
-	They utilized cross layer transcoders, this is big
-
+	They utilized cross-layer transcoders, in which each feature reads from the residual stream at one layer and contributes to the outputs of all subsequent MLP layers of the original model.
 3. **Attribution Graph**
 	 the attribution graph comes from the world of the the 
 
