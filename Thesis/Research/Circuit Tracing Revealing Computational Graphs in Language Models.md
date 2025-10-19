@@ -1,6 +1,8 @@
 Source:
 https://transformer-circuits.pub/2025/attribution-graphs/methods.html
 
+Publicly available circuit tracer:
+
 # Summary
 
 This paper introduces a novel technique for **Mechanistic Interpretability**, which aims to uncover the underlying computational mechanism of LLMs.
@@ -22,5 +24,7 @@ Anthropic's research involves several key methodogical decisions.
 2. **Cross Layer**
 	They utilized cross-layer transcoders, in which each feature reads from the residual stream at one layer and contributes to the outputs of all subsequent MLP layers of the original model.
 3. **Attribution Graph**
-	 the attribution graph comes from the world of the the 
-
+	 This article focuses on studying "attribution graphs". Attribution graphs can describe the "thinking steps" of a model for a target token. This approach is similar to [https://arxiv.org/pdf/2406.11944]
+	 The nodes in the attribution graph represent several things (Active features, token embeddings from the prompt, reconstruction errors, and output logits). The edges of the graph represent linear effects between nodes
+4. **Linear Attributes Between features**
+	For a specific input, 
