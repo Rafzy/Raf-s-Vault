@@ -27,4 +27,5 @@ Anthropic's research involves several key methodogical decisions.
 	 This article focuses on studying "attribution graphs". Attribution graphs can describe the "thinking steps" of a model for a target token. This approach is similar to [https://arxiv.org/pdf/2406.11944]
 	 The nodes in the attribution graph represent several things (Active features, token embeddings from the prompt, reconstruction errors, and output logits). The edges of the graph represent linear effects between nodes
 4. **Linear Attributes Between features**
-	For a specific input, 
+	For a specific input, they made it so that the connections between 
+
