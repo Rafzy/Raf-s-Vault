@@ -27,5 +27,14 @@ Anthropic's research involves several key methodogical decisions.
 	 This article focuses on studying "attribution graphs". Attribution graphs can describe the "thinking steps" of a model for a target token. This approach is similar to [https://arxiv.org/pdf/2406.11944]
 	 The nodes in the attribution graph represent several things (Active features, token embeddings from the prompt, reconstruction errors, and output logits). The edges of the graph represent linear effects between nodes
 4. **Linear Attributes Between features**
-	For a specific input, they made it so that the connections between 
+	For a specific input, they made it so that the interactions between features are linear. So, they freeze attention patterns and normalization denominators, and use transcoders to achieve the linearity.
+5. **Pruning**
+	The features found are sparse, but there are still too many features active on a given prompt to reliably create an interpretable graph, so they prune graphs by identifying nodes and edges that contributes most to the model's output at a specific token position
+6. **Interface**
+	They also designed an interactive interface for exploring attribution graphs.
+7. **Validation**
+	Since the replacement model used may use different mechanisms compared to the underlying model, it's important we validate the mechanisms we find in attribution graphs. Since the replacement model only gives an approximation of how the original model works.
+	They validate by taking the circuits found in the replacement model, and see if they hold for the original model
+8. **Global Weights**
+	This method also allows for the study of weights of the replacement model ("Global weights) directly, which underlie mechanisms across many prompts.
 
