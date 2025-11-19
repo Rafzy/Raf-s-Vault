@@ -1,0 +1,1 @@
+1. Kompteisi yang saya miliki sebelumnya 
