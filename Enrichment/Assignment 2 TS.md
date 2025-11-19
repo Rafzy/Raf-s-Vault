@@ -1,1 +1,1 @@
-1. Kompteisi yang saya miliki sebelumnya 
+1. Jelaskan hubungan pekerjaan/proyek/bisnis yang anda kerjakan dengan kompetensi teknis yang anda miliki! (kompetensi teknis adalah kemampuan teknis sesuai dengan bidang ilmu jurusan anda)
