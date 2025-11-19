@@ -31,4 +31,6 @@
 	- Perubahan mindset dari "coding" menjadi "visual-based-coding". Sebelumnya, saya terbiasa coding text-based, dan menulis barisan2 kode. Tapi di outsystems, pengembangan menggunakan komponen dan logika yang visual. Transisisi tersebut agak sulit untuk terbiasa karena perbedaan yang cukup besar
 
 5. Apa upaya anda dalam memperdalam/meningkatkan kompetensi teknis untuk menyelesaikan masalah/mengerjakan proyek/pekerjaan/bisnis anda?
-	- Mempelajari platform outsystems secara resmi menggunakan documentations, atau tutorial. Dan bahkan tidak lama sebelum ini saya melakukan training outsystems yang diberikan BCA, dari training tersebut 
+	- Mempelajari platform outsystems secara resmi menggunakan documentations, atau tutorial. Dan bahkan tidak lama sebelum ini saya melakukan training outsystems yang diberikan BCA, dari training tersebut saya banyak belajar platform outsystems secara teknis
+	- Analisis kode yang telah dihasilkan. Setelah saya mengembangkan sebuah fitur, saya coba analisis kembali, dan meng-evaluasi apakah kode yang saya hasilkan sudah optimal, apakah ada metode atau pendekatan lain yang dapat saya lakukan lebih baik, supaya dapat lebih baik kedepannya
+	- Saya banyak juga berdiskusi dengan senior developer, untuk hal-hal yang saya masih kurang paham atau kurang terbiasa, dan untungnya senior dalam divisi saya sangat membantu, dan mau menjawab pertanyaan2 yang saya berikan
