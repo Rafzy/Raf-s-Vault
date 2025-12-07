@@ -1,0 +1,9 @@
+1. Pengamatan terhadap hubungan teori soft skills dengan situasi yang saya hadapi di pekerjaan
+
+	Selama sudah 2 bulan saya melaksanakan internship, saya telah secara sadar ataupun tidak sadar mengaplikasikan berbagai soft skill selama mengerjakan project di internship. 
+	- Critical & Creative thinking
+		Selama mengerjakan project, saya sudah berapa kali menghadapi problem atau bug dalam project saya. Seperti, ketika requirement user ada yang berubah dalam tengah jalan, dan perubahan requirement tersebut menyebabkan beberapa logic dalam code bentrok atau harus berubah, atau menyebabkan beberapa bug. Hal ini memerlukan critical thinking supaya dapat mencari jalan keluar. Untuk soft skill ini lebih digunakan dalam hal2 yang teknikal dalam project saya
+	- Adaptability
+		Adaptability salah satu soft skill yang terus terpakai selama saya certified internship. Dari hari pertama saya masuk hingga sekarang. Pada awal masa internship, saya harus beradaptasi dengan lingkungan pekerjaan, bergaul dengan orang-orang pada lingkungan tersebut, pekerjaan yang cukup baru. Dan sekarang, saya terus beradaptasi dengan situasi2 yang terus menerus berubah, antara dari managing waktu kerja dan juga waktu pribadi, adaptasi dalam mengerjakan task yang lebih sulit, atau yang sebelumnya belum pernah dilakukan, dan banyak lagi.
+	- Growth mindset
+		Selama saya internship, memiliki growth mindset sangat penting, apalagi saya bekerja menggunakan tool yang sebelumnya belum pernah saya gunakan, dan memiliki growth mindset sangatlah penting untuk perkembangan diri. Internship ini merupakan kesempatan untuk belajar sebanyak2nya, dan sangatlah penting untuk berkembang dalam oportunitas ini.
