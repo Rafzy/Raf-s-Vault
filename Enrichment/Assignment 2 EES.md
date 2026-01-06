@@ -7,3 +7,4 @@
 		Adaptability salah satu soft skill yang terus terpakai selama saya certified internship. Dari hari pertama saya masuk hingga sekarang. Pada awal masa internship, saya harus beradaptasi dengan lingkungan pekerjaan, bergaul dengan orang-orang pada lingkungan tersebut, pekerjaan yang cukup baru. Dan sekarang, saya terus beradaptasi dengan situasi2 yang terus menerus berubah, antara dari managing waktu kerja dan juga waktu pribadi, adaptasi dalam mengerjakan task yang lebih sulit, atau yang sebelumnya belum pernah dilakukan, dan banyak lagi.
 	- Growth mindset
 		Selama saya internship, memiliki growth mindset sangat penting, apalagi saya bekerja menggunakan tool yang sebelumnya belum pernah saya gunakan, dan memiliki growth mindset sangatlah penting untuk perkembangan diri. Internship ini merupakan kesempatan untuk belajar sebanyak2nya, dan sangatlah penting untuk berkembang dalam oportunitas ini.
+		

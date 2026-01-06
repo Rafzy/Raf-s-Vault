@@ -1,0 +1,17 @@
+1. Apa kendala yang anda hadapi terkait dengan pengerjaan proyek / pekerjaan / bisnis dalam hal soft skills yang sudah anda jelaskan sebelumnya?
+	Ada beberapa kendala yang telah saya temukan selama melakukan proyek saya di internship.
+	- Critical & Creative thinking
+		Selama saya internship, terkadang ketika menemukan sebuah masalah, tidak selalu saya dapat langsung menemukan solusi yang tepat, atau terkadang dalam beberapa hari, saya bisa agak lambat dalam berpikir secara kritis untuk menemukan solusi yang tepat untuk masalah yang sedang saya hadapi. Hal ini dapat sangat menurunkan produktifitas selama development dalam project saya, apalagi ada bug yang mengakibatkan aplikasi tidak dapat digunakan.
+	- Adaptibility
+		Dalam beberapa situasi, saya pernah beberapa kali tidak dapat adaptasi secara langsung, atau butuh beberapa waktu untuk menyesuaikan diri dalam situasi-situasi tersebut, antara karena saya belum pernah menghadapi situasi tersebut, atau saya tidak tahu bagaimana cara adaptasi terhadap situasi tersebut dengan benar.
+	- Growth mindset
+		Terkadang selama saya melakukan internship, saya terlalu kaku dengan cara pemikiran atau pemahaman saya pada saat itu. Contohnya saya menghadapi suatu masalah, dan saya pikir saya saya sudah tau cara menyelesaikan hal tersebut, karena saya sudah pernah menghadapi masalah yang cukup mirip, dan terkadang karena itu, saya tidak terbuka atau *open*  untuk mempelajari jalan lain, atau solusi dalam perspektif yang berbeda. Untuk memiliki growth mindset, kita harus terbuka untuk belajar berbagai solusi untuk suatu masalah.
+
+2. Apa upaya anda dalam memperdalam / meningkatkan soft skills tersebut untuk menyelesaikan masalah / mengerjakan proyek / pekerjaan / bisnis anda?
+	Berikut merupakan beberapa upaya saya dalam meningkatkan soft skill tersebut
+	- Critical & creative thinking
+		Untuk melatih cara berpikir kritis, terkhususnya dalam bidang pekerjaan saya, yaitu software development, ada banyak platform online yang dapat membantu mengasah berpikir kritis, terkhususnya dalam coding seperti leetcode, hackerrank, codewards, dan banyak lagi. Platform tersebut memberikan soal pertanyaan coding yang kita kemudian coba untuk selesaikan dengan code yang efisien. Saya cukup melatih diri saya dalam platform2 tersebut, dan latihan tersebut dapat saya transfer ke development proyek saya.
+	- Adaptibility 
+		Dalam pengalaman saya, yang cukup membantu adaptibility, adalah untuk mengembangkan network atau kenalan saya, dan mengobrol dengan mereka, orang lain pasti banyak menghadapi situasi yang belum kita hadapi sebelumnya, dan mengobrol dengan orang lain, dan bertanya2 kepada mereka itu sangat valuable karena kita dapat insight dari pengalaman2 mereka yang kita belum pernah sebelumnya.
+	- Growth mindset
+		Dalam pengalaman saya, bahkan diluar internship ini juga, untuk memiliki growth mindset yang baik, adalah untuk selalu membuka diri terhadap solusi lain, kritikan dari orang lain, dan menyadari bahwa kita tidak tau semuanya. Saya juga mulai membiasakan diri saya untuk tidak takut gagal atau melakukan kesalahan dalam project saya, karena dengan memberanikan diri untuk melakukan hal2 yang diluar zona nyaman, dan tidak takut gagal, kita dapat banyak belajar dari kesalahan-kesalahan tersebut
