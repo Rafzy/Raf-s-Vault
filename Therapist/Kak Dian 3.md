@@ -6,9 +6,6 @@ What i want to talk about:
 	- Addicted to games
 - Should i talk about what happened with meg the past few weeks?
 
-- Exclusivity
-- 
-
 Notes: 
 - hubungan kita masih ada attachment and affection tapi tidak ada hubungan terstruktur
 - Ngomongin ke dia apa yang bisa dilakukan lebih baik (Acknowledge apa yang sudah terjadi)
@@ -19,8 +16,7 @@ Notes:
 
 Fakta praktikal:
 - Tiga hal yang harus aku tanya:
-	- Kalau gak cemas, apakah ide ini tetap muncul (Ketika kita pilih dia, itu bukan berdasarkan kecemasan/ketakutan)
+	- Kalau gak cemas, apakah ide ini tetap muncul (Ketika kita pilih dia, itu bukan berdasarkan kecemasan/ketakutan), set timer 20 menit
+	  Imagine someone yang bikin kamu nyaman untuk grounding, dan tunggu 20 menit untuk melihat apakah urgenya masih ada atau tidak, replace action yang intensitas lebih rendah
 
-
-
-Faktanya bisa di puter balikkan
+besarkan window jadi 3 minggu sekali atau 4 minggu sekali
