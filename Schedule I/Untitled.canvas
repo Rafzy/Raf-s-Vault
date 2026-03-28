@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"af94c04887701422","x":-500,"y":-380,"width":250,"height":60,"type":"text","text":"OG Kush\n"},
+		{"id":"d38f444273c85a68","x":-200,"y":-380,"width":250,"height":60,"type":"text","text":"Cola"},
+		{"id":"ca066e2e8c4840fb","x":280,"y":-380,"width":250,"height":60,"type":"text","text":"Thick Monkey"}
+	],
+	"edges":[
+		{"id":"28b145b9d958fc19","fromNode":"d38f444273c85a68","fromSide":"right","toNode":"ca066e2e8c4840fb","toSide":"left"},
+		{"id":"beb190e66f3bdd7f","fromNode":"af94c04887701422","fromSide":"right","toNode":"d38f444273c85a68","toSide":"left"}
+	]
+}
