@@ -21,3 +21,15 @@
 
 # Methamphetamine
 
+
+| Recipe             | Result           | Price | Effects        |
+| ------------------ | ---------------- | ----- | -------------- |
+| Meth + Coke        | Aspen Cake       | 85    | Energizing     |
+| Meth + Banana      | Banana McLovin   | 84    | Gingeritis     |
+| Meth + Paracetamol | Fat Dick         | 87    | Sneaky         |
+| Meth + Donut       | Grandaddy Slime  | 90    | Calorie-Dense  |
+| Meth + Viagor      | Strawberry Grool | 102   | Tropic Thunder |
+| Meth + Mouthwash   | Fat Balls        | 91    | Balding        |
+
+
+
