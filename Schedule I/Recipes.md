@@ -10,6 +10,7 @@
 | OG Kush + Mouthwash    | Purple Cheese   | 64    | Balding, Anti Gravity      |
 | OG Kush + Diesel       | Miracle Crack   | 38    | Calming, Toxic             |
 | OG Kush + Flu Medicine | California Fuel | 58    | Sedating, Bright eyed      |
+|                        |                 |       |                            |
 | Sour Diesel + Viagra   | Wedding Ass     | 56    | Refreshing, Tropic Thunder |
 | Sour Diesel + Banana   | Fruity Puke     | 47    | Refreshing, Gingeritis     |
 |                        |                 |       |                            |
